@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags %}
+
+{% block content %}
+  <h1>{{ page.title }}</h1>
+  {{ page.intro|richtext }}
+
+  <p><strong>Email:</strong> {{ page.contact_email }}</p>
+  <p><strong>Phone:</strong> {{ page.contact_phone }}</p>
+
+  {{ page.note|richtext }}
+{% endblock %}

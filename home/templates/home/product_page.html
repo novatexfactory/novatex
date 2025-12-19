@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags %}
+
+{% block content %}
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.subtitle }}</p>
+
+  {% if page.short_description %}<p>{{ page.short_description }}</p>{% endif %}
+  {% if page.format_note %}<p><strong>Format:</strong> {{ page.format_note }}</p>{% endif %}
+  {% if page.price %}<p><strong>Price:</strong> ${{ page.price }}</p>{% endif %}
+
+  {{ page.description|richtext }}
+
+  {% if page.warnings %}
+    <h2>Warnings / disclaimers</h2>
+    {{ page.warnings|richtext }}
+  {% endif %}
+{% endblock %}

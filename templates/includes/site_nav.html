@@ -1,0 +1,28 @@
+{# Renders top-level nav from the site root. Expects `home_item` and `nav_items` in context. #}
+{% load wagtailcore_tags %}
+{% load static %}
+{% comment %} Accessible menu: top-level has role=menubar, items role=menuitem, dropdown role=menu {% endcomment %}
+{% if home_item %}
+  <div class="site-brand">
+    <a href="{% pageurl home_item.item %}" class="home-link">
+      <img src="{% static 'img/novatex-logo.png' %}" alt="{{ home_item.item.title }} logo" class="brand-logo">
+      <span class="brand-text">Home</span>
+    </a>
+  </div>
+{% endif %}
+
+<div role="menubar" aria-label="Main navigation" class="site-menubar">
+{% for entry in nav_items %}
+  <div class="nav-item{% if entry.active %} active{% endif %}" role="none">
+    <a role="menuitem" href="{% pageurl entry.item %}" class="nav-link" aria-haspopup="{{ entry.children|length|yesno:'true,false' }}" aria-expanded="false">{{ entry.item.title }}</a>
+
+    {% if entry.children %}
+      <div class="dropdown" role="menu" aria-label="{{ entry.item.title }} submenu">
+        {% for child in entry.children %}
+          <a role="menuitem" class="dropdown-item" href="{% pageurl child %}">{{ child.title }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+{% endfor %}
+</div>

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags %}
+
+{% block content %}
+  <h1>{{ page.hero_title|default:page.title }}</h1>
+  <p>{{ page.hero_subtitle }}</p>
+
+  <h2>What it is</h2>
+  {{ page.what_it_is|richtext }}
+
+  <h2>What it’s not</h2>
+  {{ page.what_its_not|richtext }}
+
+  <h2>Who it’s for</h2>
+  {{ page.who_its_for|richtext }}
+{% endblock %}

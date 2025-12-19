@@ -1,0 +1,24 @@
+# Virtual envs / caches
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# VCS / IDE
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Local env & secrets
+.env
+*.env
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# DB & miscellaneous
+db.sqlite3
+node_modules/

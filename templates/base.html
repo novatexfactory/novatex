@@ -1,0 +1,49 @@
+{% load wagtailcore_tags wagtailimages_tags %}
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{% if page.seo_title %}{{ page.seo_title }}{% else %}{{ page.title }}{% endif %}</title>
+  {% if page.search_description %}<meta name="description" content="{{ page.search_description }}">{% endif %}
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="{% static 'css/site_nav.css' %}">
+  <style>
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#111}
+    header{border-bottom:1px solid #eee;padding:14px 28px}
+    nav{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+    nav a{text-decoration:none;color:#111;font-weight:600}
+    nav a:hover{text-decoration:underline}
+
+    main{max-width:1100px;margin:0 auto;padding:48px 28px}
+    footer{border-top:1px solid #eee;padding:22px 28px;margin-top:80px;font-size:14px;color:#666}
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <button id="nav-toggle" class="nav-toggle" aria-controls="site-menu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    {% load nav_tags %}
+    {% render_site_nav %}
+  </nav>
+</header>
+
+<script src="{% static 'js/site_nav.js' %}"></script>
+
+<main>
+  {% block content %}{% endblock %}
+</main>
+
+<footer>
+  © {% now "Y" %} Texarine™ · NovaTex Factory<br>
+  Dietary supplement for adult use only. Not intended to diagnose, treat, cure, or prevent any disease.
+</footer>
+
+</body>
+</html>

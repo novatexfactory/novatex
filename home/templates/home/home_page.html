@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags %}
+
+{% block content %}
+  <h1>{{ page.hero_title|default:page.title }}</h1>
+  <p>{{ page.hero_subtitle }}</p>
+  <div>{{ page.intro|richtext }}</div>
+
+  {% if page.cta_primary_url %}
+    <p><a href="{{ page.cta_primary_url }}">{{ page.cta_primary_text|default:"Learn more" }}</a></p>
+  {% endif %}
+  {% if page.cta_secondary_url %}
+    <p><a href="{{ page.cta_secondary_url }}">{{ page.cta_secondary_text|default:"Contact" }}</a></p>
+  {% endif %}
+{% endblock %}

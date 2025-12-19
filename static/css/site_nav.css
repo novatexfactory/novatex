@@ -1,0 +1,54 @@
+/* Site nav styles moved from base template */
+
+/* Dropdown styling for site nav */
+.nav-item{position:relative}
+.dropdown{display:none;position:absolute;left:0;top:100%;background:#fff;border:1px solid #eee;padding:8px 10px;box-shadow:0 6px 12px rgba(0,0,0,0.06);z-index:40}
+.dropdown-item{display:block;padding:6px 8px;color:#111;text-decoration:none}
+.nav-item:hover>.dropdown{display:block}
+
+/* Responsive: mobile / tablet */
+.nav-toggle{display:none;background:transparent;border:1px solid #ddd;padding:8px;border-radius:6px}
+.nav-toggle .bar{display:block;width:22px;height:3px;background:#111;margin:5px 0;border-radius:2px}
+@media (max-width: 800px){
+  nav{padding:8px}
+  .nav-toggle{display:inline-block;margin-right:10px}
+  .site-menubar{display:none;flex-direction:column;gap:8px}
+  .site-menubar.open{display:flex}
+  .site-menubar .nav-item{display:block}
+  .site-menubar .dropdown{position:static;display:block;padding:0;margin-top:6px;border:none;box-shadow:none}
+  .site-menubar .dropdown-item{padding:10px 8px}
+}
+
+/* Brand / Home link (always visible, separate from menubar) */
+.site-brand{margin-right:20px;display:flex;align-items:center}
+.home-link{font-weight:800;color:#111;text-decoration:none;padding:6px 12px;display:flex;align-items:center;gap:14px}
+.home-link:hover{text-decoration:underline}
+.brand-logo{height:96px;display:inline-block}
+.brand-text{display:inline-block;font-size:1.15rem}
+
+/* utility: visually hidden but accessible */
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+@media (max-width:1100px){
+  /* tablet */
+  .brand-logo{height:72px}
+  .brand-text{font-size:1.05rem}
+}
+
+@media (max-width:800px){
+  /* keep brand visible before the toggle button on narrow screens */
+  .site-brand{order:-1}
+  .brand-logo{height:44px}
+  .brand-text{font-size:1.05rem}
+}
+
+/* ensure textual brand is visible alongside logo */
+@media (min-width:801px){
+  .brand-text{visibility:visible}
+}
+
+/* Larger desktop nav links */
+.site-menubar{display:flex;align-items:center;gap:18px}
+.site-menubar .nav-link{font-size:1.08rem;font-weight:700;padding:6px 8px}
+.site-menubar .nav-item{padding:2px 0}
+.site-menubar .dropdown-item{font-size:0.96rem;padding:8px 10px}

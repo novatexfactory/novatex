@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.env
+.venv/
+venv/
+.env.*
+
+# Django
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+/media
+/staticfiles
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# coverage
+htmlcov/
+.coverage
+
+# pipenv
+Pipfile.lock
+
+# pytest
+.pytest_cache/
