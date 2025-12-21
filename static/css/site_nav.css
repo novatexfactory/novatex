@@ -1,14 +1,14 @@
-/* Site nav styles moved from base template */
+/* Site nav styles using design tokens */
 
 /* Dropdown styling for site nav */
 .nav-item{position:relative}
-.dropdown{display:none;position:absolute;left:0;top:100%;background:#fff;border:1px solid #eee;padding:8px 10px;box-shadow:0 6px 12px rgba(0,0,0,0.06);z-index:40}
-.dropdown-item{display:block;padding:6px 8px;color:#111;text-decoration:none}
+.dropdown{display:none;position:absolute;left:0;top:100%;background:var(--color-surface);border:1px solid var(--color-border);padding:8px 10px;box-shadow:0 6px 12px rgba(11,18,32,0.06);z-index:40}
+.dropdown-item{display:block;padding:6px 8px;color:var(--color-text);text-decoration:none}
 .nav-item:hover>.dropdown{display:block}
 
 /* Responsive: mobile / tablet */
-.nav-toggle{display:none;background:transparent;border:1px solid #ddd;padding:8px;border-radius:6px}
-.nav-toggle .bar{display:block;width:22px;height:3px;background:#111;margin:5px 0;border-radius:2px}
+.nav-toggle{display:none;background:transparent;border:1px solid var(--color-muted-border);padding:8px;border-radius:var(--radius-sm)}
+.nav-toggle .bar{display:block;width:22px;height:3px;background:var(--color-text);margin:5px 0;border-radius:2px}
 @media (max-width: 800px){
   nav{padding:8px}
   .nav-toggle{display:inline-block;margin-right:10px}
@@ -20,11 +20,14 @@
 }
 
 /* Brand / Home link (always visible, separate from menubar) */
-.site-brand{margin-right:20px;display:flex;align-items:center}
-.home-link{font-weight:800;color:#111;text-decoration:none;padding:6px 12px;display:flex;align-items:center;gap:14px}
+.site-brand{margin-right:12px;display:flex;align-items:center}
+.home-link{font-weight:800;color:var(--color-text);text-decoration:none;padding:6px 0;display:flex;align-items:center;gap:12px}
 .home-link:hover{text-decoration:underline}
-.brand-logo{height:96px;display:inline-block}
-.brand-text{display:inline-block;font-size:1.15rem}
+.brand-logo{height:72px;display:inline-block;width:auto}
+.brand-text{display:inline-block;font-size:1.05rem}
+/* remove helper classes introduced for the SVG wordmark */
+.brand-wordmark{display:none}
+.visually-hidden{display:none}
 
 /* utility: visually hidden but accessible */
 .sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
@@ -49,6 +52,28 @@
 
 /* Larger desktop nav links */
 .site-menubar{display:flex;align-items:center;gap:18px}
-.site-menubar .nav-link{font-size:1.08rem;font-weight:700;padding:6px 8px}
+.site-menubar .nav-link{font-size:1.08rem;font-weight:700;padding:6px 8px;color:var(--color-text)}
+.site-menubar .nav-link:hover{color:var(--color-primary)}
 .site-menubar .nav-item{padding:2px 0}
 .site-menubar .dropdown-item{font-size:0.96rem;padding:8px 10px}
+
+/* center nav contents inside same column as main/hero */
+.nav-inner{display:flex;align-items:center;justify-content:flex-start;gap:12px;padding:0}
+.nav-inner .site-brand{margin-right:18px}
+.nav-inner .site-menubar{margin-left:0}
+
+/* Shared centered container used across header/hero/footer/main */
+.site-container{max-width:1100px;margin:0 auto;padding:0 28px}
+
+/* Ensure the nav container explicitly aligns its children to the left edge
+  so logo and menu start at the same column as main/footer content. */
+/* header nav flex rules use the site container for sizing */
+.site-container.header-inner{display:flex;align-items:center}
+
+/* remove debug/guide helpers (was used for visual alignment during QA) */
+
+@media (max-width:800px){
+  .nav-inner{padding:0 12px}
+  .nav-inner .site-menubar{display:none}
+  .nav-toggle{display:inline-block}
+}
