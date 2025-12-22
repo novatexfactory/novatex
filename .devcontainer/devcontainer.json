@@ -1,0 +1,21 @@
+﻿{
+  "name": "NovaTex Site (dev)",
+  "dockerComposeFile": [
+    "C:/Users/eugen/novatex-site/docker-compose.yml"
+  ],
+  "service": "web",
+  "workspaceFolder": "/app",
+  "shutdownAction": "stopCompose",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "batisteo.vscode-django"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      }
+    }
+  }
+}
