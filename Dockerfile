@@ -1,55 +1,39 @@
 # syntax=docker/dockerfile:1
 FROM python:3.11-slim
 
-# --------------------------
-# Basic Environment
-# --------------------------
+# 1. Базовые переменные Python
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     VIRTUAL_ENV=/opt/venv
 RUN python -m venv $VIRTUAL_ENV
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
-# --------------------------
-# System Dependencies
-# --------------------------
+# 2. Установка системных зависимостей
+# ВАЖНО: Добавили 'dos2unix', чтобы чинить скрипты из Windows
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    build-essential libpq-dev curl git \
+    build-essential libpq-dev curl git dos2unix \
  && rm -rf /var/lib/apt/lists/*
 
-# --------------------------
-# Work Directory
-# --------------------------
 WORKDIR /app
 
-# --------------------------
-# Install Python Dependencies First (for better caching)
-# --------------------------
+# 3. Установка Python-зависимостей (кэширование)
 COPY requirements.txt /app/requirements.txt
 RUN pip install --upgrade pip setuptools wheel \
  && pip install -r /app/requirements.txt
 
-# --------------------------
-# Copy Project Code
-# --------------------------
+# 4. Копируем код проекта
 COPY . /app
 
-# --------------------------
-# Default Environment Variables
-# (can be overridden by docker-compose)
-# --------------------------
+# 5. Настройка Entrypoint
+COPY entrypoint.sh /usr/local/bin/entrypoint.sh
+# МАГИЯ: Превращаем Windows (CRLF) в Linux (LF) принудительно
+RUN dos2unix /usr/local/bin/entrypoint.sh && chmod +x /usr/local/bin/entrypoint.sh
+
+# Настройки по умолчанию
 ENV APP_ENV=dev \
     DJANGO_SETTINGS_MODULE=novatexapi.settings \
     PORT=8000
 
-# --------------------------
-# Expose Django Port
-# --------------------------
 EXPOSE 8000
 
-# --------------------------
-# Entrypoint
-# --------------------------
-COPY entrypoint.sh /usr/local/bin/entrypoint.sh
-RUN chmod +x /usr/local/bin/entrypoint.sh
 ENTRYPOINT ["entrypoint.sh"]
