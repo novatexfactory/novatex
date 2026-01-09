@@ -30,7 +30,7 @@ def env_list(name: str, default: str = "") -> list[str]:
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = os.getenv("DJANGO_DEBUG", "0") == "1"
+DEBUG = os.environ.get("APP_ENV") == "dev"
 
 
 # Hosts/origins
@@ -42,7 +42,7 @@ ALLOWED_HOSTS = env_list(
 # For POST/CSRF, must include scheme + host (+ port)
 CSRF_TRUSTED_ORIGINS = env_list(
     "DJANGO_CSRF_TRUSTED_ORIGINS",
-    "" if DEBUG else "http://localhost:8001,http://127.0.0.1:8001"
+    "http://localhost:8000,http://127.0.0.1:8000,http://localhost:9000,http://127.0.0.1:9000"
 )
 
 # Application definition
@@ -110,8 +110,12 @@ WSGI_APPLICATION = 'novatexapi.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.environ.get('POSTGRES_DB', 'novatexdb'),
+        'USER': os.environ.get('POSTGRES_USER', 'novatexuser'),
+        'PASSWORD': os.environ.get('POSTGRES_PASSWORD', '!No2025FaC$'),
+        'HOST': os.environ.get('POSTGRES_HOST', 'db'),  # <-- Важно: имя сервиса 'db'
+        'PORT': os.environ.get('POSTGRES_PORT', '5432'),
     }
 }
 
@@ -163,4 +167,5 @@ MEDIA_ROOT = BASE_DIR / "media"
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Use WhiteNoise storage for production
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+if not DEBUG:
+    STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
