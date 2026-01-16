@@ -1,0 +1,95 @@
+<section class="benefits-section">
+    <h2 class="benefits-title">{{ self.title }}</h2>
+    
+    <div class="benefits-grid">
+        {% for item in self.items %}
+        <div class="benefit-card">
+            <div class="benefit-icon">{{ item.icon }}</div>
+            <h3 class="benefit-name">{{ item.title }}</h3>
+            <p class="benefit-desc">{{ item.text }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<style>
+    /* Section Container - Dark Theme */
+    .benefits-section {
+        background-color: #050505; /* Matching the header background */
+        padding: 80px 20px;
+        text-align: center;
+        border-top: 1px solid #222; /* Subtle separator */
+    }
+
+    /* Section Title */
+    .benefits-title {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+        letter-spacing: 2px;
+        color: white;
+    }
+
+    /* Grid Layout */
+    .benefits-grid {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    /* Individual Card */
+    .benefit-card {
+        flex: 1;
+        min-width: 250px;
+        max-width: 350px;
+        padding: 30px;
+        background: #0a0a0a;
+        border: 1px solid #333;
+        border-radius: 8px;
+        transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .benefit-card:hover {
+        transform: translateY(-5px);
+        border-color: #555;
+    }
+
+    /* Icon styling */
+    .benefit-icon { 
+        font-size: 3rem; 
+        margin-bottom: 20px; 
+    }
+
+    /* Feature Name */
+    .benefit-name {
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        color: #fff;
+    }
+
+    /* Feature Description */
+    .benefit-desc {
+        font-family: 'Inter', sans-serif;
+        color: #aaa;
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+    
+    /* Mobile Responsiveness */
+    @media (max-width: 768px) {
+        .benefits-grid {
+            flex-direction: column;
+            align-items: center;
+        }
+        .benefit-card {
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+</style>

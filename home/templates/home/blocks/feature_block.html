@@ -1,0 +1,128 @@
+{% load wagtailimages_tags wagtailcore_tags %}
+
+<section class="feature-section {% if self.reverse_layout %}reverse{% endif %}" id="science">
+    <div class="feature-container">
+        
+        <div class="feature-image-col">
+            {% image self.image original as img %}
+            <div class="image-wrapper">
+                <img src="{{ img.url }}" alt="{{ self.heading }}">
+                <div class="image-glow"></div> </div>
+        </div>
+
+        <div class="feature-content-col">
+            <h2 class="feature-heading">{{ self.heading }}</h2>
+            <div class="feature-text">
+                {{ self.description|richtext }}
+            </div>
+            
+            {% if self.button_text %}
+                <a href="{{ self.button_url|default:'#' }}" class="feature-btn">{{ self.button_text }}</a>
+            {% endif %}
+        </div>
+
+    </div>
+</section>
+
+<style>
+    .feature-section {
+        background-color: #050505;
+        padding: 100px 5%;
+        color: white;
+        overflow: hidden;
+    }
+
+    .feature-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+        gap: 60px;
+    }
+
+    /* Reverse Layout (Image Right) */
+    .feature-section.reverse .feature-container {
+        flex-direction: row-reverse;
+    }
+
+    /* Columns */
+    .feature-image-col, .feature-content-col {
+        flex: 1;
+    }
+
+    /* Typography */
+    .feature-heading {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+        color: white;
+        position: relative;
+        display: inline-block;
+    }
+    
+    /* Underline decoration for heading */
+    .feature-heading::after {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 3px;
+        background: white;
+        margin-top: 10px;
+    }
+
+    .feature-text {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.1rem;
+        line-height: 1.7;
+        color: #cccccc;
+        margin-bottom: 40px;
+    }
+
+    /* Image Styling */
+    .image-wrapper {
+        position: relative;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    }
+
+    .image-wrapper img {
+        width: 100%;
+        height: auto;
+        display: block;
+        transition: transform 0.5s ease;
+    }
+    
+    .feature-section:hover .image-wrapper img {
+        transform: scale(1.03); /* Slight zoom on hover */
+    }
+
+    /* Button */
+    .feature-btn {
+        display: inline-block;
+        padding: 15px 40px;
+        border: 1px solid white;
+        color: white;
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: all 0.3s;
+    }
+    .feature-btn:hover {
+        background: white;
+        color: black;
+    }
+
+    /* Mobile */
+    @media (max-width: 900px) {
+        .feature-container {
+            flex-direction: column !important; /* Always stack on mobile */
+            gap: 40px;
+        }
+        .feature-heading { font-size: 2rem; }
+    }
+</style>

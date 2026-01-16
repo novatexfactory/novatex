@@ -1,5 +1,343 @@
-{% load wagtailcore_tags %}
-<!doctype html><html><body>
-<header><a href="/">NovaTex Factory</a></header>
-<main>{% block content %}{% endblock %}</main>
-</body></html>
+{% load static wagtailcore_tags wagtailuserbar %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>
+            {% block title %}
+                {% if page.seo_title %}{{ page.seo_title }}{% else %}{{ page.title }}{% endif %}
+            {% endblock %}
+            {% block title_suffix %}{% endblock %}
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+
+        {% block extra_css %}{% endblock %}
+        
+        <style>
+            /* === GLOBAL STYLES === */
+            html {
+                scroll-behavior: smooth;
+                
+                scroll-padding-top: 20px; 
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: 'Inter', sans-serif;
+                background-color: #050505;
+                color: #ffffff;
+                overflow-x: hidden;
+            }
+
+            /* === HEADER === */
+            .site-header {
+                position: absolute;
+                top: 0; left: 0; width: 100%;
+                padding: 30px 5%;
+                z-index: 100;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                /* Allow wrapping if screen is too narrow */
+                flex-wrap: wrap; 
+                gap: 20px;
+                box-sizing: border-box;
+                background: linear-gradient(to bottom, rgba(0,0,0,0.9), transparent);
+            }
+
+            /* === LOGO (Clean style, no border) === */
+            .logo {
+                font-family: 'Oswald', sans-serif;
+                font-size: 1.6rem;
+                font-weight: 700;
+                color: white;
+                text-decoration: none;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                border: none; 
+                padding: 0;
+                white-space: nowrap; /* Prevent line break inside logo */
+                transition: opacity 0.3s;
+            }
+            .logo:hover {
+                opacity: 0.8;
+                background: none;
+                color: white;
+            }
+
+            /* === NAVIGATION === */
+            .nav-links {
+                display: flex;
+                gap: 30px;
+                align-items: center;
+            }
+            .nav-links a {
+                color: rgba(255, 255, 255, 0.75);
+                text-decoration: none;
+                font-size: 0.9rem;
+                font-weight: 500;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                transition: color 0.3s;
+                position: relative;
+            }
+            .nav-links a:hover { 
+                color: #ffffff; 
+            }
+            
+            /* Underline animation on hover */
+            .nav-links a::after {
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 1px;
+                bottom: -5px;
+                left: 0;
+                background-color: white;
+                transition: width 0.3s;
+            }
+            .nav-links a:hover::after {
+                width: 100%;
+            }
+
+            /* === RESPONSIVENESS === */
+            @media (max-width: 768px) {
+                .site-header {
+                    flex-direction: column; /* Stack vertically on mobile */
+                    padding: 20px;
+                    gap: 15px;
+                }
+                .nav-links {
+                    gap: 20px;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+                .nav-links a {
+                    font-size: 0.8rem;
+                }
+            }
+
+            /* === FOOTER STYLES === */
+            .site-footer {
+                background-color: #000000;
+                color: #666;
+                padding: 60px 5% 30px 5%;
+                font-size: 0.85rem;
+                border-top: 1px solid #1a1a1a;
+            }
+
+            .footer-container {
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+
+            /* Top Row */
+            .footer-top {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                margin-bottom: 40px;
+                flex-wrap: wrap;
+                gap: 30px;
+            }
+
+            .footer-logo {
+                font-family: 'Oswald', sans-serif;
+                font-size: 1.4rem;
+                color: white;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                margin-bottom: 10px;
+            }
+
+            .footer-links {
+                display: flex;
+                gap: 25px;
+            }
+
+            .footer-links a {
+                color: white;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 0.9rem;
+                transition: color 0.3s;
+            }
+
+            .footer-links a:hover { color: #aaa; }
+
+            /* Divider */
+            .footer-divider {
+                border: 0;
+                border-top: 1px solid #222;
+                margin: 0 0 30px 0;
+            }
+
+            /* Legal Text (Small & Grey) */
+            .footer-legal {
+                margin-bottom: 40px;
+                font-family: 'Inter', sans-serif;
+                font-size: 0.75rem;
+                line-height: 1.6;
+                color: #555;
+            }
+
+            .fda-warning {
+                border: 1px solid #222;
+                padding: 15px;
+                margin-bottom: 15px;
+            }
+
+            /* Bottom Row */
+            .footer-bottom {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 20px;
+                font-size: 0.8rem;
+            }
+
+            .legal-links a {
+                color: #666;
+                text-decoration: none;
+                margin-left: 20px;
+            }
+            .legal-links a:hover { color: #999; }
+
+            @media (max-width: 768px) {
+                .footer-top { flex-direction: column; }
+                .footer-links { flex-direction: column; gap: 15px; }
+                .footer-bottom { flex-direction: column; text-align: center; }
+                .legal-links a { margin: 0 10px; }
+            }
+
+            /* === SCROLL TO TOP BUTTON === */
+            .scroll-top-btn {
+                position: fixed;
+                bottom: 30px;
+                left: 30px;
+                width: 50px;
+                height: 50px;
+                background-color: white; /* Белый фон */
+                color: black; /* Черная стрелка */
+                border-radius: 50%; /* Круглая */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2); /* Легкое свечение */
+                z-index: 1000; /* Поверх всего */
+                
+                /* Скрыта по умолчанию */
+                opacity: 0;
+                visibility: hidden;
+                transform: translateY(20px);
+                transition: all 0.3s ease;
+            }
+
+            /* Состояние: Видима */
+            .scroll-top-btn.visible {
+                opacity: 1;
+                visibility: visible;
+                transform: translateY(0);
+            }
+
+            /* При наведении */
+            .scroll-top-btn:hover {
+                background-color: #f0f0f0;
+                transform: translateY(-5px); /* Чуть всплывает */
+                box-shadow: 0 6px 20px rgba(255, 255, 255, 0.4);
+            }
+        </style>
+    </head>
+
+    <body class="{% block body_class %}{% endblock %}">
+        {% wagtailuserbar %}
+
+        <header class="site-header">
+            <a href="/" class="logo">NOVATEX FACTORY</a>
+            <nav class="nav-links">
+                <a href="#science">Science</a>
+                <a href="#shop">Shop</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        {% block content %}{% endblock %}
+        {% block extra_js %}{% endblock %}
+        <footer class="site-footer" id="contact">
+            <div class="footer-container">
+                
+                <div class="footer-top">
+                    <div class="footer-brand">
+                        <div class="footer-logo">NOVATEX FACTORY</div>
+                        <p class="footer-tagline">Engineered in the USA.</p>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <a href="#science">Science</a>
+                        <a href="#shop">Shop</a>
+                        <a href="#faq">FAQ</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+
+                <hr class="footer-divider">
+
+                <div class="footer-legal">
+                    <p class="fda-warning">
+                        * These statements have not been evaluated by the Food and Drug Administration. 
+                        This product is not intended to diagnose, treat, cure, or prevent any disease.
+                    </p>
+                    <p class="safety-warning">
+                        <strong>WARNING:</strong> This product is intended for use by healthy adults over the age of 18. 
+                        Do not use if you are pregnant or nursing. Consult a healthcare professional before use. 
+                        Keep out of reach of children.
+                    </p>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>&copy; 2025 NovaTex Factory LLC. All rights reserved.</p>
+                    <div class="legal-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+        <a href="#" id="scrollToTopBtn" class="scroll-top-btn" aria-label="Scroll to top">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 15l-6-6-6 6"/>
+            </svg>
+        </a>
+
+        <script>
+            const scrollBtn = document.getElementById('scrollToTopBtn');
+
+            window.addEventListener('scroll', () => {
+                // Если прокрутили больше 300px, показываем кнопку
+                if (window.scrollY > 300) {
+                    scrollBtn.classList.add('visible');
+                } else {
+                    scrollBtn.classList.remove('visible');
+                }
+            });
+
+            scrollBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth' // Плавная прокрутка
+                });
+            });
+        </script>
+    </body>
+</html>
