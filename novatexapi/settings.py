@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 import os
+import ssl
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -30,7 +31,7 @@ def env_list(name: str, default: str = "") -> list[str]:
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = os.getenv("DJANGO_DEBUG", "0") == "1"
+DEBUG = os.environ.get("APP_ENV") == "dev"
 
 
 # Hosts/origins
@@ -42,7 +43,7 @@ ALLOWED_HOSTS = env_list(
 # For POST/CSRF, must include scheme + host (+ port)
 CSRF_TRUSTED_ORIGINS = env_list(
     "DJANGO_CSRF_TRUSTED_ORIGINS",
-    "" if DEBUG else "http://localhost:8001,http://127.0.0.1:8001"
+    "http://localhost:8000,http://127.0.0.1:8000,http://localhost:9000,http://127.0.0.1:9000"
 )
 
 # Application definition
@@ -52,6 +53,7 @@ INSTALLED_APPS = [
     # "search",
     "wagtail.contrib.forms",
     "wagtail.contrib.redirects",
+    "wagtail_modeladmin",
     "wagtail.embeds",
     "wagtail.sites",
     "wagtail.users",
@@ -68,6 +70,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "modelsearch",
 ]
 
 MIDDLEWARE = [
@@ -105,16 +108,28 @@ WAGTAILADMIN_BASE_URL = "http://localhost:8000"
 WSGI_APPLICATION = 'novatexapi.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/5.2/ref/settings/#databases
-
+# --- DATABASE CONFIG ---
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.environ.get('POSTGRES_DB'),
+        'USER': os.environ.get('POSTGRES_USER'),
+        'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
+        'HOST': os.environ.get('POSTGRES_HOST', 'db'),
+        'PORT': '5432',
     }
 }
 
+# --- EMAIL CONFIG (Arvixe Secure) ---
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'shared15.arvixe.com'
+EMAIL_PORT = 465
+EMAIL_USE_SSL = True
+EMAIL_USE_TLS = False
+EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+EMAIL_SSL_CONTEXT = ssl._create_unverified_context()
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
@@ -152,10 +167,13 @@ USE_TZ = True
 
 STATIC_URL = "/static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
 
 # Media files (uploads)
 MEDIA_URL = "/media/"
-MEDIA_ROOT = BASE_DIR / "media"
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
@@ -163,4 +181,27 @@ MEDIA_ROOT = BASE_DIR / "media"
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Use WhiteNoise storage for production
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+if not DEBUG:
+    STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'level': 'WARNING',
+            'class': 'logging.FileHandler',
+            'filename': 'security.log', # Файл появится в папке /app в Docker
+        },
+        'console': {
+            'class': 'logging.StreamHandler',
+        },
+    },
+    'loggers': {
+        'home': { # Логируем всё из нашего приложения home (views, utils)
+            'handlers': ['file', 'console'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+    },
+}

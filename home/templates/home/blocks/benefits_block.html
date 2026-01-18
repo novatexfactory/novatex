@@ -1,0 +1,13 @@
+<section class="benefits-section">
+    <h2 class="benefits-title">{{ self.title }}</h2>
+    
+    <div class="benefits-grid">
+        {% for item in self.items %}
+        <div class="benefit-card">
+            <div class="benefit-icon">{{ item.icon }}</div>
+            <h3 class="benefit-name">{{ item.title }}</h3>
+            <p class="benefit-desc">{{ item.text }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</section>

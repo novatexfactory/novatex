@@ -1,0 +1,25 @@
+{% load wagtailcore_tags wagtailimages_tags static %}
+
+<section class="feature-section {% if self.reverse_layout %}reverse{% endif %}" id="science">
+    <div class="feature-container">
+        
+        <div class="feature-image-col">
+            {% image self.image original as img %}
+            <div class="image-wrapper">
+                <img src="{{ img.url }}" alt="{{ self.heading }}">
+                <div class="image-glow"></div> </div>
+        </div>
+
+        <div class="feature-content-col">
+            <h2 class="feature-heading">{{ self.heading }}</h2>
+            <div class="feature-text">
+                {{ self.description|richtext }}
+            </div>
+            
+            {% if self.button_text %}
+                <a href="{{ self.button_url|default:'#' }}" class="feature-btn">{{ self.button_text }}</a>
+            {% endif %}
+        </div>
+
+    </div>
+</section>

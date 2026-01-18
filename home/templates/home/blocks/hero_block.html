@@ -1,0 +1,20 @@
+{% load wagtailcore_tags wagtailimages_tags static %}
+{% image self.image original as bg_img %}
+
+<section class="hero-section" style="background-image: url('{{ bg_img.url }}');">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+        <h1 class="hero-title">{{ self.title }}<sup class="tm-symbol">TM</sup></h1>
+        
+        {% if self.subtitle %}
+            <p class="hero-subtitle">{{ self.subtitle }}</p>
+        {% endif %}
+
+        {% if self.button_text %}
+            <a href="#shop" class="hero-btn">
+                {{ self.button_text }}
+            </a>
+        {% endif %}
+    </div>
+</section>

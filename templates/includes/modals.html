@@ -1,0 +1,38 @@
+<div id="contactModal" class="contact-modal-overlay">
+    <div class="contact-modal-content">
+        <span class="close-modal" id="closeContactModal" style="position:absolute; top:20px; right:25px; cursor:pointer; color:#666; font-size:24px;">&times;</span>
+        <div class="footer-logo" style="font-size: 14px; opacity: 0.6; margin-bottom: 10px;">NOVATEX FACTORY</div>
+        <div id="contact-form-container">
+            <h2>CONTACT SUPPORT</h2>
+            <form id="contact-form-modal">
+                {% csrf_token %}
+                <input type="text" name="name" placeholder="FULL NAME" required>
+                <input type="email" name="email" placeholder="EMAIL ADDRESS" required>
+                <input type="tel" name="phone" placeholder="PHONE NUMBER" required>
+                <input type="text" name="subject" placeholder="SUBJECT" required> 
+                <textarea name="message" placeholder="HOW CAN WE HELP?" rows="4" required></textarea>
+                <button type="submit" class="age-btn">SEND MESSAGE</button>
+            </form>
+        </div>
+        <div id="form-success-container" style="display: none; text-align: center; padding: 40px 20px;">
+            <div style="font-size: 50px; color: #28a745; margin-bottom: 20px;">✓</div>
+            <h2 style="color: #fff;">THANK YOU!</h2>
+            <p style="color: rgba(255,255,255,0.7);">Your message regarding Nixodine has been sent successfully.</p>
+            <button class="age-btn" onclick="document.getElementById('contactModal').style.display='none'" style="margin-top: 20px;">CLOSE</button>
+        </div>
+    </div>
+</div>
+
+{% if request.path == '/' %}
+<div id="ageModal" class="age-modal-overlay">
+    <div class="age-modal-content">
+        <div class="age-logo">NOVATEX FACTORY</div>
+        <h2 class="age-title">ARE YOU OVER 18?</h2>
+        <p class="age-text">You must be of legal age to view this website and purchase our products.</p>
+        <div class="age-buttons">
+            <button id="btnAgeYes" class="age-btn age-btn-yes">YES, I AM 18+</button>
+            <a href="https://www.google.com" id="btnAgeNo" class="age-btn age-btn-no">NO, EXIT</a>
+        </div>
+    </div>
+</div>
+{% endif %}

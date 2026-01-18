@@ -1,0 +1,40 @@
+{% load wagtailcore_tags wagtailimages_tags static %}
+
+<section class="product-section" id="shop">
+    <div class="product-container">
+        
+        <div class="product-image-col">
+            {% image self.image original as img %}
+            <div class="product-img-wrapper">
+                <img src="{{ img.url }}" alt="{{ self.heading }}">
+            </div>
+        </div>
+
+        <div class="product-info-col">
+            <h2 class="product-title">{{ self.heading }}</h2>
+            <div class="product-price">{{ self.price }}</div>
+            
+            <p class="product-desc">{{ self.description }}</p>
+
+            <ul class="product-features">
+                {% for feature in self.features %}
+                    <li>{{ feature }}</li>
+                {% endfor %}
+            </ul>
+            
+            {% if self.button_text|upper == "COMING SOON" %}
+                <div class="product-btn disabled">COMING SOON</div>
+                <div class="coming-soon-note">Production starts soon in Austin, TX</div>
+            {% else %}
+                <a href="{{ self.button_url|default:'#' }}" class="product-btn">
+                    {{ self.button_text }}
+                </a>
+            {% endif %}
+            
+            <div class="shipping-note">
+                🚚 Free shipping on orders over $50
+            </div>
+        </div>
+
+    </div>
+</section>
