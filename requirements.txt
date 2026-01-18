@@ -4,3 +4,4 @@ psycopg[binary]
 wagtail>=6.0
 whitenoise>=6.0
 gunicorn>=21.2
+wagtail-modeladmin>=2.1.0

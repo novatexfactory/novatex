@@ -1,6 +1,8 @@
 from django.db import models
+from .blocks import AccordionBlock
 from wagtail.models import Page
 from wagtail.fields import StreamField
+from wagtail.fields import RichTextField
 from wagtail import blocks
 from wagtail.images.blocks import ImageChooserBlock
 from wagtail.admin.panels import FieldPanel
@@ -95,8 +97,45 @@ class HomePage(Page):
         ('benefits', BenefitsBlock()),
         ('feature', FeatureBlock()),
         ('product', ProductBlock()),
+        ('accordion', AccordionBlock()),
     ], use_json_field=True, blank=True)
 
     content_panels = Page.content_panels + [
         FieldPanel('body'),
     ]
+
+class TextPage(Page):
+    body = RichTextField(blank=True)
+
+    content_panels = Page.content_panels + [
+        FieldPanel('body'),
+    ]
+
+class NewsletterSubscriber(models.Model):
+    email = models.EmailField(unique=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    panels = [
+        FieldPanel('email'),
+    ]
+
+    def __str__(self):
+        return self.email
+
+    class Meta:
+        verbose_name = "Subscriber"
+        verbose_name = "Subscribers"
+
+class ContactMessage(models.Model):
+    name = models.CharField(max_length=255)
+    email = models.EmailField()
+    phone = models.CharField(max_length=20)
+    subject = models.CharField(max_length=255)
+    message = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ['-created_at']
+
+    def __str__(self):
+        return f"{self.subject} - {self.name}"

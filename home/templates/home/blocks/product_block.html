@@ -1,4 +1,4 @@
-{% load wagtailimages_tags %}
+{% load wagtailcore_tags wagtailimages_tags static %}
 
 <section class="product-section" id="shop">
     <div class="product-container">
@@ -22,9 +22,14 @@
                 {% endfor %}
             </ul>
             
-            <a href="{{ self.button_url|default:'#' }}" class="product-btn">
-                {{ self.button_text }}
-            </a>
+            {% if self.button_text|upper == "COMING SOON" %}
+                <div class="product-btn disabled">COMING SOON</div>
+                <div class="coming-soon-note">Production starts soon in Austin, TX</div>
+            {% else %}
+                <a href="{{ self.button_url|default:'#' }}" class="product-btn">
+                    {{ self.button_text }}
+                </a>
+            {% endif %}
             
             <div class="shipping-note">
                 🚚 Free shipping on orders over $50
@@ -33,135 +38,3 @@
 
     </div>
 </section>
-
-<style>
-    .product-section {
-        background-color: #0a0a0a; /* Slightly lighter than pure black to separate sections */
-        padding: 100px 5%;
-        color: white;
-        border-top: 1px solid #222;
-    }
-
-    .product-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        max-width: 1200px;
-        margin: 0 auto;
-        gap: 60px;
-    }
-
-    .product-image-col {
-        flex: 1;
-        display: flex;
-        justify-content: left;
-    }
-
-    .product-img-wrapper img {
-        width: 100%;
-        max-width: 450px;
-        height: auto;
-        filter: drop-shadow(0 20px 40px rgba(0,0,0,0.6)); /* Floating effect */
-        transition: transform 0.3s ease;
-    }
-    
-    .product-img-wrapper img:hover {
-        transform: scale(1.02) translateY(-5px);
-    }
-
-    .product-info-col {
-        flex: 1;
-        text-align: left;
-        justify-content: right;
-    }
-
-    .product-title {
-        font-family: 'Oswald', sans-serif;
-        font-size: 3rem;
-        text-transform: uppercase;
-        margin: 0 0 10px 0;
-        line-height: 1.1;
-    }
-
-    .product-price {
-        font-family: 'Oswald', sans-serif;
-        font-size: 2.5rem;
-        color: #ffffff;
-        margin-bottom: 20px;
-        font-weight: 300;
-        opacity: 0.9;
-    }
-
-    .product-desc {
-        font-family: 'Inter', sans-serif;
-        color: #ccc;
-        margin-bottom: 30px;
-        line-height: 1.6;
-        font-size: 1.1rem;
-    }
-
-    .product-features {
-        list-style: none;
-        padding: 0;
-        margin-bottom: 40px;
-    }
-
-    .product-features li {
-        font-family: 'Inter', sans-serif;
-        margin-bottom: 10px;
-        padding-left: 25px;
-        position: relative;
-        color: #ddd;
-    }
-
-    .product-features li::before {
-        content: '✓';
-        position: absolute;
-        left: 0;
-        color: white;
-        font-weight: bold;
-    }
-
-    .product-btn {
-        display: inline-block;
-        width: 100%;
-        text-align: center;
-        background-color: white;
-        color: black;
-        padding: 20px 0;
-        font-family: 'Oswald', sans-serif;
-        font-size: 1.2rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        text-decoration: none;
-        border-radius: 4px;
-        transition: all 0.3s;
-        letter-spacing: 1px;
-    }
-
-    .product-btn:hover {
-        background-color: #e0e0e0;
-        transform: translateY(-2px);
-    }
-    
-    .shipping-note {
-        margin-top: 15px;
-        font-size: 0.9rem;
-        color: #666;
-        text-align: center;
-        font-family: 'Inter', sans-serif;
-    }
-
-    @media (max-width: 900px) {
-        .product-container {
-            flex-direction: column;
-            gap: 40px;
-            text-align: center;
-        }
-        .product-info-col { text-align: center; }
-        .product-features { 
-            display: inline-block; 
-            text-align: left;
-        }
-    }
-</style>

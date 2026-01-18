@@ -1,0 +1,1178 @@
+:root {
+    --bg-black: #050505;
+    --brand-orange: #ff8c00;
+}
+
+/* === GLOBAL STYLES === */
+html {
+    scroll-behavior: smooth;
+    
+    scroll-padding-top: 20px; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-black);
+    color: #ffffff;
+    overflow-x: hidden;
+    padding-top: 70px;
+}
+
+/* === HEADER === */
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0); /* Transparent at start */
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    /* Crucial fixes */
+    padding: 0 5%; 
+    box-sizing: border-box; /* Prevents the header from being wider than the screen */
+    z-index: 1000;
+    transition: all 0.4s ease-in-out;
+}
+
+.site-header.header-scrolled {
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.95) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: none; 
+    padding: 0;
+    white-space: nowrap; /* Prevent line break inside logo */
+    transition: opacity 0.3s;
+}
+.logo:hover {
+    opacity: 0.8;
+    background: none;
+    color: white;
+}
+
+/* === NAVIGATION === */
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+.nav-links a {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+    position: relative;
+}
+.nav-links a:hover { 
+    color: #ffffff; 
+}
+
+/* Underline animation on hover */
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -5px;
+    left: 0;
+    background-color: white;
+    transition: width 0.3s;
+}
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+/* === RESPONSIVENESS === */
+@media (max-width: 768px) {
+    .site-header {
+        flex-direction: column; /* Stack vertically on mobile */
+        padding: 20px;
+        gap: 15px;
+    }
+    .nav-links {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nav-links a {
+        font-size: 0.8rem;
+    }
+}
+
+/* === FOOTER STYLES === */
+.site-footer {
+    background-color: #000;
+    color: #fff;
+    padding: 60px 5%;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-container { max-width: 1200px; margin: 0 auto; }
+
+.footer-row-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-logo { font-family: 'Oswald', sans-serif; font-size: 1.5rem; letter-spacing: 2px; margin-bottom: 10px; }
+
+.footer-heading { font-family: 'Oswald', sans-serif; font-size: 0.8rem; letter-spacing: 1px; color: #888; margin-bottom: 20px; }
+
+.footer-nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns items to the start of the column */
+}
+.footer-nav-links a { display: block; color: #fff; text-decoration: none; margin-bottom: 10px; font-size: 0.9rem; }
+
+.footer-links {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover { color: #aaa; }
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid #222;
+    margin: 0 0 30px 0;
+}
+
+.footer-legal {
+    margin-bottom: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.fda-warning {
+    border: 1px solid #222;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-contact-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 25px;
+    
+    /* This pushes the block to the left relative to the container center */
+    margin-right: 150px; 
+}
+
+/* Ensure sub-labels look pro for NovaTex */
+.footer-contact-info span {
+    opacity: 0.5;
+    font-size: 0.7rem;
+    display: block;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+}
+
+.footer-contact-info p {
+    margin-bottom: 12px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 0.8rem;
+}
+
+.legal-links a {
+    color: #666;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.legal-links a:hover { color: #999; }
+
+.newsletter-form-footer { display: flex; border: 1px solid #333; margin-top: 15px; }
+.newsletter-form-footer input { background: transparent; border: none; color: #fff; padding: 10px; flex: 1; }
+.newsletter-form-footer button { background: #fff; color: #000; border: none; padding: 10px 20px; font-family: 'Oswald', sans-serif; cursor: pointer; }
+
+.footer-hr { border: 0; border-top: 1px solid #222; margin: 30px 0; }
+.legal-warning { font-size: 0.7rem; color: #555; line-height: 1.4; margin-bottom: 10px; }
+.footer-row-bottom { display: flex; justify-content: space-between; align-items: flex-end; font-size: 0.75rem; color: #666; }
+.bottom-right a { color: #666; text-decoration: none; margin-left: 20px; }
+🔍 Что мы исправили:
+
+@media (max-width: 768px) {
+    .footer-top { flex-direction: column; }
+    .footer-links { flex-direction: column; gap: 15px; }
+    .footer-bottom { flex-direction: column; text-align: center; }
+    .legal-links a { margin: 0 10px; }
+}
+
+/* === SCROLL TO TOP BUTTON === */
+.scroll-top-btn {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: white; /* Белый фон */
+    color: black; /* Черная стрелка */
+    border-radius: 50%; /* Круглая */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2); /* Легкое свечение */
+    z-index: 1000; /* Поверх всего */
+    
+    /* Скрыта по умолчанию */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+}
+
+/* Состояние: Видима */
+.scroll-top-btn.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* При наведении */
+.scroll-top-btn:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-5px); /* Чуть всплывает */
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.4);
+}
+
+/* === HERO SECTION === */
+.hero-section {
+    position: relative;
+    height: 75vh; 
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    
+    /* Darker background for better contrast */
+    background-color: rgba(0,0,0,0.6); 
+    background: radial-gradient(circle, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 100%);
+    
+    /* Blur effect to separate text from background details */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); /* Safari support */
+    
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    padding: 0 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.hero-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1;
+    letter-spacing: 1px;
+    /* Stronger text shadow */
+    text-shadow: 0 10px 30px rgba(0,0,0,0.9);
+}
+
+.tm-symbol {
+    font-size: 1.2rem;
+    vertical-align: top;
+    opacity: 0.8;
+}
+
+.hero-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.95);
+    text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-btn {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 18px 45px;
+    border-radius: 4px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.hero-btn:hover {
+    background-color: #e6e6e6;
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+}
+
+/* === PRODUCT SECTION === */
+.product-section {
+    background-color: #0a0a0a; /* Slightly lighter than pure black to separate sections */
+    padding: 100px 5%;
+    color: white;
+    border-top: 1px solid #222;
+}
+
+.product-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 60px;
+}
+
+.product-image-col {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+}
+
+.product-img-wrapper img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    filter: drop-shadow(0 20px 40px rgba(0,0,0,0.6)); /* Floating effect */
+    transition: transform 0.3s ease;
+}
+
+.product-img-wrapper img:hover {
+    transform: scale(1.02) translateY(-5px);
+}
+
+.product-info-col {
+    flex: 1;
+    text-align: left;
+    justify-content: right;
+}
+
+.product-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+    line-height: 1.1;
+}
+
+.product-price {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+.product-desc {
+    font-family: 'Inter', sans-serif;
+    color: #ccc;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.product-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.product-features li {
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+    color: #ddd;
+}
+
+.product-features li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.product-btn {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 20px 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s;
+    letter-spacing: 1px;
+}
+
+.product-btn:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-2px);
+}
+
+.shipping-note {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.product-btn.disabled {
+    background-color: transparent !important;
+    border: 2px solid #444 !important;
+    color: #888 !important;
+    cursor: not-allowed;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+.coming-soon-note {
+    font-size: 0.75rem;
+    color: #666;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* === FEATURE SECTION === */
+.feature-section {
+    background-color: var(--bg-black);
+    padding: 100px 5%;
+    color: white;
+    overflow: hidden;
+}
+
+.feature-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 60px;
+}
+
+.feature-section.reverse .feature-container {
+    flex-direction: row-reverse;
+}
+
+.feature-image-col, .feature-content-col {
+    flex: 1;
+}
+
+.feature-heading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: white;
+    position: relative;
+    display: inline-block;
+}
+
+.feature-heading::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: white;
+    margin-top: 10px;
+}
+
+.feature-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #cccccc;
+    margin-bottom: 40px;
+}
+
+.image-wrapper {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.feature-section:hover .image-wrapper img {
+    transform: scale(1.03);
+}
+
+.feature-btn {
+    display: inline-block;
+    padding: 15px 40px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+}
+.feature-btn:hover {
+    background: white;
+    color: black;
+}
+
+/* === BENEFITS SECTION === */
+.benefits-section {
+    background-color: var(--bg-black);
+    padding: 80px 20px;
+    text-align: center;
+    border-top: 1px solid #222;
+}
+
+.benefits-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.benefits-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.benefit-card {
+    flex: 1;
+    min-width: 250px;
+    max-width: 350px;
+    padding: 30px;
+    background: #0a0a0a;
+    border: 1px solid #333;
+    border-radius: 8px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+    border-color: #555;
+}
+
+.benefit-icon { 
+    font-size: 3rem; 
+    margin-bottom: 20px; 
+}
+
+.benefit-name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.benefit-desc {
+    font-family: 'Inter', sans-serif;
+    color: #aaa;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* === ACCORDION SECTION === */
+.split-section {
+    background-color: var(--bg-black);
+    padding: 120px 5%;
+    color: white;
+}
+
+.split-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 80px;
+    align-items: center; 
+}
+
+.col-content {
+    flex: 1;
+}
+
+.col-media {
+    flex: 1;
+    position: relative;
+}
+
+.section-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+.accordion-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.accordion-item:first-child {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.accordion-header {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    text-align: left;
+    color: white;
+    transition: color 0.3s;
+}
+
+.accordion-header:hover .accordion-title {
+    color: #d1d1d1;
+}
+
+.accordion-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+}
+
+.accordion-inner-text {
+    font-family: 'Inter', sans-serif;
+    color: #b0b0b0;
+    line-height: 1.6;
+    padding-bottom: 25px;
+}
+
+.accordion-item.active .accordion-icon {
+    transform: rotate(45deg);
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    display: block;
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(4px);
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* === RESPONSIVE MEDIA QUERIES === */
+@media (max-width: 1024px) {
+    .hero-section {
+        height: 60vh; 
+        min-height: 450px;
+    }
+    .hero-title {
+        font-size: 4rem;
+    }
+    .hero-subtitle {
+        font-size: 1.1rem;
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 900px) {
+    .product-container {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+    .product-info-col { text-align: center; }
+    .product-features { 
+        display: inline-block; 
+        text-align: left;
+    }
+    .feature-container {
+        flex-direction: column !important;
+        gap: 40px;
+    }
+    .feature-heading { font-size: 2rem; }
+    .split-container {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .section-title {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        height: 70vh; 
+        min-height: 400px;
+    }
+    .hero-title {
+        font-size: 2.8rem;
+        line-height: 1.1;
+    }
+    .tm-symbol {
+        font-size: 0.8rem;
+    }
+    .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: 25px;
+    }
+    .hero-btn {
+        padding: 15px 35px;
+        font-size: 1rem;
+        width: 80%;
+        max-width: 300px;
+        box-sizing: border-box;
+    }
+    .benefits-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .benefit-card {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/* Age Modal Styles */
+/* Блокировка всего экрана */
+.age-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000; /* Чистый черный, чтобы скрыть контент */
+    z-index: 99999; /* Поверх всего, даже поверх хедера */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+/* Скрытое состояние (добавляется JS) */
+.age-modal-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Окно сообщения */
+.age-modal-content {
+    background-color: #0a0a0a;
+    border: 1px solid #333;
+    padding: 50px;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.1);
+    position: relative;
+}
+
+/* Декоративная полоска сверху */
+.age-modal-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: white;
+}
+
+.age-logo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    color: #666;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.age-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.age-text {
+    font-family: 'Inter', sans-serif;
+    color: #ccc;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.age-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.age-btn {
+    padding: 15px 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s;
+    border: 1px solid white;
+    letter-spacing: 1px;
+    min-width: 120px;
+    display: inline-block;
+}
+
+/* Кнопка ДА */
+.age-btn-yes {
+    background-color: white;
+    color: black;
+}
+.age-btn-yes:hover {
+    background-color: #ccc;
+    border-color: #ccc;
+}
+
+/* Кнопка НЕТ */
+.age-btn-no {
+    background-color: transparent;
+    color: #666;
+    border-color: #333;
+}
+.age-btn-no:hover {
+    border-color: #666;
+    color: white;
+}
+
+@media (max-width: 500px) {
+    .age-buttons { flex-direction: column; }
+    .age-modal-content { padding: 30px 20px; }
+}
+
+/* Legal Page Styles */
+.legal-page-wrapper {
+    background-color: var(--bg-black); /* Темный фон, как на всем сайте */
+    color: #e0e0e0;
+    min-height: 80vh;
+    padding: 120px 20px 80px; /* Отступ сверху, чтобы меню не перекрывало */
+}
+
+.legal-container {
+    max-width: 800px; /* Ограничиваем ширину для удобства чтения */
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.03); /* Едва заметная подложка */
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.legal-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+.legal-content {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.8;
+    font-size: 1rem;
+    color: #cccccc;
+}
+
+/* Стили для заголовков внутри текста (h2, h3, bold) */
+.legal-content h2, 
+.legal-content h3, 
+.legal-content h4 {
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.legal-content p {
+    margin-bottom: 20px;
+}
+
+.legal-content ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.legal-content li {
+    margin-bottom: 10px;
+}
+
+.legal-content strong {
+    color: white;
+}
+
+/* Для мобильных */
+@media (max-width: 768px) {
+    .legal-container {
+        padding: 20px;
+    }
+    .legal-title {
+        font-size: 2rem;
+    }
+}
+
+/* Затемнение фона */
+.contact-modal-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.85); /* Глубокое затенение */
+    backdrop-filter: blur(8px); /* Размытие заднего плана */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+/* Квадратное стильное окно */
+.contact-modal-content {
+    background: #0a0a0a;
+    border: 1px solid #333;
+    padding: 50px;
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    box-sizing: border-box; /* Гарантирует, что отступы не ломают ширину */
+}
+
+/* Заголовки */
+.contact-modal-content h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/* Поля ввода в стиле минимализма с внутренними отступами */
+.contact-modal-content input, 
+.contact-modal-content textarea {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.03); /* Легкий налет для видимости границ */
+    border: none;
+    border-bottom: 1px solid #444;
+    color: #fff;
+    /* Исправлено: добавлены отступы слева и справа, чтобы текст не прилипал */
+    padding: 12px 15px; 
+    margin-bottom: 25px;
+    font-family: 'Inter', sans-serif;
+    transition: all 0.3s ease;
+    box-sizing: border-box; 
+}
+
+/* Эффект при наведении и фокусе */
+.contact-modal-content input:focus, 
+.contact-modal-content textarea:focus {
+    border-bottom-color: #fff;
+    background: rgba(255, 255, 255, 0.07);
+    outline: none;
+}
+
+/* Кнопка отправки */
+.contact-modal-content .age-btn {
+    width: 100%;
+    margin-top: 20px;
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background 0.3s;
+}
+
+.contact-modal-content .age-btn:hover {
+    background: #cccccc;
+}
+
+/* Target the specific container we created above */
+.contact-details-shift {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Adjust this value until the alignment matches your visual preference */
+    transform: translateX(-160px); 
+    transition: transform 0.3s ease;
+}
+
+/* On smaller screens, reset the shift so it doesn't break the layout */
+@media (max-width: 992px) {
+    .contact-details-shift {
+        transform: translateX(0);
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* Стиль для сообщения об успехе */
+#form-success-container h2 {
+    color: #fff;
+    margin-top: 10px;
+}
+
+#form-success-container p {
+    font-family: 'Inter', sans-serif;
+    color: #888;
+    line-height: 1.6;
+}
+
+/* Ограничиваем ширину контейнера всей формы в футере */
+.footer-col-form {
+    max-width: 400px; /* Оптимальная ширина для десктопа */
+}
+
+/* Стили для самого инпута */
+.newsletter-form-footer {
+    display: flex;
+    gap: 0; /* Убираем зазор, чтобы кнопка и поле были единым целым */
+    margin-top: 20px;
+}
+
+.newsletter-form-footer input[type="email"] {
+    flex: 1; /* Поле занимает всё свободное место, но ограничено max-width родителя */
+    min-width: 200px; /* Чтобы на мобильных не схлопывалось совсем */
+    background: transparent;
+    border: 1px solid #333;
+    border-right: none; /* Убираем правую границу, чтобы "слить" с кнопкой */
+    color: #fff;
+    padding: 12px 15px;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+}
+
+.newsletter-form-footer button {
+    background: #fff;
+    color: #000;
+    border: 1px solid #fff;
+    padding: 12px 25px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background 0.3s;
+}

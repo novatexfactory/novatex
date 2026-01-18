@@ -1,0 +1,67 @@
+{% load wagtailcore_tags wagtailimages_tags static %}
+
+<section class="split-section" id="faq">
+    <div class="split-container">
+        
+        <div class="col-content">
+            {% if self.heading %}
+                <h2 class="section-title">{{ self.heading }}</h2>
+            {% endif %}
+
+            <div class="accordion-wrapper">
+                {% for item in self.items %}
+                <div class="accordion-item">
+                    <button class="accordion-header" onclick="toggleAccordion(this)" aria-expanded="false">
+                        <span class="accordion-title">{{ item.title }}</span>
+                        <span class="accordion-icon">
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 0V14" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M0 7H14" stroke="currentColor" stroke-width="1.5"/>
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-inner-text">
+                            {{ item.content|richtext }}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="col-media">
+            <img src="/media/images/cowgirl_placeholder.png" alt="Texarine Lifestyle" class="hero-image">
+            <div class="image-caption">REAL FOCUS. REAL PEOPLE.</div>
+        </div>
+
+    </div>
+</section>
+
+<script>
+    function toggleAccordion(button) {
+        const item = button.parentElement;
+        const content = item.querySelector('.accordion-content');
+        
+        // Закрываем другие (аккордеон)
+        const allItems = document.querySelectorAll('.accordion-item');
+        allItems.forEach(other => {
+            if (other !== item && other.classList.contains('active')) {
+                other.classList.remove('active');
+                other.querySelector('.accordion-content').style.maxHeight = null;
+                other.querySelector('.accordion-header').setAttribute('aria-expanded', 'false');
+            }
+        });
+
+        // Открываем/Закрываем текущий
+        item.classList.toggle('active');
+        
+        if (item.classList.contains('active')) {
+            content.style.maxHeight = content.scrollHeight + "px";
+            button.setAttribute('aria-expanded', 'true');
+        } else {
+            content.style.maxHeight = null;
+            button.setAttribute('aria-expanded', 'false');
+        }
+    }
+</script>

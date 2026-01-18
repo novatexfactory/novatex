@@ -1,0 +1,65 @@
+<footer class="site-footer" id="contact">
+    <div class="footer-container">
+        <div class="footer-row-main">
+            <div class="footer-col-brand">
+                <div class="footer-logo">NOVATEX FACTORY</div>
+                <p class="footer-tagline">Engineered for cognitive dominance.<br>Austin, Texas.</p>
+                
+                <div class="footer-contact-info" style="margin-top: 30px;">
+                    <p style="font-size: 0.8rem; margin-bottom: 15px;">
+                        <span style="opacity: 0.5; font-size: 0.7rem; display: block; letter-spacing: 1px; margin-bottom: 5px;">INQUIRIES</span> 
+                        <a href="mailto:sales@novatexfactory.com" style="display: inline; text-transform: none;">sales@novatexfactory.com</a>
+                    </p>
+                    <p style="font-size: 0.8rem; margin-bottom: 20px;">
+                        <span style="opacity: 0.5; font-size: 0.7rem; display: block; letter-spacing: 1px; margin-bottom: 5px;">HEADQUARTERS</span> 
+                        <a href="tel:+19452741532" style="display: inline;">+1 (945) 274-1532</a>
+                    </p>
+                    <a href="#" id="openContactModal" class="contact-cta-btn" style="margin-left: 0;">CONTACT FORM</a>
+                </div>
+            </div>
+
+            <div class="footer-col-nav">
+                <h4 class="footer-heading">NAVIGATION</h4>
+                <div class="footer-nav-links">
+                    <a href="/#science">Science</a>
+                    <a href="/#shop">Shop</a>
+                    <a href="/#faq">FAQ</a>
+                </div>
+            </div>
+
+            <div class="footer-col-form">
+                <h4 class="footer-heading">STAY FOCUSED</h4>
+                <div id="newsletter-content">
+                    <p>Early access to product releases.</p>
+                    <form class="newsletter-form-footer" id="newsletter-form">
+                        {% csrf_token %}
+                        <input type="email" name="email" placeholder="EMAIL ADDRESS" required>
+                        <button type="submit">SIGN UP</button>
+                    </form>
+                </div>
+                <div id="newsletter-success-block" style="display: none; padding-top: 10px;">
+                    <p style="color: #fff; font-family: 'Oswald', sans-serif; letter-spacing: 1px;">✓ THANK YOU FOR SUBSCRIBING</p>
+                    <p style="font-size: 0.8rem; opacity: 0.7;">We'll keep you updated on Texarine™ releases.</p>
+                </div>
+            </div>
+        </div>
+
+        <hr class="footer-hr">
+
+        <div class="footer-row-legal">
+            <p class="legal-warning">* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>
+            <p class="legal-warning"><strong>WARNING:</strong> For healthy adults over 18. Do not use if pregnant. Consult a professional before use.</p>
+        </div>
+
+        <div class="footer-row-bottom">
+            <div class="bottom-left">
+                <p>&copy; 2025–2026 NovaTex Factory LLC.</p>
+                <p class="footer-address-text">5900 Balcones Drive #8868, Austin, TX 78731</p>
+            </div>
+            <div class="bottom-right">
+                <a href="/privacy-policy/">Privacy Policy</a>
+                <a href="/terms-of-service/">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+</footer>
