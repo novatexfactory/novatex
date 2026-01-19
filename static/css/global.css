@@ -21,6 +21,18 @@ body {
     padding-top: 70px;
 }
 
+/* 1. Глобальный сброс размера блоков */
+/* Это заставит padding не расширять блоки за пределы экрана */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* 2. Защита от горизонтального скролла */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden; /* Обрезает всё, что вылезает за ширину экрана */
+}
+
 /* === HEADER === */
 .site-header {
     position: fixed;
@@ -1235,4 +1247,64 @@ body {
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
     /* При наведении сохраняем подъем и добавляем микро-движение */
     transform: translateY(-8px); 
+}
+
+/* МОБИЛЬНАЯ ВЕРСИЯ (ОТПОЛИРОВАННАЯ) */
+@media (max-width: 768px) {
+    
+    /* 1. Хедер колонка: Лого -> Меню */
+    .site-header {
+        flex-direction: column !important;
+        height: auto !important;
+        padding: 20px 0 15px 0 !important; /* Чуть больше воздуха сверху */
+        align-items: center !important;
+    }
+
+    .logo, .footer-logo {
+        margin-right: 0 !important;
+        margin-bottom: 20px !important; /* Отделяем логотип от меню */
+    }
+
+    /* 2. Меню в одну строку */
+    .nav-links {
+        width: 100% !important;
+        justify-content: center !important;
+        display: flex !important;
+        flex-wrap: nowrap !important;   /* Запрещаем перенос строк */
+        align-items: center !important; /* Выравнивание по вертикальному центру */
+        gap: 0 !important;              /* Убираем стандартный gap, будем задавать маржинами */
+        margin: 0 !important;
+    }
+
+    /* 3. Ссылки (SCIENCE, FAQ, CONTACT) */
+    .nav-links a {
+        font-size: 0.75rem !important;  /* Компактный шрифт */
+        margin: 0 10px !important;      /* Равные отступы */
+        opacity: 0.8;
+    }
+
+    /* 4. Кнопка SHOP - Ставим ПЕРВОЙ */
+    .nav-links a[href="/#shop"] {
+        order: -1 !important;           /* Переносим в самое начало */
+        margin: 0 15px 0 0 !important;  /* Отступ справа от кнопки до SCIENCE */
+        
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        
+        /* Визуальный стиль */
+        background: transparent !important;
+        border: 1px solid rgba(255, 255, 255, 0.4) !important;
+        border-radius: 50px !important;
+        
+        /* Тонкая настройка размеров для выравнивания текста */
+        padding: 5px 18px !important;   /* Компактная кнопка */
+        font-size: 0.75rem !important;
+        opacity: 1 !important;          /* Кнопка ярче остальных ссылок */
+        
+        /* МАГИЯ ВЫРАВНИВАНИЯ: */
+        /* Убираем лишние трансформации десктопа, но добавляем микро-коррекцию, 
+           чтобы текст внутри рамки визуально совпал с текстом без рамки */
+        transform: translateY(-1px) !important; 
+    }
 }
