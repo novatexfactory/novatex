@@ -23,6 +23,52 @@
     </div>
 </div>
 
+<div id="techModal" class="contact-modal-overlay">
+    <div class="contact-modal-content tech-modal-wide">
+        <span class="close-modal" id="closeTechModal" style="position:absolute; top:20px; right:25px; cursor:pointer; color:#666; font-size:24px;">&times;</span>
+        
+        <div class="footer-logo" style="font-size: 14px; opacity: 0.6; margin-bottom: 25px; letter-spacing: 2px;">NOVATEX LABS</div>
+        
+        <h2 style="font-family: 'Oswald', sans-serif; font-size: 1.8rem; margin-bottom: 10px; text-transform: uppercase; line-height: 1.2;">
+            THE <span style="color: #fff; border-bottom: 1px solid #fff;">GABADINE-100™</span> PROTOCOL
+        </h2>
+        <p style="font-size: 0.9rem; opacity: 0.7; margin-bottom: 30px;">
+            Molecular engineering allows us to bypass traditional bioavailability limits.
+        </p>
+
+        <div class="tech-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 30px; text-align: left;">
+            
+            <div style="border-right: 1px solid rgba(255,255,255,0.1); padding-right: 15px;">
+                <h4 style="color: #888; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 15px;">THE PROBLEM: ORAL GABA</h4>
+                <p style="font-size: 0.85rem; line-height: 1.5; color: rgba(255,255,255,0.6);">
+                    <strong>1. Digestion:</strong> Standard GABA supplements are destroyed by stomach acid before reaching the bloodstream.
+                </p>
+                <p style="font-size: 0.85rem; line-height: 1.5; color: rgba(255,255,255,0.6); margin-top: 10px;">
+                    <strong>2. The Barrier:</strong> Even if absorbed, the molecule is too large to cross the Blood-Brain Barrier (BBB).
+                </p>
+            </div>
+
+            <div>
+                <h4 style="color: #fff; font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 15px;">THE SOLUTION: TEXARINE™</h4>
+                <p style="font-size: 0.85rem; line-height: 1.5; color: #fff;">
+                    <strong>1. Sublingual Delivery:</strong> Direct absorption through the mucosal membrane under the tongue, entering the bloodstream in < 5 minutes.
+                </p>
+                <p style="font-size: 0.85rem; line-height: 1.5; color: #fff; margin-top: 10px;">
+                    <strong>2. Active Transport:</strong> Gabadine-100™ utilizes a proprietary carrier molecule designed to penetrate the BBB and activate receptors instantly.
+                </p>
+            </div>
+        </div>
+
+        <div style="background: rgba(255,255,255,0.05); padding: 15px; border-left: 3px solid #fff;">
+            <p style="font-size: 0.9rem; margin: 0; font-style: italic;">
+                "The result is not the jittery energy of caffeine, but the calm, razor-sharp focus known as the <strong>Alpha-Wave Flow State</strong>."
+            </p>
+        </div>
+
+        <button class="age-btn" onclick="document.getElementById('techModal').style.display='none'" style="width: 100%; margin-top: 25px;">CLOSE SPECS</button>
+    </div>
+</div>
+
 {% if request.path == '/' %}
 <div id="ageModal" class="age-modal-overlay">
     <div class="age-modal-content">

@@ -1176,3 +1176,63 @@ body {
     text-transform: uppercase;
     transition: background 0.3s;
 }
+
+.tech-modal-wide {
+    max-width: 600px; 
+    text-align: left; 
+}
+
+/* Tech Modal Grid Layout */
+@media (max-width: 768px) {
+    .tech-grid {
+        grid-template-columns: 1fr !important; 
+        gap: 20px !important;
+    }
+    .tech-grid > div {
+        border-right: none !important;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        padding-bottom: 20px;
+        padding-right: 0 !important;
+    }
+}
+
+/* global.css */
+
+.nav-links a[href="/#shop"] {
+    /* 1. ПЕРЕНОС ВЛЕВО */
+    order: -1;
+    margin-right: 40px;
+    margin-left: 0;
+    
+    /* 2. ВЫРАВНИВАНИЕ */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* ИЗМЕНЕНИЕ: Поднимаем кнопку еще выше, чтобы тексты совпали */
+    transform: translateY(-6px); 
+    
+    /* 3. ВИЗУАЛЬНЫЙ СТИЛЬ */
+    border-radius: 50px;
+    padding: 8px 30px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: #ffffff !important;
+    
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Эффект при наведении */
+.nav-links a[href="/#shop"]:hover {
+    background-color: #ffffff;
+    color: #000000 !important;
+    border-color: #ffffff;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+    /* При наведении сохраняем подъем и добавляем микро-движение */
+    transform: translateY(-8px); 
+}
