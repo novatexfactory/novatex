@@ -35,10 +35,7 @@ DEBUG = os.environ.get("APP_ENV") == "dev"
 
 
 # Hosts/origins
-ALLOWED_HOSTS = env_list(
-    "DJANGO_ALLOWED_HOSTS",
-    "*" if DEBUG else "localhost,127.0.0.1,[::1]"
-)
+AALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,[::1]").split(",")
 
 # For POST/CSRF, must include scheme + host (+ port)
 CSRF_TRUSTED_ORIGINS = env_list(
@@ -115,8 +112,8 @@ DATABASES = {
         'NAME': os.environ.get('POSTGRES_DB'),
         'USER': os.environ.get('POSTGRES_USER'),
         'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
-        'HOST': os.environ.get('POSTGRES_HOST', 'db'),
-        'PORT': '5432',
+        'HOST': os.environ.get('POSTGRES_HOST'), 
+        'PORT': os.environ.get('POSTGRES_PORT', '5432'),
     }
 }
 
