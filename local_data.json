@@ -1,0 +1,4049 @@
+[
+{
+  "model": "home.newslettersubscriber",
+  "pk": 2,
+  "fields": {
+    "email": "chauskey@gmail.com",
+    "created_at": "2026-01-17T02:32:11.291Z"
+  }
+},
+{
+  "model": "home.newslettersubscriber",
+  "pk": 3,
+  "fields": {
+    "email": "ekaterina.chauskaia@gmail.com",
+    "created_at": "2026-01-17T02:54:19.687Z"
+  }
+},
+{
+  "model": "home.contactmessage",
+  "pk": 22,
+  "fields": {
+    "name": "Evgeny Chauskey",
+    "email": "chauskey@gmail.com",
+    "phone": "4693883384",
+    "subject": "Test subject",
+    "message": "sdfsdfsdf",
+    "created_at": "2026-01-18T01:08:12.326Z"
+  }
+},
+{
+  "model": "home.contactmessage",
+  "pk": 23,
+  "fields": {
+    "name": "Evgeny Chauskey",
+    "email": "chauskey@gmail.com",
+    "phone": "4693883384",
+    "subject": "Test subjectвапв",
+    "message": "ываыв",
+    "created_at": "2026-01-18T01:21:01.683Z"
+  }
+},
+{
+  "model": "home.contactmessage",
+  "pk": 24,
+  "fields": {
+    "name": "Evgeny Chauskey",
+    "email": "eugene@chauskey.com",
+    "phone": "4693883384",
+    "subject": "Test subjectвапв",
+    "message": "ываыва",
+    "created_at": "2026-01-18T01:41:15.261Z"
+  }
+},
+{
+  "model": "home.contactmessage",
+  "pk": 25,
+  "fields": {
+    "name": "Evgeny Chauskey",
+    "email": "eugene@chauskey.com",
+    "phone": "4693883384",
+    "subject": "Test subject",
+    "message": "рлолрлор",
+    "created_at": "2026-01-18T16:59:21.153Z"
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 5,
+  "fields": {
+    "filter_spec": "max-165x165",
+    "file": "images/Texarine_package_square_2_QpJUSsi.max-165x165.png",
+    "width": 165,
+    "height": 110,
+    "focal_point_key": "",
+    "image": 1
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 6,
+  "fields": {
+    "filter_spec": "max-800x600",
+    "file": "images/Texarine_package_square_2_QpJUSsi.max-800x600.png",
+    "width": 800,
+    "height": 533,
+    "focal_point_key": "",
+    "image": 1
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 7,
+  "fields": {
+    "filter_spec": "max-800x600",
+    "file": "images/Texarine_package_square_2.max-800x600.png",
+    "width": 800,
+    "height": 533,
+    "focal_point_key": "",
+    "image": 3
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 8,
+  "fields": {
+    "filter_spec": "max-165x165",
+    "file": "images/Texarine_package_square_2.max-165x165.png",
+    "width": 165,
+    "height": 110,
+    "focal_point_key": "",
+    "image": 3
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 9,
+  "fields": {
+    "filter_spec": "original",
+    "file": "images/Texarine_package_square_2.original.png",
+    "width": 1536,
+    "height": 1024,
+    "focal_point_key": "",
+    "image": 3
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 10,
+  "fields": {
+    "filter_spec": "max-165x165",
+    "file": "images/3d-molecula.max-165x165.jpg",
+    "width": 165,
+    "height": 90,
+    "focal_point_key": "",
+    "image": 4
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 11,
+  "fields": {
+    "filter_spec": "original",
+    "file": "images/3d-molecula.original.jpg",
+    "width": 1024,
+    "height": 559,
+    "focal_point_key": "",
+    "image": 4
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 12,
+  "fields": {
+    "filter_spec": "max-165x165",
+    "file": "images/Texarine_package_square.max-165x165.png",
+    "width": 110,
+    "height": 165,
+    "focal_point_key": "",
+    "image": 5
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 13,
+  "fields": {
+    "filter_spec": "original",
+    "file": "images/Texarine_package_square.original.png",
+    "width": 1024,
+    "height": 1536,
+    "focal_point_key": "",
+    "image": 5
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 14,
+  "fields": {
+    "filter_spec": "max-165x165",
+    "file": "images/3_squared_packs.max-165x165.jpg",
+    "width": 165,
+    "height": 110,
+    "focal_point_key": "",
+    "image": 6
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 15,
+  "fields": {
+    "filter_spec": "original",
+    "file": "images/3_squared_packs.original.jpg",
+    "width": 1024,
+    "height": 687,
+    "focal_point_key": "",
+    "image": 6
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 16,
+  "fields": {
+    "filter_spec": "max-165x165",
+    "file": "images/Texarine_black.max-165x165.png",
+    "width": 165,
+    "height": 110,
+    "focal_point_key": "",
+    "image": 7
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 17,
+  "fields": {
+    "filter_spec": "original",
+    "file": "images/Texarine_black.original.png",
+    "width": 2528,
+    "height": 1696,
+    "focal_point_key": "",
+    "image": 7
+  }
+},
+{
+  "model": "wagtailcore.locale",
+  "pk": 1,
+  "fields": {
+    "language_code": "en"
+  }
+},
+{
+  "model": "wagtailcore.site",
+  "fields": {
+    "hostname": "localhost",
+    "port": 8000,
+    "site_name": "NovaTex Factory",
+    "root_page": 3,
+    "is_default_site": true
+  }
+},
+{
+  "model": "wagtailcore.collection",
+  "pk": 1,
+  "fields": {
+    "path": "0001",
+    "depth": 1,
+    "numchild": 0,
+    "name": "Root"
+  }
+},
+{
+  "model": "wagtailcore.workflow",
+  "pk": 1,
+  "fields": {
+    "name": "Moderators approval",
+    "active": true
+  }
+},
+{
+  "model": "wagtailcore.workflowtask",
+  "pk": 1,
+  "fields": {
+    "sort_order": 0,
+    "workflow": 1,
+    "task": 1
+  }
+},
+{
+  "model": "wagtailcore.task",
+  "pk": 1,
+  "fields": {
+    "name": "Moderators approval",
+    "content_type": [
+      "wagtailcore",
+      "groupapprovaltask"
+    ],
+    "active": true
+  }
+},
+{
+  "model": "wagtailcore.workflowpage",
+  "pk": 1,
+  "fields": {
+    "workflow": 1
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 1,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "1",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 3,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "3",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 5,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "4",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 6,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "4",
+    "model_path": "body.feature.image",
+    "content_path": "body.5fd57104-49eb-4ebb-ad9e-4308b291e390.image",
+    "content_path_hash": "8e971bd5-a340-5de6-8fef-edb2f030c141"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 7,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "5",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 9,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "6",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 11,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "base_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "7",
+    "to_content_type": [
+      "wagtailcore",
+      "collection"
+    ],
+    "to_object_id": "1",
+    "model_path": "collection",
+    "content_path": "collection",
+    "content_path_hash": "b40b1263-e929-57f2-a7f8-9dbce56b887b"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 13,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "7",
+    "model_path": "body.product.image",
+    "content_path": "body.2074a37b-628b-4801-bf80-e048c6ebb115.image",
+    "content_path_hash": "a223d7b1-1eb3-53af-b0f6-8982bb69adf5"
+  }
+},
+{
+  "model": "wagtailcore.referenceindex",
+  "pk": 14,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "to_content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "to_object_id": "6",
+    "model_path": "body.hero.image",
+    "content_path": "body.06582231-3036-40db-b9b1-1401cf0a2727.image",
+    "content_path_hash": "15d0fa99-a4e2-53b2-a49b-afca4721db34"
+  }
+},
+{
+  "model": "auth.group",
+  "fields": {
+    "name": "Moderators",
+    "permissions": [
+      [
+        "access_admin",
+        "wagtailadmin",
+        "admin"
+      ],
+      [
+        "add_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "change_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "choose_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "delete_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "add_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "change_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "choose_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "delete_image",
+        "wagtailimages",
+        "image"
+      ]
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "fields": {
+    "name": "Editors",
+    "permissions": [
+      [
+        "access_admin",
+        "wagtailadmin",
+        "admin"
+      ],
+      [
+        "add_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "change_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "choose_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "delete_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "add_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "change_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "choose_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "delete_image",
+        "wagtailimages",
+        "image"
+      ]
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$pQw2PP7yq0gTWT5UjCRSKh$5Lp4rbdK4TRWdh+diRATcvdPv+jXO9eNnPSS2irXJb8=",
+    "last_login": "2026-01-09T03:33:04.132Z",
+    "is_superuser": true,
+    "username": "su",
+    "first_name": "",
+    "last_name": "",
+    "email": "info@novatexfactory.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-01-09T03:32:48.104Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "modelsearch.indexentry",
+  "pk": 3,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "1",
+    "title_norm": 2.0,
+    "autocomplete": "'texarine':1",
+    "title": "'texarin':1A",
+    "body": ""
+  }
+},
+{
+  "model": "modelsearch.indexentry",
+  "pk": 5,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "3",
+    "title_norm": 0.6666666666666666,
+    "autocomplete": "'package':2 'square':3 'texarine':1",
+    "title": "'packag':2A 'squar':3A 'texarin':1A",
+    "body": ""
+  }
+},
+{
+  "model": "modelsearch.indexentry",
+  "pk": 7,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "object_id": "3",
+    "title_norm": 2.111111111111111,
+    "autocomplete": "'texarine':1",
+    "title": "'texarin':1B",
+    "body": ""
+  }
+},
+{
+  "model": "modelsearch.indexentry",
+  "pk": 18,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "4",
+    "title_norm": 0.875,
+    "autocomplete": "'3d':1 'molecula':2",
+    "title": "'3d':1A 'molecula':2A",
+    "body": ""
+  }
+},
+{
+  "model": "modelsearch.indexentry",
+  "pk": 24,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "5",
+    "title_norm": 0.6666666666666666,
+    "autocomplete": "'pack':3 'single':2 'texarine':1",
+    "title": "'pack':3A 'singl':2A 'texarin':1A",
+    "body": ""
+  }
+},
+{
+  "model": "modelsearch.indexentry",
+  "pk": 34,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "6",
+    "title_norm": 0.7222222222222222,
+    "autocomplete": "'3':1 'packs':3 'squared':2",
+    "title": "'3':1A 'pack':3A 'squar':2A",
+    "body": ""
+  }
+},
+{
+  "model": "modelsearch.indexentry",
+  "pk": 38,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "object_id": "7",
+    "title_norm": 1.0714285714285714,
+    "autocomplete": "'black':2 'texarine':1",
+    "title": "'black':2A 'texarin':1A",
+    "body": ""
+  }
+},
+{
+  "model": "modelsearch.indexentry",
+  "pk": 47,
+  "fields": {
+    "content_type": [
+      "home",
+      "textpage"
+    ],
+    "object_id": "4",
+    "title_norm": 1.0555555555555556,
+    "autocomplete": "'policy':2 'privacy':1",
+    "title": "'polici':2B 'privaci':1B",
+    "body": ""
+  }
+},
+{
+  "model": "modelsearch.indexentry",
+  "pk": 50,
+  "fields": {
+    "content_type": [
+      "home",
+      "textpage"
+    ],
+    "object_id": "5",
+    "title_norm": 1.0555555555555556,
+    "autocomplete": "'of':2 'service':3 'terms':1",
+    "title": "'servic':3B 'term':1B",
+    "body": ""
+  }
+},
+{
+  "model": "wagtailcore.pagesubscription",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "su"
+    ],
+    "page": 2,
+    "comment_notifications": false
+  }
+},
+{
+  "model": "wagtailcore.pagesubscription",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "su"
+    ],
+    "page": 3,
+    "comment_notifications": true
+  }
+},
+{
+  "model": "wagtailcore.pagesubscription",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "su"
+    ],
+    "page": 4,
+    "comment_notifications": true
+  }
+},
+{
+  "model": "wagtailcore.pagesubscription",
+  "pk": 4,
+  "fields": {
+    "user": [
+      "su"
+    ],
+    "page": 5,
+    "comment_notifications": true
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 1,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2026-01-15T17:26:08.982Z",
+    "uuid": "b573a9be-a298-4f58-b141-2b14d248d0d6",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 2,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-15T17:26:09.120Z",
+    "uuid": "b573a9be-a298-4f58-b141-2b14d248d0d6",
+    "user": [
+      "su"
+    ],
+    "revision": 1,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 3,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2026-01-15T17:26:09.222Z",
+    "uuid": "b573a9be-a298-4f58-b141-2b14d248d0d6",
+    "user": [
+      "su"
+    ],
+    "revision": 1,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 4,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-15T17:41:53.903Z",
+    "uuid": "c9d1d0f6-98c4-4eec-b269-8424990d054f",
+    "user": [
+      "su"
+    ],
+    "revision": 2,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 5,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2026-01-15T17:41:53.979Z",
+    "uuid": "c9d1d0f6-98c4-4eec-b269-8424990d054f",
+    "user": [
+      "su"
+    ],
+    "revision": 2,
+    "content_changed": false,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 6,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-15T17:55:38.065Z",
+    "uuid": "8a066992-04c5-43f9-9b22-12b1fefb2fd7",
+    "user": [
+      "su"
+    ],
+    "revision": 3,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 7,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2026-01-15T17:55:38.135Z",
+    "uuid": "8a066992-04c5-43f9-9b22-12b1fefb2fd7",
+    "user": [
+      "su"
+    ],
+    "revision": 3,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 8,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-15T18:08:35.800Z",
+    "uuid": "8027d96a-7430-4d1c-9c3d-489878ee1c42",
+    "user": [
+      "su"
+    ],
+    "revision": 4,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 9,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2026-01-15T18:08:35.919Z",
+    "uuid": "8027d96a-7430-4d1c-9c3d-489878ee1c42",
+    "user": [
+      "su"
+    ],
+    "revision": 4,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 10,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-15T18:28:12.573Z",
+    "uuid": "472a7fcf-9ebe-4fe5-ab07-700d978557b5",
+    "user": [
+      "su"
+    ],
+    "revision": 5,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 11,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2026-01-15T18:28:12.645Z",
+    "uuid": "472a7fcf-9ebe-4fe5-ab07-700d978557b5",
+    "user": [
+      "su"
+    ],
+    "revision": 5,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 12,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-15T22:39:41.038Z",
+    "uuid": "6ec27369-990b-4055-907b-74a6a7fd9431",
+    "user": [
+      "su"
+    ],
+    "revision": 6,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 13,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2026-01-15T22:39:41.146Z",
+    "uuid": "6ec27369-990b-4055-907b-74a6a7fd9431",
+    "user": [
+      "su"
+    ],
+    "revision": 6,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 14,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-15T22:47:35.415Z",
+    "uuid": "100a6efb-c211-4e05-ae1e-fda2d59886c2",
+    "user": [
+      "su"
+    ],
+    "revision": 7,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 15,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2026-01-15T22:47:35.488Z",
+    "uuid": "100a6efb-c211-4e05-ae1e-fda2d59886c2",
+    "user": [
+      "su"
+    ],
+    "revision": 7,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 16,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-15T23:00:31.301Z",
+    "uuid": "e89b459e-ccc2-4e4a-b9cc-43706ed60e00",
+    "user": [
+      "su"
+    ],
+    "revision": 8,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 17,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2026-01-15T23:00:31.374Z",
+    "uuid": "e89b459e-ccc2-4e4a-b9cc-43706ed60e00",
+    "user": [
+      "su"
+    ],
+    "revision": 8,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 18,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-15T23:01:45.182Z",
+    "uuid": "902aacb9-80eb-4483-9629-325a60adec13",
+    "user": [
+      "su"
+    ],
+    "revision": 9,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 19,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2026-01-15T23:01:45.249Z",
+    "uuid": "902aacb9-80eb-4483-9629-325a60adec13",
+    "user": [
+      "su"
+    ],
+    "revision": 9,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 20,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-16T18:25:16.287Z",
+    "uuid": "a23071ee-8fed-4189-958f-9f2712f1a4fe",
+    "user": [
+      "su"
+    ],
+    "revision": 10,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 21,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2026-01-16T18:25:16.353Z",
+    "uuid": "a23071ee-8fed-4189-958f-9f2712f1a4fe",
+    "user": [
+      "su"
+    ],
+    "revision": 10,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 22,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-16T18:38:36.512Z",
+    "uuid": "0250ccbc-37db-4917-9fce-d1a8465dbb2c",
+    "user": [
+      "su"
+    ],
+    "revision": 11,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 23,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2026-01-16T18:38:36.572Z",
+    "uuid": "0250ccbc-37db-4917-9fce-d1a8465dbb2c",
+    "user": [
+      "su"
+    ],
+    "revision": 11,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 24,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-16T20:59:09.422Z",
+    "uuid": "2f0bc5c1-a87b-4857-a051-b2d6d8c3aa9c",
+    "user": [
+      "su"
+    ],
+    "revision": 12,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 25,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2026-01-16T20:59:09.476Z",
+    "uuid": "2f0bc5c1-a87b-4857-a051-b2d6d8c3aa9c",
+    "user": [
+      "su"
+    ],
+    "revision": 12,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 26,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-16T21:13:09.068Z",
+    "uuid": "c27be561-6ee7-44b7-a072-493684b09954",
+    "user": [
+      "su"
+    ],
+    "revision": 13,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 27,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2026-01-16T21:13:09.192Z",
+    "uuid": "c27be561-6ee7-44b7-a072-493684b09954",
+    "user": [
+      "su"
+    ],
+    "revision": 13,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 28,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-16T21:38:32.214Z",
+    "uuid": "6a347300-050d-46d9-8403-63f5e01e03bd",
+    "user": [
+      "su"
+    ],
+    "revision": 14,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 29,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2026-01-16T21:38:32.297Z",
+    "uuid": "6a347300-050d-46d9-8403-63f5e01e03bd",
+    "user": [
+      "su"
+    ],
+    "revision": 14,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 30,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-16T21:53:42.104Z",
+    "uuid": "ef3b74bd-f7a1-4161-b6fa-a0c81bbe3dcf",
+    "user": [
+      "su"
+    ],
+    "revision": 15,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 31,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-16T21:53:46.784Z",
+    "uuid": "9ca83c11-8b8d-49a5-9c5d-f7666a00a4f9",
+    "user": [
+      "su"
+    ],
+    "revision": 16,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 32,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2026-01-16T21:53:46.876Z",
+    "uuid": "9ca83c11-8b8d-49a5-9c5d-f7666a00a4f9",
+    "user": [
+      "su"
+    ],
+    "revision": 16,
+    "content_changed": false,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 33,
+  "fields": {
+    "content_type": [
+      "home",
+      "textpage"
+    ],
+    "label": "Privacy Policy",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2026-01-16T22:16:12.674Z",
+    "uuid": "da2383bd-d328-4e17-ab98-fb0a59d2b08d",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 34,
+  "fields": {
+    "content_type": [
+      "home",
+      "textpage"
+    ],
+    "label": "Privacy Policy",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-16T22:16:12.752Z",
+    "uuid": "da2383bd-d328-4e17-ab98-fb0a59d2b08d",
+    "user": [
+      "su"
+    ],
+    "revision": 17,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 35,
+  "fields": {
+    "content_type": [
+      "home",
+      "textpage"
+    ],
+    "label": "Privacy Policy",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2026-01-16T22:16:12.817Z",
+    "uuid": "da2383bd-d328-4e17-ab98-fb0a59d2b08d",
+    "user": [
+      "su"
+    ],
+    "revision": 17,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 36,
+  "fields": {
+    "content_type": [
+      "home",
+      "textpage"
+    ],
+    "label": "Terms of Service",
+    "action": "wagtail.create",
+    "data": {},
+    "timestamp": "2026-01-16T22:20:47.105Z",
+    "uuid": "7ecf82a1-c4bb-4092-9983-62fcaafda8b6",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 37,
+  "fields": {
+    "content_type": [
+      "home",
+      "textpage"
+    ],
+    "label": "Terms of Service",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-16T22:20:47.196Z",
+    "uuid": "7ecf82a1-c4bb-4092-9983-62fcaafda8b6",
+    "user": [
+      "su"
+    ],
+    "revision": 18,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 38,
+  "fields": {
+    "content_type": [
+      "home",
+      "textpage"
+    ],
+    "label": "Terms of Service",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2026-01-16T22:20:47.328Z",
+    "uuid": "7ecf82a1-c4bb-4092-9983-62fcaafda8b6",
+    "user": [
+      "su"
+    ],
+    "revision": 18,
+    "content_changed": true,
+    "deleted": false,
+    "page": 5
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 39,
+  "fields": {
+    "content_type": [
+      "home",
+      "textpage"
+    ],
+    "label": "Privacy Policy",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-16T22:20:59.384Z",
+    "uuid": "a09f0035-5735-4ebc-bab2-300e78638fd4",
+    "user": [
+      "su"
+    ],
+    "revision": 19,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 40,
+  "fields": {
+    "content_type": [
+      "home",
+      "textpage"
+    ],
+    "label": "Privacy Policy",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2026-01-16T22:20:59.493Z",
+    "uuid": "a09f0035-5735-4ebc-bab2-300e78638fd4",
+    "user": [
+      "su"
+    ],
+    "revision": 19,
+    "content_changed": true,
+    "deleted": false,
+    "page": 4
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 41,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-16T22:40:39.713Z",
+    "uuid": "14d15a51-ba30-4453-85ed-f9da919d9378",
+    "user": [
+      "su"
+    ],
+    "revision": 20,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.pagelogentry",
+  "pk": 42,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.publish",
+    "data": {},
+    "timestamp": "2026-01-16T22:40:39.809Z",
+    "uuid": "14d15a51-ba30-4453-85ed-f9da919d9378",
+    "user": [
+      "su"
+    ],
+    "revision": 20,
+    "content_changed": true,
+    "deleted": false,
+    "page": 3
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 1,
+  "fields": {
+    "group": [
+      "Moderators"
+    ],
+    "page": 1,
+    "permission": [
+      "add_page",
+      "wagtailcore",
+      "page"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 2,
+  "fields": {
+    "group": [
+      "Moderators"
+    ],
+    "page": 1,
+    "permission": [
+      "change_page",
+      "wagtailcore",
+      "page"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 3,
+  "fields": {
+    "group": [
+      "Moderators"
+    ],
+    "page": 1,
+    "permission": [
+      "publish_page",
+      "wagtailcore",
+      "page"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 4,
+  "fields": {
+    "group": [
+      "Editors"
+    ],
+    "page": 1,
+    "permission": [
+      "add_page",
+      "wagtailcore",
+      "page"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 5,
+  "fields": {
+    "group": [
+      "Editors"
+    ],
+    "page": 1,
+    "permission": [
+      "change_page",
+      "wagtailcore",
+      "page"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 6,
+  "fields": {
+    "group": [
+      "Moderators"
+    ],
+    "page": 1,
+    "permission": [
+      "lock_page",
+      "wagtailcore",
+      "page"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 7,
+  "fields": {
+    "group": [
+      "Moderators"
+    ],
+    "page": 1,
+    "permission": [
+      "unlock_page",
+      "wagtailcore",
+      "page"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 1,
+  "fields": {
+    "path": "0001",
+    "depth": 1,
+    "numchild": 1,
+    "translation_key": "f9dfd3d3-2015-41f8-ae71-6af217407581",
+    "locale": 1,
+    "latest_revision": null,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": null,
+    "last_published_at": null,
+    "live_revision": null,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Root",
+    "draft_title": "Root",
+    "slug": "root",
+    "content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "url_path": "/",
+    "owner": null,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": null,
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 2,
+  "fields": {
+    "path": "00010001",
+    "depth": 2,
+    "numchild": 1,
+    "translation_key": "cb8b094d-f7fd-4165-aa35-500e293f4ace",
+    "locale": 1,
+    "latest_revision": null,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": null,
+    "last_published_at": null,
+    "live_revision": null,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Welcome to your new Wagtail site!",
+    "draft_title": "Welcome to your new Wagtail site!",
+    "slug": "home",
+    "content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "url_path": "/home/",
+    "owner": null,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": null,
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 3,
+  "fields": {
+    "path": "000100010001",
+    "depth": 3,
+    "numchild": 2,
+    "translation_key": "423360ad-0ed8-4965-b17e-84510f2d73e0",
+    "locale": 1,
+    "latest_revision": 20,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2026-01-15T17:26:09.152Z",
+    "last_published_at": "2026-01-16T22:40:39.737Z",
+    "live_revision": 20,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "TEXARINE™",
+    "draft_title": "TEXARINE™",
+    "slug": "texarine",
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "url_path": "/home/texarine/",
+    "owner": [
+      "su"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2026-01-16T22:40:39.669Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 4,
+  "fields": {
+    "path": "0001000100010001",
+    "depth": 4,
+    "numchild": 0,
+    "translation_key": "d93c5e6f-5133-4e4d-9b66-e76d30bd807c",
+    "locale": 1,
+    "latest_revision": 19,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2026-01-16T22:16:12.768Z",
+    "last_published_at": "2026-01-16T22:20:59.407Z",
+    "live_revision": 19,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Privacy Policy",
+    "draft_title": "Privacy Policy",
+    "slug": "privacy-policy",
+    "content_type": [
+      "home",
+      "textpage"
+    ],
+    "url_path": "/home/texarine/privacy-policy/",
+    "owner": [
+      "su"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2026-01-16T22:20:59.334Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 5,
+  "fields": {
+    "path": "0001000100010002",
+    "depth": 4,
+    "numchild": 0,
+    "translation_key": "0d4243fc-2174-4d8c-a5f0-f5db75c14682",
+    "locale": 1,
+    "latest_revision": 18,
+    "live": true,
+    "has_unpublished_changes": false,
+    "first_published_at": "2026-01-16T22:20:47.237Z",
+    "last_published_at": "2026-01-16T22:20:47.237Z",
+    "live_revision": 18,
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "locked_at": null,
+    "locked_by": null,
+    "title": "Terms of Service",
+    "draft_title": "Terms of Service",
+    "slug": "terms-of-service",
+    "content_type": [
+      "home",
+      "textpage"
+    ],
+    "url_path": "/home/texarine/terms-of-service/",
+    "owner": [
+      "su"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "latest_revision_created_at": "2026-01-16T22:20:47.145Z",
+    "alias_of": null
+  }
+},
+{
+  "model": "wagtailcore.groupapprovaltask",
+  "pk": 1,
+  "fields": {
+    "task_ptr": 1,
+    "groups": [
+      [
+        "Moderators"
+      ]
+    ]
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "fields": {
+    "group": [
+      "Moderators"
+    ],
+    "collection": 1,
+    "permission": [
+      "add_image",
+      "wagtailimages",
+      "image"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "fields": {
+    "group": [
+      "Editors"
+    ],
+    "collection": 1,
+    "permission": [
+      "add_image",
+      "wagtailimages",
+      "image"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "fields": {
+    "group": [
+      "Moderators"
+    ],
+    "collection": 1,
+    "permission": [
+      "change_image",
+      "wagtailimages",
+      "image"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "fields": {
+    "group": [
+      "Editors"
+    ],
+    "collection": 1,
+    "permission": [
+      "change_image",
+      "wagtailimages",
+      "image"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "fields": {
+    "group": [
+      "Moderators"
+    ],
+    "collection": 1,
+    "permission": [
+      "choose_image",
+      "wagtailimages",
+      "image"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "fields": {
+    "group": [
+      "Editors"
+    ],
+    "collection": 1,
+    "permission": [
+      "choose_image",
+      "wagtailimages",
+      "image"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "fields": {
+    "group": [
+      "Moderators"
+    ],
+    "collection": 1,
+    "permission": [
+      "add_document",
+      "wagtaildocs",
+      "document"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "fields": {
+    "group": [
+      "Editors"
+    ],
+    "collection": 1,
+    "permission": [
+      "add_document",
+      "wagtaildocs",
+      "document"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "fields": {
+    "group": [
+      "Moderators"
+    ],
+    "collection": 1,
+    "permission": [
+      "change_document",
+      "wagtaildocs",
+      "document"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "fields": {
+    "group": [
+      "Editors"
+    ],
+    "collection": 1,
+    "permission": [
+      "change_document",
+      "wagtaildocs",
+      "document"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "fields": {
+    "group": [
+      "Moderators"
+    ],
+    "collection": 1,
+    "permission": [
+      "choose_document",
+      "wagtaildocs",
+      "document"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "fields": {
+    "group": [
+      "Editors"
+    ],
+    "collection": 1,
+    "permission": [
+      "choose_document",
+      "wagtaildocs",
+      "document"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 1,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2026-01-15T17:26:09.075Z",
+    "user": [
+      "su"
+    ],
+    "object_str": "TEXARINE™",
+    "content": {
+      "pk": 3,
+      "body": "[{\"type\": \"hero\", \"value\": {\"image\": 3, \"title\": \"TEXARINE\\u2122\", \"subtitle\": \"Cognitive Clarity Formula. Non-Nicotine sublingual tablets powered by Gabadine-100\\u2122. Instant focus in 5 minutes.\", \"button_text\": \"POWER YOUR FOCUS\", \"button_url\": \"\"}, \"id\": \"06582231-3036-40db-b9b1-1401cf0a2727\"}]",
+      "live": true,
+      "path": "000100010001",
+      "slug": "texarine",
+      "depth": 3,
+      "owner": 2,
+      "title": "TEXARINE™",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/texarine/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "TEXARINE™",
+      "content_type": 29,
+      "live_revision": null,
+      "show_in_menus": false,
+      "latest_revision": null,
+      "translation_key": "423360ad-0ed8-4965-b17e-84510f2d73e0",
+      "last_published_at": null,
+      "first_published_at": null,
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": null
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 2,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2026-01-15T17:41:53.864Z",
+    "user": [
+      "su"
+    ],
+    "object_str": "TEXARINE™",
+    "content": {
+      "pk": 3,
+      "body": "[{\"type\": \"hero\", \"value\": {\"image\": 3, \"title\": \"TEXARINE\\u2122\", \"subtitle\": \"Cognitive Clarity Formula. Non-Nicotine sublingual tablets powered by Gabadine-100\\u2122. Instant focus in 5 minutes.\", \"button_text\": \"POWER YOUR FOCUS\", \"button_url\": \"\"}, \"id\": \"06582231-3036-40db-b9b1-1401cf0a2727\"}]",
+      "live": true,
+      "path": "000100010001",
+      "slug": "texarine",
+      "depth": 3,
+      "owner": 2,
+      "title": "TEXARINE™",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/texarine/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "TEXARINE™",
+      "content_type": 29,
+      "live_revision": 1,
+      "show_in_menus": false,
+      "latest_revision": 1,
+      "translation_key": "423360ad-0ed8-4965-b17e-84510f2d73e0",
+      "last_published_at": "2026-01-15T17:26:09.152Z",
+      "first_published_at": "2026-01-15T17:26:09.152Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2026-01-15T17:26:09.075Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 3,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2026-01-15T17:55:38.027Z",
+    "user": [
+      "su"
+    ],
+    "object_str": "TEXARINE™",
+    "content": {
+      "pk": 3,
+      "body": "[{\"type\": \"hero\", \"value\": {\"image\": 3, \"title\": \"TEXARINE\\u2122\", \"subtitle\": \"Cognitive Clarity Formula. Non-Nicotine sublingual tablets powered by Gabadine-100\\u2122. Instant focus in 5 minutes.\", \"button_text\": \"POWER YOUR FOCUS\", \"button_url\": \"#\"}, \"id\": \"06582231-3036-40db-b9b1-1401cf0a2727\"}]",
+      "live": true,
+      "path": "000100010001",
+      "slug": "texarine",
+      "depth": 3,
+      "owner": 2,
+      "title": "TEXARINE™",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/texarine/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "TEXARINE™",
+      "content_type": 29,
+      "live_revision": 2,
+      "show_in_menus": false,
+      "latest_revision": 2,
+      "translation_key": "423360ad-0ed8-4965-b17e-84510f2d73e0",
+      "last_published_at": "2026-01-15T17:41:53.928Z",
+      "first_published_at": "2026-01-15T17:26:09.152Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2026-01-15T17:41:53.864Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 4,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2026-01-15T18:08:35.754Z",
+    "user": [
+      "su"
+    ],
+    "object_str": "TEXARINE™",
+    "content": {
+      "pk": 3,
+      "body": "[{\"type\": \"hero\", \"value\": {\"image\": 3, \"title\": \"TEXARINE\\u2122\", \"subtitle\": \"Cognitive Clarity Formula. Non-Nicotine sublingual tablets powered by Gabadine-100\\u2122. Instant focus in 5 minutes.\", \"button_text\": \"POWER YOUR FOCUS\", \"button_url\": \"#\"}, \"id\": \"06582231-3036-40db-b9b1-1401cf0a2727\"}, {\"type\": \"benefits\", \"value\": {\"title\": \"WHY TEXARINE?\", \"items\": [{\"type\": \"item\", \"value\": {\"icon\": \"\\u26a1\", \"title\": \"FAST ACTING\", \"text\": \"Sublingual absorption delivers focus in 5 minutes. Bypasses digestion for instant clarity.\"}, \"id\": \"8f265835-9356-4fc2-85f8-79ba818ce0d6\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83d\\udee1\\ufe0f\", \"title\": \"NICOTINE FREE\", \"text\": \"Powered by Gabadine-100\\u2122. No tobacco, no nicotine, fully compliant with non-tobacco regulations.\"}, \"id\": \"9219a553-921d-44e6-ae5e-ea79af0988ed\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83e\\udde0\", \"title\": \"NO CRASH\", \"text\": \"Enriched with GABA to smooth out the stimulation. Pure energy without the jitters or anxiety.\"}, \"id\": \"d4c73a7f-bed2-4249-810b-8a4600153c8e\"}]}, \"id\": \"c234e834-95d1-4445-b3bf-81fdfdef6be8\"}]",
+      "live": true,
+      "path": "000100010001",
+      "slug": "texarine",
+      "depth": 3,
+      "owner": 2,
+      "title": "TEXARINE™",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/texarine/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "TEXARINE™",
+      "content_type": 29,
+      "live_revision": 3,
+      "show_in_menus": false,
+      "latest_revision": 3,
+      "translation_key": "423360ad-0ed8-4965-b17e-84510f2d73e0",
+      "last_published_at": "2026-01-15T17:55:38.086Z",
+      "first_published_at": "2026-01-15T17:26:09.152Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2026-01-15T17:55:38.027Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 5,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2026-01-15T18:28:12.523Z",
+    "user": [
+      "su"
+    ],
+    "object_str": "TEXARINE™",
+    "content": {
+      "pk": 3,
+      "body": "[{\"type\": \"hero\", \"value\": {\"image\": 3, \"title\": \"TEXARINE\", \"subtitle\": \"Cognitive Clarity Formula. Non-Nicotine sublingual tablets powered by Gabadine-100\\u2122. Instant focus in 5 minutes.\", \"button_text\": \"POWER YOUR FOCUS\", \"button_url\": \"#\"}, \"id\": \"06582231-3036-40db-b9b1-1401cf0a2727\"}, {\"type\": \"benefits\", \"value\": {\"title\": \"WHY TEXARINE?\", \"items\": [{\"type\": \"item\", \"value\": {\"icon\": \"\\u26a1\", \"title\": \"FAST ACTING\", \"text\": \"Sublingual absorption delivers focus in 5 minutes. Bypasses digestion for instant clarity.\"}, \"id\": \"8f265835-9356-4fc2-85f8-79ba818ce0d6\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83d\\udee1\\ufe0f\", \"title\": \"NICOTINE FREE\", \"text\": \"Powered by Gabadine-100\\u2122. No tobacco, no nicotine, fully compliant with non-tobacco regulations.\"}, \"id\": \"9219a553-921d-44e6-ae5e-ea79af0988ed\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83e\\udde0\", \"title\": \"NO CRASH\", \"text\": \"Enriched with GABA to smooth out the stimulation. Pure energy without the jitters or anxiety.\"}, \"id\": \"d4c73a7f-bed2-4249-810b-8a4600153c8e\"}]}, \"id\": \"c234e834-95d1-4445-b3bf-81fdfdef6be8\"}]",
+      "live": true,
+      "path": "000100010001",
+      "slug": "texarine",
+      "depth": 3,
+      "owner": 2,
+      "title": "TEXARINE™",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/texarine/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "TEXARINE™",
+      "content_type": 29,
+      "live_revision": 4,
+      "show_in_menus": false,
+      "latest_revision": 4,
+      "translation_key": "423360ad-0ed8-4965-b17e-84510f2d73e0",
+      "last_published_at": "2026-01-15T18:08:35.826Z",
+      "first_published_at": "2026-01-15T17:26:09.152Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2026-01-15T18:08:35.754Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 6,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2026-01-15T22:39:40.994Z",
+    "user": [
+      "su"
+    ],
+    "object_str": "TEXARINE™",
+    "content": {
+      "pk": 3,
+      "body": "[{\"type\": \"hero\", \"value\": {\"image\": 3, \"title\": \"TEXARINE\", \"subtitle\": \"Cognitive Clarity Formula. Non-Nicotine sublingual tablets powered by Gabadine-100\\u2122. Instant focus in 5 minutes.\", \"button_text\": \"POWER YOUR FOCUS\", \"button_url\": \"#\"}, \"id\": \"06582231-3036-40db-b9b1-1401cf0a2727\"}, {\"type\": \"benefits\", \"value\": {\"title\": \"WHY TEXARINE?\", \"items\": [{\"type\": \"item\", \"value\": {\"icon\": \"\\u26a1\", \"title\": \"FAST ACTING\", \"text\": \"Sublingual absorption delivers focus in 5 minutes. Bypasses digestion for instant clarity.\"}, \"id\": \"8f265835-9356-4fc2-85f8-79ba818ce0d6\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83d\\udee1\\ufe0f\", \"title\": \"NICOTINE FREE\", \"text\": \"Powered by Gabadine-100\\u2122. No tobacco, no nicotine, fully compliant with non-tobacco regulations.\"}, \"id\": \"9219a553-921d-44e6-ae5e-ea79af0988ed\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83e\\udde0\", \"title\": \"NO CRASH\", \"text\": \"Enriched with GABA to smooth out the stimulation. Pure energy without the jitters or anxiety.\"}, \"id\": \"d4c73a7f-bed2-4249-810b-8a4600153c8e\"}]}, \"id\": \"c234e834-95d1-4445-b3bf-81fdfdef6be8\"}, {\"type\": \"feature\", \"value\": {\"heading\": \"THE SCIENCE OF GABADINE-100\\u2122\", \"description\": \"<p data-block-key=\\\"i2ukt\\\"><b>Texarine is not just energy. It is clarity.</b></p><p data-block-key=\\\"dlr5\\\">At the core of our formula lies <b>Gabadine-100\\u2122</b> \\u2014 a proprietary molecular complex engineered in Texas. Unlike caffeine, which borrows energy from tomorrow, Gabadine-100\\u2122 activates your brain's cholinergic receptors for instant focus, while simultaneously engaging GABA pathways to maintain total calm.</p><p data-block-key=\\\"b3rfg\\\">The result? A flow state that lasts. No jitters. No crash. Just pure cognitive dominance.</p>\", \"image\": 4, \"reverse_layout\": true, \"button_text\": \"OUR TECHNOLOGY\", \"button_url\": \"#\"}, \"id\": \"5fd57104-49eb-4ebb-ad9e-4308b291e390\"}]",
+      "live": true,
+      "path": "000100010001",
+      "slug": "texarine",
+      "depth": 3,
+      "owner": 2,
+      "title": "TEXARINE™",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/texarine/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "TEXARINE™",
+      "content_type": 29,
+      "live_revision": 5,
+      "show_in_menus": false,
+      "latest_revision": 5,
+      "translation_key": "423360ad-0ed8-4965-b17e-84510f2d73e0",
+      "last_published_at": "2026-01-15T18:28:12.594Z",
+      "first_published_at": "2026-01-15T17:26:09.152Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2026-01-15T18:28:12.523Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 7,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2026-01-15T22:47:35.376Z",
+    "user": [
+      "su"
+    ],
+    "object_str": "TEXARINE™",
+    "content": {
+      "pk": 3,
+      "body": "[{\"type\": \"hero\", \"value\": {\"image\": 3, \"title\": \"TEXARINE\", \"subtitle\": \"Cognitive Clarity Formula. Non-Nicotine sublingual tablets powered by Gabadine-100\\u2122. Instant focus in 5 minutes.\", \"button_text\": \"POWER YOUR FOCUS\", \"button_url\": \"#\"}, \"id\": \"06582231-3036-40db-b9b1-1401cf0a2727\"}, {\"type\": \"benefits\", \"value\": {\"title\": \"WHY TEXARINE?\", \"items\": [{\"type\": \"item\", \"value\": {\"icon\": \"\\u26a1\", \"title\": \"FAST ACTING\", \"text\": \"Sublingual absorption delivers focus in 5 minutes. Bypasses digestion for instant clarity.\"}, \"id\": \"8f265835-9356-4fc2-85f8-79ba818ce0d6\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83d\\udee1\\ufe0f\", \"title\": \"NICOTINE FREE\", \"text\": \"Powered by Gabadine-100\\u2122. No tobacco, no nicotine, fully compliant with non-tobacco regulations.\"}, \"id\": \"9219a553-921d-44e6-ae5e-ea79af0988ed\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83e\\udde0\", \"title\": \"NO CRASH\", \"text\": \"Enriched with GABA to smooth out the stimulation. Pure energy without the jitters or anxiety.\"}, \"id\": \"d4c73a7f-bed2-4249-810b-8a4600153c8e\"}]}, \"id\": \"c234e834-95d1-4445-b3bf-81fdfdef6be8\"}, {\"type\": \"feature\", \"value\": {\"heading\": \"THE SCIENCE OF GABADINE-100\\u2122\", \"description\": \"<p data-block-key=\\\"i2ukt\\\"><b>Texarine is not just energy. It is clarity.</b></p><p data-block-key=\\\"dlr5\\\">At the core of our formula lies <b>Gabadine-100\\u2122</b> \\u2014 a proprietary molecular complex engineered in the USA. Unlike caffeine, which borrows energy from tomorrow, Gabadine-100\\u2122 activates your brain's cholinergic receptors for instant focus, while simultaneously engaging GABA pathways to maintain total calm.</p><p data-block-key=\\\"b3rfg\\\">The result? A flow state that lasts. No jitters. No crash. Just pure cognitive dominance.</p>\", \"image\": 4, \"reverse_layout\": true, \"button_text\": \"OUR TECHNOLOGY\", \"button_url\": \"#\"}, \"id\": \"5fd57104-49eb-4ebb-ad9e-4308b291e390\"}]",
+      "live": true,
+      "path": "000100010001",
+      "slug": "texarine",
+      "depth": 3,
+      "owner": 2,
+      "title": "TEXARINE™",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/texarine/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "TEXARINE™",
+      "content_type": 29,
+      "live_revision": 6,
+      "show_in_menus": false,
+      "latest_revision": 6,
+      "translation_key": "423360ad-0ed8-4965-b17e-84510f2d73e0",
+      "last_published_at": "2026-01-15T22:39:41.064Z",
+      "first_published_at": "2026-01-15T17:26:09.152Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2026-01-15T22:39:40.994Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 8,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2026-01-15T23:00:31.270Z",
+    "user": [
+      "su"
+    ],
+    "object_str": "TEXARINE™",
+    "content": {
+      "pk": 3,
+      "body": "[{\"type\": \"hero\", \"value\": {\"image\": 3, \"title\": \"TEXARINE\", \"subtitle\": \"Cognitive Clarity Formula. Non-Nicotine sublingual tablets powered by Gabadine-100\\u2122. Instant focus in 5 minutes.\", \"button_text\": \"POWER YOUR FOCUS\", \"button_url\": \"#\"}, \"id\": \"06582231-3036-40db-b9b1-1401cf0a2727\"}, {\"type\": \"benefits\", \"value\": {\"title\": \"WHY TEXARINE?\", \"items\": [{\"type\": \"item\", \"value\": {\"icon\": \"\\u26a1\", \"title\": \"FAST ACTING\", \"text\": \"Sublingual absorption delivers focus in 5 minutes. Bypasses digestion for instant clarity.\"}, \"id\": \"8f265835-9356-4fc2-85f8-79ba818ce0d6\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83d\\udee1\\ufe0f\", \"title\": \"NICOTINE FREE\", \"text\": \"Powered by Gabadine-100\\u2122. No tobacco, no nicotine, fully compliant with non-tobacco regulations.\"}, \"id\": \"9219a553-921d-44e6-ae5e-ea79af0988ed\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83e\\udde0\", \"title\": \"NO CRASH\", \"text\": \"Enriched with GABA to smooth out the stimulation. Pure energy without the jitters or anxiety.\"}, \"id\": \"d4c73a7f-bed2-4249-810b-8a4600153c8e\"}]}, \"id\": \"c234e834-95d1-4445-b3bf-81fdfdef6be8\"}, {\"type\": \"feature\", \"value\": {\"heading\": \"THE SCIENCE OF GABADINE-100\\u2122\", \"description\": \"<p data-block-key=\\\"i2ukt\\\"><b>Texarine is not just energy. It is clarity.</b></p><p data-block-key=\\\"dlr5\\\">At the core of our formula lies <b>Gabadine-100\\u2122</b> \\u2014 a proprietary molecular complex engineered in the USA. Unlike caffeine, which borrows energy from tomorrow, Gabadine-100\\u2122 activates your brain's cholinergic receptors for instant focus, while simultaneously engaging GABA pathways to maintain total calm.</p><p data-block-key=\\\"b3rfg\\\">The result? A flow state that lasts. No jitters. No crash. Just pure cognitive dominance.</p>\", \"image\": 4, \"reverse_layout\": true, \"button_text\": \"OUR TECHNOLOGY\", \"button_url\": \"#\"}, \"id\": \"5fd57104-49eb-4ebb-ad9e-4308b291e390\"}, {\"type\": \"product\", \"value\": {\"heading\": \"TEXARINE\\u2122 STARTER PACK\", \"price\": \"$7.99\", \"description\": \"The ultimate cognitive toolkit. 20 sublingual tablets designed for instant clarity and sustained flow.\", \"image\": 5, \"features\": [{\"type\": \"item\", \"value\": \"20 Tablets per pack\", \"id\": \"8b7840c4-9e09-4613-8efd-548ce1cf60aa\"}, {\"type\": \"item\", \"value\": \"Peppermint Blend Flavor\", \"id\": \"794361f3-68ce-4c5e-81e6-0c2ff628b1d1\"}, {\"type\": \"item\", \"value\": \"2mg Gabadine-100\\u2122 per serving\", \"id\": \"b6f1dfd8-560c-4fb6-9cec-9cf819fd3763\"}, {\"type\": \"item\", \"value\": \"Zero Sugar\", \"id\": \"7cf138b0-0a1e-4686-b65d-25dc5fa330a6\"}], \"button_text\": \"ADD TO CART\", \"button_url\": \"#\"}, \"id\": \"2074a37b-628b-4801-bf80-e048c6ebb115\"}]",
+      "live": true,
+      "path": "000100010001",
+      "slug": "texarine",
+      "depth": 3,
+      "owner": 2,
+      "title": "TEXARINE™",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/texarine/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "TEXARINE™",
+      "content_type": 29,
+      "live_revision": 7,
+      "show_in_menus": false,
+      "latest_revision": 7,
+      "translation_key": "423360ad-0ed8-4965-b17e-84510f2d73e0",
+      "last_published_at": "2026-01-15T22:47:35.437Z",
+      "first_published_at": "2026-01-15T17:26:09.152Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2026-01-15T22:47:35.376Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 9,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2026-01-15T23:01:45.138Z",
+    "user": [
+      "su"
+    ],
+    "object_str": "TEXARINE™",
+    "content": {
+      "pk": 3,
+      "body": "[{\"type\": \"hero\", \"value\": {\"image\": 3, \"title\": \"TEXARINE\", \"subtitle\": \"Cognitive Clarity Formula. Non-Nicotine sublingual tablets powered by Gabadine-100\\u2122. Instant focus in 5 minutes.\", \"button_text\": \"POWER YOUR FOCUS\", \"button_url\": \"#\"}, \"id\": \"06582231-3036-40db-b9b1-1401cf0a2727\"}, {\"type\": \"benefits\", \"value\": {\"title\": \"WHY TEXARINE?\", \"items\": [{\"type\": \"item\", \"value\": {\"icon\": \"\\u26a1\", \"title\": \"FAST ACTING\", \"text\": \"Sublingual absorption delivers focus in 5 minutes. Bypasses digestion for instant clarity.\"}, \"id\": \"8f265835-9356-4fc2-85f8-79ba818ce0d6\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83d\\udee1\\ufe0f\", \"title\": \"NICOTINE FREE\", \"text\": \"Powered by Gabadine-100\\u2122. No tobacco, no nicotine, fully compliant with non-tobacco regulations.\"}, \"id\": \"9219a553-921d-44e6-ae5e-ea79af0988ed\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83e\\udde0\", \"title\": \"NO CRASH\", \"text\": \"Enriched with GABA to smooth out the stimulation. Pure energy without the jitters or anxiety.\"}, \"id\": \"d4c73a7f-bed2-4249-810b-8a4600153c8e\"}]}, \"id\": \"c234e834-95d1-4445-b3bf-81fdfdef6be8\"}, {\"type\": \"feature\", \"value\": {\"heading\": \"THE SCIENCE OF GABADINE-100\\u2122\", \"description\": \"<p data-block-key=\\\"i2ukt\\\"><b>Texarine is not just energy. It is clarity.</b></p><p data-block-key=\\\"dlr5\\\">At the core of our formula lies <b>Gabadine-100\\u2122</b> \\u2014 a proprietary molecular complex engineered in the USA. Unlike caffeine, which borrows energy from tomorrow, Gabadine-100\\u2122 activates your brain's cholinergic receptors for instant focus, while simultaneously engaging GABA pathways to maintain total calm.</p><p data-block-key=\\\"b3rfg\\\">The result? A flow state that lasts. No jitters. No crash. Just pure cognitive dominance.</p>\", \"image\": 4, \"reverse_layout\": true, \"button_text\": \"OUR TECHNOLOGY\", \"button_url\": \"#\"}, \"id\": \"5fd57104-49eb-4ebb-ad9e-4308b291e390\"}, {\"type\": \"product\", \"value\": {\"heading\": \"TEXARINE\\u2122 STARTER PACK\", \"price\": \"$7.99\", \"description\": \"The ultimate cognitive toolkit. 20 sublingual tablets designed for instant clarity and sustained flow.\", \"image\": 5, \"features\": [{\"type\": \"item\", \"value\": \"20 Tablets per pack\", \"id\": \"8b7840c4-9e09-4613-8efd-548ce1cf60aa\"}, {\"type\": \"item\", \"value\": \"Peppermint Blend Flavor\", \"id\": \"794361f3-68ce-4c5e-81e6-0c2ff628b1d1\"}, {\"type\": \"item\", \"value\": \"5mg Gabadine-100\\u2122 per serving\", \"id\": \"b6f1dfd8-560c-4fb6-9cec-9cf819fd3763\"}, {\"type\": \"item\", \"value\": \"Zero Sugar\", \"id\": \"7cf138b0-0a1e-4686-b65d-25dc5fa330a6\"}], \"button_text\": \"ADD TO CART\", \"button_url\": \"#\"}, \"id\": \"2074a37b-628b-4801-bf80-e048c6ebb115\"}]",
+      "live": true,
+      "path": "000100010001",
+      "slug": "texarine",
+      "depth": 3,
+      "owner": 2,
+      "title": "TEXARINE™",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/texarine/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "TEXARINE™",
+      "content_type": 29,
+      "live_revision": 8,
+      "show_in_menus": false,
+      "latest_revision": 8,
+      "translation_key": "423360ad-0ed8-4965-b17e-84510f2d73e0",
+      "last_published_at": "2026-01-15T23:00:31.319Z",
+      "first_published_at": "2026-01-15T17:26:09.152Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2026-01-15T23:00:31.270Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 10,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2026-01-16T18:25:16.214Z",
+    "user": [
+      "su"
+    ],
+    "object_str": "TEXARINE™",
+    "content": {
+      "pk": 3,
+      "body": "[{\"type\": \"hero\", \"value\": {\"image\": 3, \"title\": \"TEXARINE\", \"subtitle\": \"Cognitive Clarity Formula. Non-Nicotine sublingual tablets powered by Gabadine-100\\u2122. Instant focus in 5 minutes.\", \"button_text\": \"POWER YOUR FOCUS\", \"button_url\": \"#\"}, \"id\": \"06582231-3036-40db-b9b1-1401cf0a2727\"}, {\"type\": \"benefits\", \"value\": {\"title\": \"WHY TEXARINE?\", \"items\": [{\"type\": \"item\", \"value\": {\"icon\": \"\\u26a1\", \"title\": \"FAST ACTING\", \"text\": \"Sublingual absorption delivers focus in 5 minutes. Bypasses digestion for instant clarity.\"}, \"id\": \"8f265835-9356-4fc2-85f8-79ba818ce0d6\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83d\\udee1\\ufe0f\", \"title\": \"NICOTINE FREE\", \"text\": \"Powered by Gabadine-100\\u2122. No tobacco, no nicotine, fully compliant with non-tobacco regulations.\"}, \"id\": \"9219a553-921d-44e6-ae5e-ea79af0988ed\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83e\\udde0\", \"title\": \"NO CRASH\", \"text\": \"Enriched with GABA to smooth out the stimulation. Pure energy without the jitters or anxiety.\"}, \"id\": \"d4c73a7f-bed2-4249-810b-8a4600153c8e\"}]}, \"id\": \"c234e834-95d1-4445-b3bf-81fdfdef6be8\"}, {\"type\": \"feature\", \"value\": {\"heading\": \"THE SCIENCE OF GABADINE-100\\u2122\", \"description\": \"<p data-block-key=\\\"i2ukt\\\"><b>Texarine is not just energy. It is clarity.</b></p><p data-block-key=\\\"dlr5\\\">At the core of our formula lies <b>Gabadine-100\\u2122</b> \\u2014 a proprietary molecular complex engineered in the USA. Unlike caffeine, which borrows energy from tomorrow, Gabadine-100\\u2122 activates your brain's cholinergic receptors for instant focus, while simultaneously engaging GABA pathways to maintain total calm.</p><p data-block-key=\\\"b3rfg\\\">The result? A flow state that lasts. No jitters. No crash. Just pure cognitive dominance.</p>\", \"image\": 4, \"reverse_layout\": true, \"button_text\": \"OUR TECHNOLOGY\", \"button_url\": \"#\"}, \"id\": \"5fd57104-49eb-4ebb-ad9e-4308b291e390\"}, {\"type\": \"product\", \"value\": {\"heading\": \"TEXARINE\\u2122 STARTER PACK\", \"price\": \"$7.99\", \"description\": \"The ultimate cognitive toolkit. 20 sublingual tablets designed for instant clarity and sustained flow.\", \"image\": 5, \"features\": [{\"type\": \"item\", \"value\": \"20 Tablets per pack\", \"id\": \"8b7840c4-9e09-4613-8efd-548ce1cf60aa\"}, {\"type\": \"item\", \"value\": \"Peppermint Blend Flavor\", \"id\": \"794361f3-68ce-4c5e-81e6-0c2ff628b1d1\"}, {\"type\": \"item\", \"value\": \"5mg Gabadine-100\\u2122 per serving\", \"id\": \"b6f1dfd8-560c-4fb6-9cec-9cf819fd3763\"}, {\"type\": \"item\", \"value\": \"Zero Sugar\", \"id\": \"7cf138b0-0a1e-4686-b65d-25dc5fa330a6\"}], \"button_text\": \"ADD TO CART\", \"button_url\": \"#\"}, \"id\": \"2074a37b-628b-4801-bf80-e048c6ebb115\"}, {\"type\": \"accordion\", \"value\": {\"heading\": \"PRODUCT INTELLIGENCE\", \"items\": [{\"type\": \"item\", \"value\": {\"title\": \"WHAT IS GABADINE-100\\u2122?\", \"content\": \"<p data-block-key=\\\"revu5\\\">Gabadine-100\\u2122 is a proprietary bio-active molecular complex, engineered in the USA to optimize cognitive throughput. It is distinct from traditional stimulants. Instead of borrowing energy from tomorrow like caffeine, it modulates cholinergic pathways to align focus while simultaneously engaging GABA receptors to maintain total calm. The result is \\\"Clean Clarity\\\" without the biological tax of adrenaline. </p>\"}, \"id\": \"4c43eefc-d89a-4327-b18c-18213cabc3f5\"}, {\"type\": \"item\", \"value\": {\"title\": \"HOW DOES IT FEEL?\", \"content\": \"<p data-block-key=\\\"hq0kd\\\">The \\\"Gabadine State\\\" is characterized by silence. You will not feel a heart-racing \\\"buzz\\\" or the jitters associated with energy drinks. Instead, users report a subtle onset of \\\"background processing power.\\\" It is a sensation of heightened alertness and the removal of mental fog, allowing for deep work and sustained flow states. The effect typically lasts 45\\u201360 minutes, fading gently with no crash. </p>\"}, \"id\": \"fbf8382a-3801-40eb-a6a4-638c8f6f4ccc\"}, {\"type\": \"item\", \"value\": {\"title\": \"HOW TO USE\", \"content\": \"<p data-block-key=\\\"hq0kd\\\"><b>Step 1:</b> Place one tablet under your upper lip. </p><p data-block-key=\\\"bsek3\\\"><b>Step 2:</b> Allow the tablet to dissolve slowly. Do not chew or swallow it whole. The active complex relies on sublingual absorption for immediate effect. </p><p data-block-key=\\\"8st9n\\\"><b>Step 3:</b> You may feel a slight tingling sensation\\u2014this indicates the activation of the release mechanism. </p><p data-block-key=\\\"711rm\\\"><b>Step 4:</b> Discard after 30\\u201340 minutes or when the flavor dissipates. </p>\"}, \"id\": \"cf46d240-8157-4c92-84d0-389d5f841a05\"}, {\"type\": \"item\", \"value\": {\"title\": \"THE INGREDIENTS\", \"content\": \"<p data-block-key=\\\"hq0kd\\\">We believe in radical molecular purity. Our matrix contains zero sugar, zero tobacco, and zero unnecessary fillers.</p><ul><li data-block-key=\\\"f4go5\\\"><b>Active Complex:</b> Gabadine-100\\u2122 (Synthetic Cholinergic Agonist).</li><li data-block-key=\\\"88vev\\\"><b>Base Matrix:</b> Pharmaceutical-grade Microcrystalline Cellulose (for controlled release).</li><li data-block-key=\\\"2mv7q\\\"><b>Flavoring:</b> Natural &amp; Artificial food-grade extracts.</li><li data-block-key=\\\"aplho\\\"><b>Absorption Matrix:</b> Mannitol &amp; Isomalt.</li></ul>\"}, \"id\": \"b0971d6d-14a1-436f-b6c1-ab15409e5589\"}, {\"type\": \"item\", \"value\": {\"title\": \"SHIPPING & RETURNS\", \"content\": \"<p data-block-key=\\\"hq0kd\\\">Due to strict safety standards and the consumable nature of our products, <b>all sales are final</b>. We cannot accept returns or exchanges once the package has left our fulfillment center. This ensures that every product you receive is fresh and has never been handled by a third party. If your order arrives damaged, please contact support immediately for a resolution. </p>\"}, \"id\": \"09a345d5-7130-47cf-918d-7478aff959be\"}]}, \"id\": \"320c9894-99bb-4584-8bec-32a34e24c610\"}]",
+      "live": true,
+      "path": "000100010001",
+      "slug": "texarine",
+      "depth": 3,
+      "owner": 2,
+      "title": "TEXARINE™",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/texarine/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "TEXARINE™",
+      "content_type": 29,
+      "live_revision": 9,
+      "show_in_menus": false,
+      "latest_revision": 9,
+      "translation_key": "423360ad-0ed8-4965-b17e-84510f2d73e0",
+      "last_published_at": "2026-01-15T23:01:45.200Z",
+      "first_published_at": "2026-01-15T17:26:09.152Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2026-01-15T23:01:45.138Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 11,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2026-01-16T18:38:36.477Z",
+    "user": [
+      "su"
+    ],
+    "object_str": "TEXARINE™",
+    "content": {
+      "pk": 3,
+      "body": "[{\"type\": \"hero\", \"value\": {\"image\": 3, \"title\": \"TEXARINE\", \"subtitle\": \"Cognitive Clarity Formula. Non-Nicotine sublingual tablets powered by Gabadine-100\\u2122. Instant focus in 5 minutes.\", \"button_text\": \"POWER YOUR FOCUS\", \"button_url\": \"#\"}, \"id\": \"06582231-3036-40db-b9b1-1401cf0a2727\"}, {\"type\": \"benefits\", \"value\": {\"title\": \"WHY TEXARINE?\", \"items\": [{\"type\": \"item\", \"value\": {\"icon\": \"\\u26a1\", \"title\": \"FAST ACTING\", \"text\": \"Sublingual absorption delivers focus in 5 minutes. Bypasses digestion for instant clarity.\"}, \"id\": \"8f265835-9356-4fc2-85f8-79ba818ce0d6\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83d\\udee1\\ufe0f\", \"title\": \"NICOTINE FREE\", \"text\": \"Powered by Gabadine-100\\u2122. No tobacco, no nicotine, fully compliant with non-tobacco regulations.\"}, \"id\": \"9219a553-921d-44e6-ae5e-ea79af0988ed\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83e\\udde0\", \"title\": \"NO CRASH\", \"text\": \"Enriched with GABA to smooth out the stimulation. Pure energy without the jitters or anxiety.\"}, \"id\": \"d4c73a7f-bed2-4249-810b-8a4600153c8e\"}]}, \"id\": \"c234e834-95d1-4445-b3bf-81fdfdef6be8\"}, {\"type\": \"feature\", \"value\": {\"heading\": \"THE SCIENCE OF GABADINE-100\\u2122\", \"description\": \"<p data-block-key=\\\"i2ukt\\\"><b>Texarine is not just energy. It is clarity.</b></p><p data-block-key=\\\"dlr5\\\">At the core of our formula lies <b>Gabadine-100\\u2122</b> \\u2014 a proprietary molecular complex engineered in the USA. Unlike caffeine, which borrows energy from tomorrow, Gabadine-100\\u2122 activates your brain's cholinergic receptors for instant focus, while simultaneously engaging GABA pathways to maintain total calm.</p><p data-block-key=\\\"b3rfg\\\">The result? A flow state that lasts. No jitters. No crash. Just pure cognitive dominance.</p>\", \"image\": 4, \"reverse_layout\": true, \"button_text\": \"OUR TECHNOLOGY\", \"button_url\": \"#\"}, \"id\": \"5fd57104-49eb-4ebb-ad9e-4308b291e390\"}, {\"type\": \"product\", \"value\": {\"heading\": \"TEXARINE\\u2122 STARTER PACK\", \"price\": \"$7.99\", \"description\": \"The ultimate cognitive toolkit. 20 sublingual tablets designed for instant clarity and sustained flow.\", \"image\": 5, \"features\": [{\"type\": \"item\", \"value\": \"20 Tablets per pack\", \"id\": \"8b7840c4-9e09-4613-8efd-548ce1cf60aa\"}, {\"type\": \"item\", \"value\": \"Peppermint Blend Flavor\", \"id\": \"794361f3-68ce-4c5e-81e6-0c2ff628b1d1\"}, {\"type\": \"item\", \"value\": \"5mg Gabadine-100\\u2122 per serving\", \"id\": \"b6f1dfd8-560c-4fb6-9cec-9cf819fd3763\"}, {\"type\": \"item\", \"value\": \"Zero Sugar\", \"id\": \"7cf138b0-0a1e-4686-b65d-25dc5fa330a6\"}], \"button_text\": \"ADD TO CART\", \"button_url\": \"#\"}, \"id\": \"2074a37b-628b-4801-bf80-e048c6ebb115\"}, {\"type\": \"accordion\", \"value\": {\"heading\": \"PRODUCT INTELLIGENCE\", \"items\": [{\"type\": \"item\", \"value\": {\"title\": \"WHAT IS GABADINE-100\\u2122?\", \"content\": \"<p data-block-key=\\\"revu5\\\">Gabadine-100\\u2122 is a proprietary bio-active molecular complex, engineered in the USA to optimize cognitive throughput. It is distinct from traditional stimulants. Instead of borrowing energy from tomorrow like caffeine, it modulates cholinergic pathways to align focus while simultaneously engaging GABA receptors to maintain total calm. The result is \\\"Clean Clarity\\\" without the biological tax of adrenaline.</p>\"}, \"id\": \"4c43eefc-d89a-4327-b18c-18213cabc3f5\"}, {\"type\": \"item\", \"value\": {\"title\": \"HOW DOES IT FEEL?\", \"content\": \"<p data-block-key=\\\"hq0kd\\\">The \\\"Gabadine State\\\" is characterized by silence. You will not feel a heart-racing \\\"buzz\\\" or the jitters associated with energy drinks. Instead, users report a subtle onset of \\\"background processing power.\\\" It is a sensation of heightened alertness and the removal of mental fog, allowing for deep work and sustained flow states. The effect typically lasts 45\\u201360 minutes, fading gently with no crash.</p>\"}, \"id\": \"fbf8382a-3801-40eb-a6a4-638c8f6f4ccc\"}, {\"type\": \"item\", \"value\": {\"title\": \"HOW TO USE\", \"content\": \"<p data-block-key=\\\"hq0kd\\\"><b>Step 1:</b> Place one tablet under your tongue.</p><p data-block-key=\\\"bsek3\\\"><b>Step 2:</b> Allow the tablet to dissolve slowly. Do not chew or swallow it whole. The active complex relies on sublingual absorption for immediate effect.</p><p data-block-key=\\\"8st9n\\\"><b>Step 3:</b> You may feel a slight tingling sensation\\u2014this indicates the activation of the release mechanism.</p><p data-block-key=\\\"711rm\\\"><b>Step 4:</b> Discard after 30\\u201340 minutes or when the flavor dissipates.</p>\"}, \"id\": \"cf46d240-8157-4c92-84d0-389d5f841a05\"}, {\"type\": \"item\", \"value\": {\"title\": \"THE INGREDIENTS\", \"content\": \"<p data-block-key=\\\"hq0kd\\\">We believe in radical molecular purity. Our matrix contains zero sugar, zero tobacco, and zero unnecessary fillers.</p><ul><li data-block-key=\\\"f4go5\\\"><b>Active Complex:</b> Gabadine-100\\u2122 (Synthetic Cholinergic Agonist).</li><li data-block-key=\\\"88vev\\\"><b>Base Matrix:</b> Pharmaceutical-grade Microcrystalline Cellulose (for controlled release).</li><li data-block-key=\\\"2mv7q\\\"><b>Flavoring:</b> Natural &amp; Artificial food-grade extracts.</li><li data-block-key=\\\"aplho\\\"><b>Absorption Matrix:</b> Mannitol &amp; Isomalt.</li></ul>\"}, \"id\": \"b0971d6d-14a1-436f-b6c1-ab15409e5589\"}, {\"type\": \"item\", \"value\": {\"title\": \"SHIPPING & RETURNS\", \"content\": \"<p data-block-key=\\\"hq0kd\\\">Due to strict safety standards and the consumable nature of our products, <b>all sales are final</b>. We cannot accept returns or exchanges once the package has left our fulfillment center. This ensures that every product you receive is fresh and has never been handled by a third party. If your order arrives damaged, please contact support immediately for a resolution.</p>\"}, \"id\": \"09a345d5-7130-47cf-918d-7478aff959be\"}]}, \"id\": \"320c9894-99bb-4584-8bec-32a34e24c610\"}]",
+      "live": true,
+      "path": "000100010001",
+      "slug": "texarine",
+      "depth": 3,
+      "owner": 2,
+      "title": "TEXARINE™",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/texarine/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "TEXARINE™",
+      "content_type": 29,
+      "live_revision": 10,
+      "show_in_menus": false,
+      "latest_revision": 10,
+      "translation_key": "423360ad-0ed8-4965-b17e-84510f2d73e0",
+      "last_published_at": "2026-01-16T18:25:16.308Z",
+      "first_published_at": "2026-01-15T17:26:09.152Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2026-01-16T18:25:16.214Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 12,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2026-01-16T20:59:09.394Z",
+    "user": [
+      "su"
+    ],
+    "object_str": "TEXARINE™",
+    "content": {
+      "pk": 3,
+      "body": "[{\"type\": \"hero\", \"value\": {\"image\": 6, \"title\": \"TEXARINE\", \"subtitle\": \"Cognitive Clarity Formula. Non-Nicotine sublingual tablets powered by Gabadine-100\\u2122. Instant focus in 5 minutes.\", \"button_text\": \"POWER YOUR FOCUS\", \"button_url\": \"#\"}, \"id\": \"06582231-3036-40db-b9b1-1401cf0a2727\"}, {\"type\": \"benefits\", \"value\": {\"title\": \"WHY TEXARINE?\", \"items\": [{\"type\": \"item\", \"value\": {\"icon\": \"\\u26a1\", \"title\": \"FAST ACTING\", \"text\": \"Sublingual absorption delivers focus in 5 minutes. Bypasses digestion for instant clarity.\"}, \"id\": \"8f265835-9356-4fc2-85f8-79ba818ce0d6\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83d\\udee1\\ufe0f\", \"title\": \"NICOTINE FREE\", \"text\": \"Powered by Gabadine-100\\u2122. No tobacco, no nicotine, fully compliant with non-tobacco regulations.\"}, \"id\": \"9219a553-921d-44e6-ae5e-ea79af0988ed\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83e\\udde0\", \"title\": \"NO CRASH\", \"text\": \"Enriched with GABA to smooth out the stimulation. Pure energy without the jitters or anxiety.\"}, \"id\": \"d4c73a7f-bed2-4249-810b-8a4600153c8e\"}]}, \"id\": \"c234e834-95d1-4445-b3bf-81fdfdef6be8\"}, {\"type\": \"feature\", \"value\": {\"heading\": \"THE SCIENCE OF GABADINE-100\\u2122\", \"description\": \"<p data-block-key=\\\"i2ukt\\\"><b>Texarine is not just energy. It is clarity.</b></p><p data-block-key=\\\"dlr5\\\">At the core of our formula lies <b>Gabadine-100\\u2122</b> \\u2014 a proprietary molecular complex engineered in the USA. Unlike caffeine, which borrows energy from tomorrow, Gabadine-100\\u2122 activates your brain's cholinergic receptors for instant focus, while simultaneously engaging GABA pathways to maintain total calm.</p><p data-block-key=\\\"b3rfg\\\">The result? A flow state that lasts. No jitters. No crash. Just pure cognitive dominance.</p>\", \"image\": 4, \"reverse_layout\": true, \"button_text\": \"OUR TECHNOLOGY\", \"button_url\": \"#\"}, \"id\": \"5fd57104-49eb-4ebb-ad9e-4308b291e390\"}, {\"type\": \"product\", \"value\": {\"heading\": \"TEXARINE\\u2122 STARTER PACK\", \"price\": \"$7.99\", \"description\": \"The ultimate cognitive toolkit. 20 sublingual tablets designed for instant clarity and sustained flow.\", \"image\": 5, \"features\": [{\"type\": \"item\", \"value\": \"20 Tablets per pack\", \"id\": \"8b7840c4-9e09-4613-8efd-548ce1cf60aa\"}, {\"type\": \"item\", \"value\": \"Peppermint Blend Flavor\", \"id\": \"794361f3-68ce-4c5e-81e6-0c2ff628b1d1\"}, {\"type\": \"item\", \"value\": \"5mg Gabadine-100\\u2122 per serving\", \"id\": \"b6f1dfd8-560c-4fb6-9cec-9cf819fd3763\"}, {\"type\": \"item\", \"value\": \"Zero Sugar\", \"id\": \"7cf138b0-0a1e-4686-b65d-25dc5fa330a6\"}], \"button_text\": \"ADD TO CART\", \"button_url\": \"#\"}, \"id\": \"2074a37b-628b-4801-bf80-e048c6ebb115\"}, {\"type\": \"accordion\", \"value\": {\"heading\": \"PRODUCT INTELLIGENCE\", \"items\": [{\"type\": \"item\", \"value\": {\"title\": \"WHAT IS GABADINE-100\\u2122?\", \"content\": \"<p data-block-key=\\\"revu5\\\">Gabadine-100\\u2122 is a proprietary bio-active molecular complex, engineered in the USA to optimize cognitive throughput. It is distinct from traditional stimulants. Instead of borrowing energy from tomorrow like caffeine, it modulates cholinergic pathways to align focus while simultaneously engaging GABA receptors to maintain total calm. The result is \\\"Clean Clarity\\\" without the biological tax of adrenaline.</p>\"}, \"id\": \"4c43eefc-d89a-4327-b18c-18213cabc3f5\"}, {\"type\": \"item\", \"value\": {\"title\": \"HOW DOES IT FEEL?\", \"content\": \"<p data-block-key=\\\"hq0kd\\\">The \\\"Gabadine State\\\" is characterized by silence. You will not feel a heart-racing \\\"buzz\\\" or the jitters associated with energy drinks. Instead, users report a subtle onset of \\\"background processing power.\\\" It is a sensation of heightened alertness and the removal of mental fog, allowing for deep work and sustained flow states. The effect typically lasts 45\\u201360 minutes, fading gently with no crash.</p>\"}, \"id\": \"fbf8382a-3801-40eb-a6a4-638c8f6f4ccc\"}, {\"type\": \"item\", \"value\": {\"title\": \"HOW TO USE\", \"content\": \"<p data-block-key=\\\"hq0kd\\\"><b>Step 1:</b> Place one tablet under your tongue.</p><p data-block-key=\\\"bsek3\\\"><b>Step 2:</b> Allow the tablet to dissolve slowly. Do not chew or swallow it whole. The active complex relies on sublingual absorption for immediate effect.</p><p data-block-key=\\\"8st9n\\\"><b>Step 3:</b> You may feel a slight tingling sensation\\u2014this indicates the activation of the release mechanism.</p><p data-block-key=\\\"711rm\\\"><b>Step 4:</b> Discard after 30\\u201340 minutes or when the flavor dissipates.</p>\"}, \"id\": \"cf46d240-8157-4c92-84d0-389d5f841a05\"}, {\"type\": \"item\", \"value\": {\"title\": \"THE INGREDIENTS\", \"content\": \"<p data-block-key=\\\"hq0kd\\\">We believe in radical molecular purity. Our matrix contains zero sugar, zero tobacco, and zero unnecessary fillers.</p><ul><li data-block-key=\\\"f4go5\\\"><b>Active Complex:</b> Gabadine-100\\u2122 (Synthetic Cholinergic Agonist).</li><li data-block-key=\\\"88vev\\\"><b>Base Matrix:</b> Pharmaceutical-grade Microcrystalline Cellulose (for controlled release).</li><li data-block-key=\\\"2mv7q\\\"><b>Flavoring:</b> Natural &amp; Artificial food-grade extracts.</li><li data-block-key=\\\"aplho\\\"><b>Absorption Matrix:</b> Mannitol &amp; Isomalt.</li></ul>\"}, \"id\": \"b0971d6d-14a1-436f-b6c1-ab15409e5589\"}, {\"type\": \"item\", \"value\": {\"title\": \"SHIPPING & RETURNS\", \"content\": \"<p data-block-key=\\\"hq0kd\\\">Due to strict safety standards and the consumable nature of our products, <b>all sales are final</b>. We cannot accept returns or exchanges once the package has left our fulfillment center. This ensures that every product you receive is fresh and has never been handled by a third party. If your order arrives damaged, please contact support immediately for a resolution.</p>\"}, \"id\": \"09a345d5-7130-47cf-918d-7478aff959be\"}]}, \"id\": \"320c9894-99bb-4584-8bec-32a34e24c610\"}]",
+      "live": true,
+      "path": "000100010001",
+      "slug": "texarine",
+      "depth": 3,
+      "owner": 2,
+      "title": "TEXARINE™",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/texarine/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "TEXARINE™",
+      "content_type": 29,
+      "live_revision": 11,
+      "show_in_menus": false,
+      "latest_revision": 11,
+      "translation_key": "423360ad-0ed8-4965-b17e-84510f2d73e0",
+      "last_published_at": "2026-01-16T18:38:36.529Z",
+      "first_published_at": "2026-01-15T17:26:09.152Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2026-01-16T18:38:36.477Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 13,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2026-01-16T21:13:09.015Z",
+    "user": [
+      "su"
+    ],
+    "object_str": "TEXARINE™",
+    "content": {
+      "pk": 3,
+      "body": "[{\"type\": \"hero\", \"value\": {\"image\": 3, \"title\": \"TEXARINE\", \"subtitle\": \"Cognitive Clarity Formula. Non-Nicotine sublingual tablets powered by Gabadine-100\\u2122. Instant focus in 5 minutes.\", \"button_text\": \"POWER YOUR FOCUS\", \"button_url\": \"#\"}, \"id\": \"06582231-3036-40db-b9b1-1401cf0a2727\"}, {\"type\": \"benefits\", \"value\": {\"title\": \"WHY TEXARINE?\", \"items\": [{\"type\": \"item\", \"value\": {\"icon\": \"\\u26a1\", \"title\": \"FAST ACTING\", \"text\": \"Sublingual absorption delivers focus in 5 minutes. Bypasses digestion for instant clarity.\"}, \"id\": \"8f265835-9356-4fc2-85f8-79ba818ce0d6\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83d\\udee1\\ufe0f\", \"title\": \"NICOTINE FREE\", \"text\": \"Powered by Gabadine-100\\u2122. No tobacco, no nicotine, fully compliant with non-tobacco regulations.\"}, \"id\": \"9219a553-921d-44e6-ae5e-ea79af0988ed\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83e\\udde0\", \"title\": \"NO CRASH\", \"text\": \"Enriched with GABA to smooth out the stimulation. Pure energy without the jitters or anxiety.\"}, \"id\": \"d4c73a7f-bed2-4249-810b-8a4600153c8e\"}]}, \"id\": \"c234e834-95d1-4445-b3bf-81fdfdef6be8\"}, {\"type\": \"feature\", \"value\": {\"heading\": \"THE SCIENCE OF GABADINE-100\\u2122\", \"description\": \"<p data-block-key=\\\"i2ukt\\\"><b>Texarine is not just energy. It is clarity.</b></p><p data-block-key=\\\"dlr5\\\">At the core of our formula lies <b>Gabadine-100\\u2122</b> \\u2014 a proprietary molecular complex engineered in the USA. Unlike caffeine, which borrows energy from tomorrow, Gabadine-100\\u2122 activates your brain's cholinergic receptors for instant focus, while simultaneously engaging GABA pathways to maintain total calm.</p><p data-block-key=\\\"b3rfg\\\">The result? A flow state that lasts. No jitters. No crash. Just pure cognitive dominance.</p>\", \"image\": 4, \"reverse_layout\": true, \"button_text\": \"OUR TECHNOLOGY\", \"button_url\": \"#\"}, \"id\": \"5fd57104-49eb-4ebb-ad9e-4308b291e390\"}, {\"type\": \"product\", \"value\": {\"heading\": \"TEXARINE\\u2122 STARTER PACK\", \"price\": \"$7.99\", \"description\": \"The ultimate cognitive toolkit. 20 sublingual tablets designed for instant clarity and sustained flow.\", \"image\": 7, \"features\": [{\"type\": \"item\", \"value\": \"20 Tablets per pack\", \"id\": \"8b7840c4-9e09-4613-8efd-548ce1cf60aa\"}, {\"type\": \"item\", \"value\": \"Peppermint Blend Flavor\", \"id\": \"794361f3-68ce-4c5e-81e6-0c2ff628b1d1\"}, {\"type\": \"item\", \"value\": \"5mg Gabadine-100\\u2122 per serving\", \"id\": \"b6f1dfd8-560c-4fb6-9cec-9cf819fd3763\"}, {\"type\": \"item\", \"value\": \"Zero Sugar\", \"id\": \"7cf138b0-0a1e-4686-b65d-25dc5fa330a6\"}], \"button_text\": \"ADD TO CART\", \"button_url\": \"#\"}, \"id\": \"2074a37b-628b-4801-bf80-e048c6ebb115\"}]",
+      "live": true,
+      "path": "000100010001",
+      "slug": "texarine",
+      "depth": 3,
+      "owner": 2,
+      "title": "TEXARINE™",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/texarine/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "TEXARINE™",
+      "content_type": 29,
+      "live_revision": 12,
+      "show_in_menus": false,
+      "latest_revision": 12,
+      "translation_key": "423360ad-0ed8-4965-b17e-84510f2d73e0",
+      "last_published_at": "2026-01-16T20:59:09.437Z",
+      "first_published_at": "2026-01-15T17:26:09.152Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2026-01-16T20:59:09.394Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 14,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2026-01-16T21:38:32.176Z",
+    "user": [
+      "su"
+    ],
+    "object_str": "TEXARINE™",
+    "content": {
+      "pk": 3,
+      "body": "[{\"type\": \"hero\", \"value\": {\"image\": 3, \"title\": \"TEXARINE\", \"subtitle\": \"Cognitive Clarity Formula. Non-Nicotine sublingual tablets powered by Gabadine-100\\u2122. Instant focus in 5 minutes.\", \"button_text\": \"POWER YOUR FOCUS\", \"button_url\": \"#\"}, \"id\": \"06582231-3036-40db-b9b1-1401cf0a2727\"}, {\"type\": \"benefits\", \"value\": {\"title\": \"WHY TEXARINE?\", \"items\": [{\"type\": \"item\", \"value\": {\"icon\": \"\\u26a1\", \"title\": \"FAST ACTING\", \"text\": \"Sublingual absorption delivers focus in 5 minutes. Bypasses digestion for instant clarity.\"}, \"id\": \"8f265835-9356-4fc2-85f8-79ba818ce0d6\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83d\\udee1\\ufe0f\", \"title\": \"NICOTINE FREE\", \"text\": \"Powered by Gabadine-100\\u2122. No tobacco, no nicotine, fully compliant with non-tobacco regulations.\"}, \"id\": \"9219a553-921d-44e6-ae5e-ea79af0988ed\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83e\\udde0\", \"title\": \"NO CRASH\", \"text\": \"Enriched with GABA to smooth out the stimulation. Pure energy without the jitters or anxiety.\"}, \"id\": \"d4c73a7f-bed2-4249-810b-8a4600153c8e\"}]}, \"id\": \"c234e834-95d1-4445-b3bf-81fdfdef6be8\"}, {\"type\": \"feature\", \"value\": {\"heading\": \"THE SCIENCE OF GABADINE-100\\u2122\", \"description\": \"<p data-block-key=\\\"i2ukt\\\"><b>Texarine is not just energy. It is clarity.</b></p><p data-block-key=\\\"dlr5\\\">At the core of our formula lies <b>Gabadine-100\\u2122</b> \\u2014 a proprietary molecular complex engineered in the USA. Unlike caffeine, which borrows energy from tomorrow, Gabadine-100\\u2122 activates your brain's cholinergic receptors for instant focus, while simultaneously engaging GABA pathways to maintain total calm.</p><p data-block-key=\\\"b3rfg\\\">The result? A flow state that lasts. No jitters. No crash. Just pure cognitive dominance.</p>\", \"image\": 4, \"reverse_layout\": true, \"button_text\": \"OUR TECHNOLOGY\", \"button_url\": \"#\"}, \"id\": \"5fd57104-49eb-4ebb-ad9e-4308b291e390\"}, {\"type\": \"product\", \"value\": {\"heading\": \"TEXARINE\\u2122 STARTER PACK\", \"price\": \"$7.99\", \"description\": \"The ultimate cognitive toolkit. 20 sublingual tablets designed for instant clarity and sustained flow.\", \"image\": 7, \"features\": [{\"type\": \"item\", \"value\": \"20 Tablets per pack\", \"id\": \"8b7840c4-9e09-4613-8efd-548ce1cf60aa\"}, {\"type\": \"item\", \"value\": \"Peppermint Blend Flavor\", \"id\": \"794361f3-68ce-4c5e-81e6-0c2ff628b1d1\"}, {\"type\": \"item\", \"value\": \"5mg Gabadine-100\\u2122 per serving\", \"id\": \"b6f1dfd8-560c-4fb6-9cec-9cf819fd3763\"}, {\"type\": \"item\", \"value\": \"Zero Sugar\", \"id\": \"7cf138b0-0a1e-4686-b65d-25dc5fa330a6\"}], \"button_text\": \"ADD TO CART\", \"button_url\": \"#\"}, \"id\": \"2074a37b-628b-4801-bf80-e048c6ebb115\"}, {\"type\": \"accordion\", \"value\": {\"heading\": \"PRODUCT INTELLIGENCE\", \"items\": [{\"type\": \"item\", \"value\": {\"title\": \"WHAT IS TEXARINE\\u2122?\", \"content\": \"<p data-block-key=\\\"hey3s\\\">Texarine\\u2122 is a next-generation cognitive support supplement designed to help you enter a flow state. Unlike energy drinks that give you jitters, Texarine\\u2122 provides calm, laser-focused clarity. It is 100% nicotine-free and sugar-free. </p>\"}, \"id\": \"3bd5a322-a852-4432-b21b-a6319ce26b21\"}, {\"type\": \"item\", \"value\": {\"title\": \"WHAT IS GABADINE-100\\u2122?\", \"content\": \"<p data-block-key=\\\"r00nd\\\">Gabadine-100\\u2122 is a proprietary bio-active molecular complex, engineered in the USA to optimize cognitive throughput. It is distinct from traditional stimulants. Instead of borrowing energy from tomorrow like caffeine, it modulates cholinergic pathways to align focus while simultaneously engaging GABA receptors to maintain total calm. The result is \\\"Clean Clarity\\\" without the biological tax of adrenaline. </p>\"}, \"id\": \"d8186050-b736-437b-aeee-de7b63ed40a0\"}, {\"type\": \"item\", \"value\": {\"title\": \"HOW DOES IT FEEL?\", \"content\": \"<p data-block-key=\\\"hey3s\\\">The \\\"Gabadine State\\\" is characterized by silence. You will not feel a heart-racing \\\"buzz\\\" or the jitters associated with energy drinks. Instead, users report a subtle onset of \\\"background processing power.\\\" It is a sensation of heightened alertness and the removal of mental fog, allowing for deep work and sustained flow states. The effect typically lasts 45\\u201360 minutes, fading gently with no crash. </p>\"}, \"id\": \"b7344f95-03a0-4738-8f20-95b66dd80d57\"}, {\"type\": \"item\", \"value\": {\"title\": \"HOW TO USE\", \"content\": \"<p data-block-key=\\\"hey3s\\\"><b>Step 1:</b> Place one tablet under your upper tongue. </p><p data-block-key=\\\"fvdoq\\\"><b>Step 2:</b> Allow the tablet to dissolve slowly. Do not chew or swallow it whole. The active complex relies on sublingual absorption for immediate effect. </p><p data-block-key=\\\"3gnoj\\\"><b>Step 3:</b> You may feel a slight tingling sensation\\u2014this indicates the activation of the release mechanism. </p><p data-block-key=\\\"7s74f\\\"><b>Step 4:</b> Discard after 30\\u201340 minutes or when the flavor dissipates. </p>\"}, \"id\": \"2d95cb49-d5e8-449c-a564-830f7b403695\"}, {\"type\": \"item\", \"value\": {\"title\": \"THE INGREDIENTS\", \"content\": \"<p data-block-key=\\\"hey3s\\\"> We believe in radical molecular purity. Our matrix contains zero sugar, zero tobacco, and zero unnecessary fillers.</p><ul><li data-block-key=\\\"38gj0\\\"><b>Active Complex:</b> Gabadine-100\\u2122 (Synthetic Cholinergic Agonist).</li><li data-block-key=\\\"bdi03\\\"><b>Base Matrix:</b> Pharmaceutical-grade Microcrystalline Cellulose (for controlled release).</li><li data-block-key=\\\"9km5a\\\"><b>Flavoring:</b> Natural &amp; Artificial food-grade extracts.</li><li data-block-key=\\\"7hgti\\\"><b>Absorption Matrix:</b> Mannitol &amp; Isomalt.</li></ul>\"}, \"id\": \"b36e3720-b2e0-4cf6-9598-a0657ff17ffe\"}, {\"type\": \"item\", \"value\": {\"title\": \"SHIPPING & RETURNS\", \"content\": \"<p data-block-key=\\\"hey3s\\\">Due to strict safety standards and the consumable nature of our products, <b>all sales are final</b>. We cannot accept returns or exchanges once the package has left our fulfillment center. This ensures that every product you receive is fresh and has never been handled by a third party. If your order arrives damaged, please contact support immediately for a resolution. </p>\"}, \"id\": \"317a4164-58f1-43df-b243-01275056e135\"}]}, \"id\": \"0c9bb78e-5b88-4716-a497-a8bf0521b9c0\"}]",
+      "live": true,
+      "path": "000100010001",
+      "slug": "texarine",
+      "depth": 3,
+      "owner": 2,
+      "title": "TEXARINE™",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/texarine/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "TEXARINE™",
+      "content_type": 29,
+      "live_revision": 13,
+      "show_in_menus": false,
+      "latest_revision": 13,
+      "translation_key": "423360ad-0ed8-4965-b17e-84510f2d73e0",
+      "last_published_at": "2026-01-16T21:13:09.101Z",
+      "first_published_at": "2026-01-15T17:26:09.152Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2026-01-16T21:13:09.015Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 15,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2026-01-16T21:53:42.071Z",
+    "user": [
+      "su"
+    ],
+    "object_str": "TEXARINE™",
+    "content": {
+      "pk": 3,
+      "body": "[{\"type\": \"hero\", \"value\": {\"image\": 6, \"title\": \"TEXARINE\", \"subtitle\": \"Cognitive Clarity Formula. Non-Nicotine sublingual tablets powered by Gabadine-100\\u2122. Instant focus in 5 minutes.\", \"button_text\": \"POWER YOUR FOCUS\", \"button_url\": \"#\"}, \"id\": \"06582231-3036-40db-b9b1-1401cf0a2727\"}, {\"type\": \"benefits\", \"value\": {\"title\": \"WHY TEXARINE?\", \"items\": [{\"type\": \"item\", \"value\": {\"icon\": \"\\u26a1\", \"title\": \"FAST ACTING\", \"text\": \"Sublingual absorption delivers focus in 5 minutes. Bypasses digestion for instant clarity.\"}, \"id\": \"8f265835-9356-4fc2-85f8-79ba818ce0d6\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83d\\udee1\\ufe0f\", \"title\": \"NICOTINE FREE\", \"text\": \"Powered by Gabadine-100\\u2122. No tobacco, no nicotine, fully compliant with non-tobacco regulations.\"}, \"id\": \"9219a553-921d-44e6-ae5e-ea79af0988ed\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83e\\udde0\", \"title\": \"NO CRASH\", \"text\": \"Enriched with GABA to smooth out the stimulation. Pure energy without the jitters or anxiety.\"}, \"id\": \"d4c73a7f-bed2-4249-810b-8a4600153c8e\"}]}, \"id\": \"c234e834-95d1-4445-b3bf-81fdfdef6be8\"}, {\"type\": \"feature\", \"value\": {\"heading\": \"THE SCIENCE OF GABADINE-100\\u2122\", \"description\": \"<p data-block-key=\\\"i2ukt\\\"><b>Texarine is not just energy. It is clarity.</b></p><p data-block-key=\\\"dlr5\\\">At the core of our formula lies <b>Gabadine-100\\u2122</b> \\u2014 a proprietary molecular complex engineered in the USA. Unlike caffeine, which borrows energy from tomorrow, Gabadine-100\\u2122 activates your brain's cholinergic receptors for instant focus, while simultaneously engaging GABA pathways to maintain total calm.</p><p data-block-key=\\\"b3rfg\\\">The result? A flow state that lasts. No jitters. No crash. Just pure cognitive dominance.</p>\", \"image\": 4, \"reverse_layout\": true, \"button_text\": \"OUR TECHNOLOGY\", \"button_url\": \"#\"}, \"id\": \"5fd57104-49eb-4ebb-ad9e-4308b291e390\"}, {\"type\": \"product\", \"value\": {\"heading\": \"TEXARINE\\u2122 STARTER PACK\", \"price\": \"$7.99\", \"description\": \"The ultimate cognitive toolkit. 20 sublingual tablets designed for instant clarity and sustained flow.\", \"image\": 7, \"features\": [{\"type\": \"item\", \"value\": \"20 Tablets per pack\", \"id\": \"8b7840c4-9e09-4613-8efd-548ce1cf60aa\"}, {\"type\": \"item\", \"value\": \"Peppermint Blend Flavor\", \"id\": \"794361f3-68ce-4c5e-81e6-0c2ff628b1d1\"}, {\"type\": \"item\", \"value\": \"5mg Gabadine-100\\u2122 per serving\", \"id\": \"b6f1dfd8-560c-4fb6-9cec-9cf819fd3763\"}, {\"type\": \"item\", \"value\": \"Zero Sugar\", \"id\": \"7cf138b0-0a1e-4686-b65d-25dc5fa330a6\"}], \"button_text\": \"ADD TO CART\", \"button_url\": \"#\"}, \"id\": \"2074a37b-628b-4801-bf80-e048c6ebb115\"}, {\"type\": \"accordion\", \"value\": {\"heading\": \"PRODUCT INTELLIGENCE\", \"items\": [{\"type\": \"item\", \"value\": {\"title\": \"WHAT IS TEXARINE\\u2122?\", \"content\": \"<p data-block-key=\\\"hey3s\\\">Texarine\\u2122 is a next-generation cognitive support supplement designed to help you enter a flow state. Unlike energy drinks that give you jitters, Texarine\\u2122 provides calm, laser-focused clarity. It is 100% nicotine-free and sugar-free.</p>\"}, \"id\": \"3bd5a322-a852-4432-b21b-a6319ce26b21\"}, {\"type\": \"item\", \"value\": {\"title\": \"WHAT IS GABADINE-100\\u2122?\", \"content\": \"<p data-block-key=\\\"r00nd\\\">Gabadine-100\\u2122 is a proprietary bio-active molecular complex, engineered in the USA to optimize cognitive throughput. It is distinct from traditional stimulants. Instead of borrowing energy from tomorrow like caffeine, it modulates cholinergic pathways to align focus while simultaneously engaging GABA receptors to maintain total calm. The result is \\\"Clean Clarity\\\" without the biological tax of adrenaline.</p>\"}, \"id\": \"d8186050-b736-437b-aeee-de7b63ed40a0\"}, {\"type\": \"item\", \"value\": {\"title\": \"HOW DOES IT FEEL?\", \"content\": \"<p data-block-key=\\\"hey3s\\\">The \\\"Gabadine State\\\" is characterized by silence. You will not feel a heart-racing \\\"buzz\\\" or the jitters associated with energy drinks. Instead, users report a subtle onset of \\\"background processing power.\\\" It is a sensation of heightened alertness and the removal of mental fog, allowing for deep work and sustained flow states. The effect typically lasts 45\\u201360 minutes, fading gently with no crash.</p>\"}, \"id\": \"b7344f95-03a0-4738-8f20-95b66dd80d57\"}, {\"type\": \"item\", \"value\": {\"title\": \"HOW TO USE\", \"content\": \"<p data-block-key=\\\"hey3s\\\"><b>Step 1:</b> Place one tablet under your upper tongue.</p><p data-block-key=\\\"fvdoq\\\"><b>Step 2:</b> Allow the tablet to dissolve slowly. Do not chew or swallow it whole. The active complex relies on sublingual absorption for immediate effect.</p><p data-block-key=\\\"3gnoj\\\"><b>Step 3:</b> You may feel a slight tingling sensation\\u2014this indicates the activation of the release mechanism.</p><p data-block-key=\\\"7s74f\\\"><b>Step 4:</b> Discard after 30\\u201340 minutes or when the flavor dissipates.</p>\"}, \"id\": \"2d95cb49-d5e8-449c-a564-830f7b403695\"}, {\"type\": \"item\", \"value\": {\"title\": \"THE INGREDIENTS\", \"content\": \"<p data-block-key=\\\"hey3s\\\">We believe in radical molecular purity. Our matrix contains zero sugar, zero tobacco, and zero unnecessary fillers.</p><ul><li data-block-key=\\\"38gj0\\\"><b>Active Complex:</b> Gabadine-100\\u2122 (Synthetic Cholinergic Agonist).</li><li data-block-key=\\\"bdi03\\\"><b>Base Matrix:</b> Pharmaceutical-grade Microcrystalline Cellulose (for controlled release).</li><li data-block-key=\\\"9km5a\\\"><b>Flavoring:</b> Natural &amp; Artificial food-grade extracts.</li><li data-block-key=\\\"7hgti\\\"><b>Absorption Matrix:</b> Mannitol &amp; Isomalt.</li></ul>\"}, \"id\": \"b36e3720-b2e0-4cf6-9598-a0657ff17ffe\"}, {\"type\": \"item\", \"value\": {\"title\": \"SHIPPING & RETURNS\", \"content\": \"<p data-block-key=\\\"hey3s\\\">Due to strict safety standards and the consumable nature of our products, <b>all sales are final</b>. We cannot accept returns or exchanges once the package has left our fulfillment center. This ensures that every product you receive is fresh and has never been handled by a third party. If your order arrives damaged, please contact support immediately for a resolution.</p>\"}, \"id\": \"317a4164-58f1-43df-b243-01275056e135\"}]}, \"id\": \"0c9bb78e-5b88-4716-a497-a8bf0521b9c0\"}]",
+      "live": true,
+      "path": "000100010001",
+      "slug": "texarine",
+      "depth": 3,
+      "owner": 2,
+      "title": "TEXARINE™",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/texarine/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "TEXARINE™",
+      "content_type": 29,
+      "live_revision": 14,
+      "show_in_menus": false,
+      "latest_revision": 14,
+      "translation_key": "423360ad-0ed8-4965-b17e-84510f2d73e0",
+      "last_published_at": "2026-01-16T21:38:32.237Z",
+      "first_published_at": "2026-01-15T17:26:09.152Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2026-01-16T21:38:32.176Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 16,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2026-01-16T21:53:46.744Z",
+    "user": [
+      "su"
+    ],
+    "object_str": "TEXARINE™",
+    "content": {
+      "pk": 3,
+      "body": "[{\"type\": \"hero\", \"value\": {\"image\": 6, \"title\": \"TEXARINE\", \"subtitle\": \"Cognitive Clarity Formula. Non-Nicotine sublingual tablets powered by Gabadine-100\\u2122. Instant focus in 5 minutes.\", \"button_text\": \"POWER YOUR FOCUS\", \"button_url\": \"#\"}, \"id\": \"06582231-3036-40db-b9b1-1401cf0a2727\"}, {\"type\": \"benefits\", \"value\": {\"title\": \"WHY TEXARINE?\", \"items\": [{\"type\": \"item\", \"value\": {\"icon\": \"\\u26a1\", \"title\": \"FAST ACTING\", \"text\": \"Sublingual absorption delivers focus in 5 minutes. Bypasses digestion for instant clarity.\"}, \"id\": \"8f265835-9356-4fc2-85f8-79ba818ce0d6\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83d\\udee1\\ufe0f\", \"title\": \"NICOTINE FREE\", \"text\": \"Powered by Gabadine-100\\u2122. No tobacco, no nicotine, fully compliant with non-tobacco regulations.\"}, \"id\": \"9219a553-921d-44e6-ae5e-ea79af0988ed\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83e\\udde0\", \"title\": \"NO CRASH\", \"text\": \"Enriched with GABA to smooth out the stimulation. Pure energy without the jitters or anxiety.\"}, \"id\": \"d4c73a7f-bed2-4249-810b-8a4600153c8e\"}]}, \"id\": \"c234e834-95d1-4445-b3bf-81fdfdef6be8\"}, {\"type\": \"feature\", \"value\": {\"heading\": \"THE SCIENCE OF GABADINE-100\\u2122\", \"description\": \"<p data-block-key=\\\"i2ukt\\\"><b>Texarine is not just energy. It is clarity.</b></p><p data-block-key=\\\"dlr5\\\">At the core of our formula lies <b>Gabadine-100\\u2122</b> \\u2014 a proprietary molecular complex engineered in the USA. Unlike caffeine, which borrows energy from tomorrow, Gabadine-100\\u2122 activates your brain's cholinergic receptors for instant focus, while simultaneously engaging GABA pathways to maintain total calm.</p><p data-block-key=\\\"b3rfg\\\">The result? A flow state that lasts. No jitters. No crash. Just pure cognitive dominance.</p>\", \"image\": 4, \"reverse_layout\": true, \"button_text\": \"OUR TECHNOLOGY\", \"button_url\": \"#\"}, \"id\": \"5fd57104-49eb-4ebb-ad9e-4308b291e390\"}, {\"type\": \"product\", \"value\": {\"heading\": \"TEXARINE\\u2122 STARTER PACK\", \"price\": \"$7.99\", \"description\": \"The ultimate cognitive toolkit. 20 sublingual tablets designed for instant clarity and sustained flow.\", \"image\": 7, \"features\": [{\"type\": \"item\", \"value\": \"20 Tablets per pack\", \"id\": \"8b7840c4-9e09-4613-8efd-548ce1cf60aa\"}, {\"type\": \"item\", \"value\": \"Peppermint Blend Flavor\", \"id\": \"794361f3-68ce-4c5e-81e6-0c2ff628b1d1\"}, {\"type\": \"item\", \"value\": \"5mg Gabadine-100\\u2122 per serving\", \"id\": \"b6f1dfd8-560c-4fb6-9cec-9cf819fd3763\"}, {\"type\": \"item\", \"value\": \"Zero Sugar\", \"id\": \"7cf138b0-0a1e-4686-b65d-25dc5fa330a6\"}], \"button_text\": \"ADD TO CART\", \"button_url\": \"#\"}, \"id\": \"2074a37b-628b-4801-bf80-e048c6ebb115\"}, {\"type\": \"accordion\", \"value\": {\"heading\": \"PRODUCT INTELLIGENCE\", \"items\": [{\"type\": \"item\", \"value\": {\"title\": \"WHAT IS TEXARINE\\u2122?\", \"content\": \"<p data-block-key=\\\"hey3s\\\">Texarine\\u2122 is a next-generation cognitive support supplement designed to help you enter a flow state. Unlike energy drinks that give you jitters, Texarine\\u2122 provides calm, laser-focused clarity. It is 100% nicotine-free and sugar-free.</p>\"}, \"id\": \"3bd5a322-a852-4432-b21b-a6319ce26b21\"}, {\"type\": \"item\", \"value\": {\"title\": \"WHAT IS GABADINE-100\\u2122?\", \"content\": \"<p data-block-key=\\\"r00nd\\\">Gabadine-100\\u2122 is a proprietary bio-active molecular complex, engineered in the USA to optimize cognitive throughput. It is distinct from traditional stimulants. Instead of borrowing energy from tomorrow like caffeine, it modulates cholinergic pathways to align focus while simultaneously engaging GABA receptors to maintain total calm. The result is \\\"Clean Clarity\\\" without the biological tax of adrenaline.</p>\"}, \"id\": \"d8186050-b736-437b-aeee-de7b63ed40a0\"}, {\"type\": \"item\", \"value\": {\"title\": \"HOW DOES IT FEEL?\", \"content\": \"<p data-block-key=\\\"hey3s\\\">The \\\"Gabadine State\\\" is characterized by silence. You will not feel a heart-racing \\\"buzz\\\" or the jitters associated with energy drinks. Instead, users report a subtle onset of \\\"background processing power.\\\" It is a sensation of heightened alertness and the removal of mental fog, allowing for deep work and sustained flow states. The effect typically lasts 45\\u201360 minutes, fading gently with no crash.</p>\"}, \"id\": \"b7344f95-03a0-4738-8f20-95b66dd80d57\"}, {\"type\": \"item\", \"value\": {\"title\": \"HOW TO USE\", \"content\": \"<p data-block-key=\\\"hey3s\\\"><b>Step 1:</b> Place one tablet under your upper tongue.</p><p data-block-key=\\\"fvdoq\\\"><b>Step 2:</b> Allow the tablet to dissolve slowly. Do not chew or swallow it whole. The active complex relies on sublingual absorption for immediate effect.</p><p data-block-key=\\\"3gnoj\\\"><b>Step 3:</b> You may feel a slight tingling sensation\\u2014this indicates the activation of the release mechanism.</p><p data-block-key=\\\"7s74f\\\"><b>Step 4:</b> Discard after 30\\u201340 minutes or when the flavor dissipates.</p>\"}, \"id\": \"2d95cb49-d5e8-449c-a564-830f7b403695\"}, {\"type\": \"item\", \"value\": {\"title\": \"THE INGREDIENTS\", \"content\": \"<p data-block-key=\\\"hey3s\\\">We believe in radical molecular purity. Our matrix contains zero sugar, zero tobacco, and zero unnecessary fillers.</p><ul><li data-block-key=\\\"38gj0\\\"><b>Active Complex:</b> Gabadine-100\\u2122 (Synthetic Cholinergic Agonist).</li><li data-block-key=\\\"bdi03\\\"><b>Base Matrix:</b> Pharmaceutical-grade Microcrystalline Cellulose (for controlled release).</li><li data-block-key=\\\"9km5a\\\"><b>Flavoring:</b> Natural &amp; Artificial food-grade extracts.</li><li data-block-key=\\\"7hgti\\\"><b>Absorption Matrix:</b> Mannitol &amp; Isomalt.</li></ul>\"}, \"id\": \"b36e3720-b2e0-4cf6-9598-a0657ff17ffe\"}, {\"type\": \"item\", \"value\": {\"title\": \"SHIPPING & RETURNS\", \"content\": \"<p data-block-key=\\\"hey3s\\\">Due to strict safety standards and the consumable nature of our products, <b>all sales are final</b>. We cannot accept returns or exchanges once the package has left our fulfillment center. This ensures that every product you receive is fresh and has never been handled by a third party. If your order arrives damaged, please contact support immediately for a resolution.</p>\"}, \"id\": \"317a4164-58f1-43df-b243-01275056e135\"}]}, \"id\": \"0c9bb78e-5b88-4716-a497-a8bf0521b9c0\"}]",
+      "live": true,
+      "path": "000100010001",
+      "slug": "texarine",
+      "depth": 3,
+      "owner": 2,
+      "title": "TEXARINE™",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/texarine/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "TEXARINE™",
+      "content_type": 29,
+      "live_revision": 14,
+      "show_in_menus": false,
+      "latest_revision": 15,
+      "translation_key": "423360ad-0ed8-4965-b17e-84510f2d73e0",
+      "last_published_at": "2026-01-16T21:38:32.237Z",
+      "first_published_at": "2026-01-15T17:26:09.152Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": true,
+      "latest_revision_created_at": "2026-01-16T21:53:42.071Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 17,
+  "fields": {
+    "content_type": [
+      "home",
+      "textpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "4",
+    "created_at": "2026-01-16T22:16:12.720Z",
+    "user": [
+      "su"
+    ],
+    "object_str": "Privacy Policy",
+    "content": {
+      "pk": 4,
+      "body": "<p data-block-key=\"tft5g\"><b>Effective Date:</b> September 12, 2026</p><p data-block-key=\"ehviq\"><b>1. WHO WE ARE</b> Welcome to <b>NovaTex Factory LLC</b> (\"Company\", \"we\", \"us\", \"our\"). We operate the website novatexfactory.com (and associated domains like texarine.com). We are committed to protecting your personal data and respecting your privacy. This policy outlines the types of information we collect from you when you visit our site and how we use, maintain, and disclose that information.</p><p data-block-key=\"1k3qt\"><b>2. DATA WE COLLECT</b> To provide you with our products and services, we may collect the following categories of information:</p><ul><li data-block-key=\"atre8\"><b>Identity &amp; Contact Data:</b> Your full name, email address, phone number, shipping address, and billing address.</li><li data-block-key=\"2kceh\"><b>Financial Data:</b> Payment details (such as credit card numbers) required to process your purchase. Note that we do not store full credit card numbers on our servers; they are securely processed by our payment gateway providers.</li><li data-block-key=\"4hjdh\"><b>Technical &amp; Usage Data:</b> Information about how you access our website, including your IP address, browser type, device information, and browsing history (pages viewed, time spent on site).</li></ul><p data-block-key=\"9c031\"><b>3. HOW WE USE YOUR DATA</b> We use your personal information strictly for legitimate business purposes, including:</p><ul><li data-block-key=\"2aap5\"><b>Order Fulfillment:</b> To process transactions, ship your items, and send order updates.</li><li data-block-key=\"34rj\"><b>Customer Support:</b> To respond to your inquiries, troubleshoot issues, and provide assistance.</li><li data-block-key=\"bn77d\"><b>Service Improvement:</b> To analyze site usage and improve our product offerings and user experience.</li><li data-block-key=\"1p345\"><b>Marketing (Optional):</b> To send you newsletters or promotional offers, but only if you have explicitly opted in. You may unsubscribe at any time.</li><li data-block-key=\"6879r\"><b>Legal Compliance:</b> To comply with applicable laws, regulations, and legal processes (e.g., fraud prevention).</li></ul><p data-block-key=\"f8pe5\"><b>4. DISCLOSURE OF INFORMATION</b> <b>We do not sell, rent, or trade your personal information to third parties.</b> We may share your data with trusted third-party service providers solely for the purpose of operating our business, such as:</p><ul><li data-block-key=\"a817e\"><b>Payment Processors:</b> To securely handle financial transactions.</li><li data-block-key=\"ak3er\"><b>Logistics Partners:</b> To deliver your packages (e.g., USPS, FedEx).</li><li data-block-key=\"9kf35\"><b>IT &amp; Infrastructure:</b> Hosting services and data analytics providers.</li></ul><p data-block-key=\"cq8gt\">All third-party providers are contractually obligated to keep your information confidential and use it only for the services they provide to us.</p><p data-block-key=\"bmut7\"><b>5. DATA SECURITY</b> We implement industry-standard security measures (including SSL encryption) to protect your personal information from unauthorized access, alteration, or disclosure. While we strive to use commercially acceptable means to protect your data, please remember that no method of transmission over the Internet is 100% secure.</p><p data-block-key=\"55ppi\"><b>6. COOKIES</b> Our website uses \"cookies\" and similar tracking technologies to enhance your browsing experience. Cookies are small data files stored on your device that help us remember your preferences (like items in your cart) and understand how visitors interact with our site. You can choose to disable cookies through your browser settings, though this may affect the functionality of the website.</p><p data-block-key=\"ehv2i\"><b>7. YOUR RIGHTS</b> Depending on your jurisdiction, you may have specific rights regarding your personal data, including the right to:</p><ul><li data-block-key=\"bf518\">Access the personal information we hold about you.</li><li data-block-key=\"n7sm\">Request correction of inaccurate data.</li><li data-block-key=\"1fmh9\">Request deletion of your data (subject to certain legal exceptions).</li><li data-block-key=\"2o7c8\">Opt-out of marketing communications.</li></ul><p data-block-key=\"dfsa\">To exercise these rights, please contact us using the details below.</p><p data-block-key=\"fl03r\"><b>8. CHANGES TO THIS POLICY</b> We reserve the right to update this Privacy Policy at any time. Any changes will be posted on this page with a revised \"Effective Date.\" Your continued use of the website constitutes acceptance of such changes.</p><p data-block-key=\"ectd4\"><b>9. CONTACT INFORMATION</b> If you have questions about this Privacy Policy or our data practices, please contact us:</p><p data-block-key=\"d4f2n\"><b>NovaTex Factory LLC</b> <b>Address:</b> 5900 Balcones Drive #8868, Austin, TX 78731 </p><p data-block-key=\"7o130\"><b>Email:</b> <a href=\"mailto:support@novatexfactory.com\">support@novatexfactory.com</a></p>",
+      "live": true,
+      "path": "0001000100010001",
+      "slug": "privacy-policy",
+      "depth": 4,
+      "owner": 2,
+      "title": "Privacy Policy",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/texarine/privacy-policy/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Privacy Policy",
+      "content_type": 45,
+      "live_revision": null,
+      "show_in_menus": false,
+      "latest_revision": null,
+      "translation_key": "d93c5e6f-5133-4e4d-9b66-e76d30bd807c",
+      "last_published_at": null,
+      "first_published_at": null,
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": null
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 18,
+  "fields": {
+    "content_type": [
+      "home",
+      "textpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "5",
+    "created_at": "2026-01-16T22:20:47.145Z",
+    "user": [
+      "su"
+    ],
+    "object_str": "Terms of Service",
+    "content": {
+      "pk": 5,
+      "body": "<p data-block-key=\"sycuh\"> <b>Effective Date:</b> September 12, 2025</p><p data-block-key=\"a3qio\"><b>1. AGREEMENT TO TERMS</b> This website (novatexfactory.com and related domains) is operated by <b>NovaTex Factory LLC</b>. Throughout the site, the terms \"we\", \"us\", and \"our\" refer to NovaTex Factory LLC. By accessing our website or purchasing our products (\"Services\"), you agree to be bound by the following Terms of Service (\"Terms\").</p><p data-block-key=\"6jq9h\">These Terms apply to all users of the site, including browsers, vendors, customers, and content contributors. Please read them carefully before using our website. If you do not agree to all the terms and conditions, you may not access the website or use any Services.</p><p data-block-key=\"4ugs5\"><b>2. ONLINE STORE TERMS &amp; AGE RESTRICTION</b> By agreeing to these Terms, you represent that you are at least <b>18 years of age</b> or the age of majority in your jurisdiction. Our products are intended for adults only. You may not use our products for any illegal or unauthorized purpose, nor may you violate any laws in your jurisdiction (including copyright laws). You must not transmit any worms, viruses, or code of a destructive nature. A breach of any of these Terms will result in immediate termination of your Services.</p><p data-block-key=\"febop\"><b>3. GENERAL CONDITIONS</b> We reserve the right to refuse service to anyone for any reason at any time. You understand that your content (excluding credit card information) may be transferred unencrypted across various networks. Credit card information is always encrypted during transfer over networks. You agree not to reproduce, duplicate, copy, sell, resell, or exploit any portion of the Service without express written permission from us.</p><p data-block-key=\"aja0l\"><b>4. HEALTH DISCLAIMER (CRITICAL NOTICE)</b> <b>The products and claims made about specific products on this site have not been evaluated by the United States Food and Drug Administration (FDA) and are not approved to diagnose, treat, cure, or prevent disease.</b> The information provided on this site is for informational purposes only and is not intended as a substitute for advice from your physician or other healthcare professional. Consult with a healthcare professional before starting any supplementation program, especially if you have pre-existing medical conditions or are taking medication.</p><p data-block-key=\"aem9k\"><b>5. ACCURACY AND MODIFICATIONS</b> We are not responsible if information made available on this site is not accurate, complete, or current. The material on this site is provided for general information only. We reserve the right to modify the contents of this site at any time, but we have no obligation to update any information. <b>Prices for our products are subject to change without notice.</b> We reserve the right to modify or discontinue the Service (or any part thereof) without notice at any time. We shall not be liable to you or to any third party for any modification, price change, suspension, or discontinuance of the Service.</p><p data-block-key=\"3mspa\"><b>6. PRODUCTS AND AVAILABILITY</b> Certain products may be available exclusively online through the website. These products may have limited quantities and are subject to return or exchange only according to our <b>Return Policy</b>. We have made every effort to display the colors and images of our products accurately. We cannot guarantee that your computer monitor's display of any color will be accurate. We reserve the right to limit the sales of our products to any person, geographic region, or jurisdiction.</p><p data-block-key=\"fir2e\"><b>7. BILLING AND ACCOUNT ACCURACY</b> We reserve the right to refuse any order you place with us. We may, in our sole discretion, limit or cancel quantities purchased per person, per household, or per order. You agree to provide current, complete, and accurate purchase and account information for all purchases made at our store. You agree to promptly update your account and other information, including your email address and credit card numbers/expiration dates, so that we can complete your transactions and contact you as needed.</p><p data-block-key=\"dltnq\"><b>8. THIRD-PARTY TOOLS AND LINKS</b> We may provide you with access to third-party tools (e.g., tracking services) over which we neither monitor nor have any control. You acknowledge that we provide access to such tools \"as is\" without any warranties. Third-party links on this site may direct you to websites that are not affiliated with us. We are not responsible for examining or evaluating the content or accuracy of third-party materials or websites.</p><p data-block-key=\"an60r\"><b>9. USER COMMENTS AND FEEDBACK</b> If you send us creative ideas, suggestions, proposals, or other materials (collectively, \"comments\"), you agree that we may, at any time, without restriction, edit, copy, publish, distribute, and use in any medium any comments that you forward to us. We are under no obligation to maintain any comments in confidence or to pay compensation for them.</p><p data-block-key=\"4qk1k\"><b>10. PROHIBITED USES</b> In addition to other prohibitions, you are prohibited from using the site or its content: (a) for any unlawful purpose; (b) to solicit others to perform unlawful acts; (c) to violate any regulations, rules, or laws; (d) to infringe upon our intellectual property rights; (e) to harass, abuse, insult, harm, or discriminate; (f) to submit false or misleading information; (g) to upload viruses or malicious code; (h) to collect or track the personal information of others; (i) to spam, phish, or scrape; (j) for any obscene purpose; or (k) to interfere with security features.</p><p data-block-key=\"a9k2e\"><b>11. DISCLAIMER OF WARRANTIES; LIMITATION OF LIABILITY</b> We do not guarantee that your use of our service will be uninterrupted, timely, secure, or error-free. The service and all products delivered to you are provided 'as is' and 'as available' for your use, without any representation, warranties, or conditions of any kind. In no case shall <b>NovaTex Factory LLC</b>, our directors, officers, employees, affiliates, agents, contractors, or licensors be liable for any injury, loss, claim, or any direct, indirect, incidental, punitive, special, or consequential damages of any kind, arising from your use of any of the service or any products procured using the service.</p><p data-block-key=\"ma9t\"><b>12. INDEMNIFICATION</b> You agree to indemnify, defend, and hold harmless NovaTex Factory LLC and our affiliates, partners, officers, directors, agents, contractors, licensors, service providers, subcontractors, suppliers, interns, and employees from any claim or demand, including reasonable attorneys’ fees, made by any third party due to or arising out of your breach of these Terms.</p><p data-block-key=\"6tt2d\"><b>13. GOVERNING LAW</b> These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of the <b>State of Texas</b>, United States.</p><p data-block-key=\"dhjrt\"><b>14. CHANGES TO TERMS OF SERVICE</b> You can review the most current version of the Terms of Service at any time at this page. We reserve the right to update, change, or replace any part of these Terms by posting updates and changes to our website. It is your responsibility to check our website periodically for changes.</p><p data-block-key=\"8bvh6\"><b>15. CONTACT INFORMATION</b> Questions about the Terms of Service should be sent to us at:</p><p data-block-key=\"5kala\"><b>NovaTex Factory LLC</b> <b>Email:</b> <a href=\"mailto:support@novatexfactory.com\">support@novatexfactory.com</a> </p><p data-block-key=\"14qo1\"><b>Address:</b> 5900 Balcones Drive #8868, Austin, TX 78731</p>",
+      "live": true,
+      "path": "0001000100010002",
+      "slug": "terms-of-service",
+      "depth": 4,
+      "owner": 2,
+      "title": "Terms of Service",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/texarine/terms-of-service/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Terms of Service",
+      "content_type": 45,
+      "live_revision": null,
+      "show_in_menus": false,
+      "latest_revision": null,
+      "translation_key": "0d4243fc-2174-4d8c-a5f0-f5db75c14682",
+      "last_published_at": null,
+      "first_published_at": null,
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": null
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 19,
+  "fields": {
+    "content_type": [
+      "home",
+      "textpage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "4",
+    "created_at": "2026-01-16T22:20:59.334Z",
+    "user": [
+      "su"
+    ],
+    "object_str": "Privacy Policy",
+    "content": {
+      "pk": 4,
+      "body": "<p data-block-key=\"tft5g\"><b>Effective Date:</b> September 12, 2025</p><p data-block-key=\"ehviq\"><b>1. WHO WE ARE</b> Welcome to <b>NovaTex Factory LLC</b> (\"Company\", \"we\", \"us\", \"our\"). We operate the website novatexfactory.com (and associated domains like texarine.com). We are committed to protecting your personal data and respecting your privacy. This policy outlines the types of information we collect from you when you visit our site and how we use, maintain, and disclose that information.</p><p data-block-key=\"1k3qt\"><b>2. DATA WE COLLECT</b> To provide you with our products and services, we may collect the following categories of information:</p><ul><li data-block-key=\"atre8\"><b>Identity &amp; Contact Data:</b> Your full name, email address, phone number, shipping address, and billing address.</li><li data-block-key=\"2kceh\"><b>Financial Data:</b> Payment details (such as credit card numbers) required to process your purchase. Note that we do not store full credit card numbers on our servers; they are securely processed by our payment gateway providers.</li><li data-block-key=\"4hjdh\"><b>Technical &amp; Usage Data:</b> Information about how you access our website, including your IP address, browser type, device information, and browsing history (pages viewed, time spent on site).</li></ul><p data-block-key=\"9c031\"><b>3. HOW WE USE YOUR DATA</b> We use your personal information strictly for legitimate business purposes, including:</p><ul><li data-block-key=\"2aap5\"><b>Order Fulfillment:</b> To process transactions, ship your items, and send order updates.</li><li data-block-key=\"34rj\"><b>Customer Support:</b> To respond to your inquiries, troubleshoot issues, and provide assistance.</li><li data-block-key=\"bn77d\"><b>Service Improvement:</b> To analyze site usage and improve our product offerings and user experience.</li><li data-block-key=\"1p345\"><b>Marketing (Optional):</b> To send you newsletters or promotional offers, but only if you have explicitly opted in. You may unsubscribe at any time.</li><li data-block-key=\"6879r\"><b>Legal Compliance:</b> To comply with applicable laws, regulations, and legal processes (e.g., fraud prevention).</li></ul><p data-block-key=\"f8pe5\"><b>4. DISCLOSURE OF INFORMATION</b> <b>We do not sell, rent, or trade your personal information to third parties.</b> We may share your data with trusted third-party service providers solely for the purpose of operating our business, such as:</p><ul><li data-block-key=\"a817e\"><b>Payment Processors:</b> To securely handle financial transactions.</li><li data-block-key=\"ak3er\"><b>Logistics Partners:</b> To deliver your packages (e.g., USPS, FedEx).</li><li data-block-key=\"9kf35\"><b>IT &amp; Infrastructure:</b> Hosting services and data analytics providers.</li></ul><p data-block-key=\"cq8gt\">All third-party providers are contractually obligated to keep your information confidential and use it only for the services they provide to us.</p><p data-block-key=\"bmut7\"><b>5. DATA SECURITY</b> We implement industry-standard security measures (including SSL encryption) to protect your personal information from unauthorized access, alteration, or disclosure. While we strive to use commercially acceptable means to protect your data, please remember that no method of transmission over the Internet is 100% secure.</p><p data-block-key=\"55ppi\"><b>6. COOKIES</b> Our website uses \"cookies\" and similar tracking technologies to enhance your browsing experience. Cookies are small data files stored on your device that help us remember your preferences (like items in your cart) and understand how visitors interact with our site. You can choose to disable cookies through your browser settings, though this may affect the functionality of the website.</p><p data-block-key=\"ehv2i\"><b>7. YOUR RIGHTS</b> Depending on your jurisdiction, you may have specific rights regarding your personal data, including the right to:</p><ul><li data-block-key=\"bf518\">Access the personal information we hold about you.</li><li data-block-key=\"n7sm\">Request correction of inaccurate data.</li><li data-block-key=\"1fmh9\">Request deletion of your data (subject to certain legal exceptions).</li><li data-block-key=\"2o7c8\">Opt-out of marketing communications.</li></ul><p data-block-key=\"dfsa\">To exercise these rights, please contact us using the details below.</p><p data-block-key=\"fl03r\"><b>8. CHANGES TO THIS POLICY</b> We reserve the right to update this Privacy Policy at any time. Any changes will be posted on this page with a revised \"Effective Date.\" Your continued use of the website constitutes acceptance of such changes.</p><p data-block-key=\"ectd4\"><b>9. CONTACT INFORMATION</b> If you have questions about this Privacy Policy or our data practices, please contact us:</p><p data-block-key=\"d4f2n\"><b>NovaTex Factory LLC</b> <b>Address:</b> 5900 Balcones Drive #8868, Austin, TX 78731</p><p data-block-key=\"7o130\"><b>Email:</b> <a href=\"mailto:support@novatexfactory.com\">support@novatexfactory.com</a></p>",
+      "live": true,
+      "path": "0001000100010001",
+      "slug": "privacy-policy",
+      "depth": 4,
+      "owner": 2,
+      "title": "Privacy Policy",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 0,
+      "url_path": "/home/texarine/privacy-policy/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "Privacy Policy",
+      "content_type": 45,
+      "live_revision": 17,
+      "show_in_menus": false,
+      "latest_revision": 17,
+      "translation_key": "d93c5e6f-5133-4e4d-9b66-e76d30bd807c",
+      "last_published_at": "2026-01-16T22:16:12.768Z",
+      "first_published_at": "2026-01-16T22:16:12.768Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2026-01-16T22:16:12.720Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.revision",
+  "pk": 20,
+  "fields": {
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "base_content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "object_id": "3",
+    "created_at": "2026-01-16T22:40:39.669Z",
+    "user": [
+      "su"
+    ],
+    "object_str": "TEXARINE™",
+    "content": {
+      "pk": 3,
+      "body": "[{\"type\": \"hero\", \"value\": {\"image\": 6, \"title\": \"TEXARINE\", \"subtitle\": \"Cognitive Clarity Formula. Non-Nicotine sublingual tablets powered by Gabadine-100\\u2122. Instant focus in 5 minutes.\", \"button_text\": \"POWER YOUR FOCUS\", \"button_url\": \"#\"}, \"id\": \"06582231-3036-40db-b9b1-1401cf0a2727\"}, {\"type\": \"benefits\", \"value\": {\"title\": \"WHY TEXARINE?\", \"items\": [{\"type\": \"item\", \"value\": {\"icon\": \"\\u26a1\", \"title\": \"FAST ACTING\", \"text\": \"Sublingual absorption delivers focus in 5 minutes. Bypasses digestion for instant clarity.\"}, \"id\": \"8f265835-9356-4fc2-85f8-79ba818ce0d6\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83d\\udee1\\ufe0f\", \"title\": \"NICOTINE FREE\", \"text\": \"Powered by Gabadine-100\\u2122. No tobacco, no nicotine, fully compliant with non-tobacco regulations.\"}, \"id\": \"9219a553-921d-44e6-ae5e-ea79af0988ed\"}, {\"type\": \"item\", \"value\": {\"icon\": \"\\ud83e\\udde0\", \"title\": \"NO CRASH\", \"text\": \"Enriched with GABA to smooth out the stimulation. Pure energy without the jitters or anxiety.\"}, \"id\": \"d4c73a7f-bed2-4249-810b-8a4600153c8e\"}]}, \"id\": \"c234e834-95d1-4445-b3bf-81fdfdef6be8\"}, {\"type\": \"feature\", \"value\": {\"heading\": \"THE SCIENCE OF GABADINE-100\\u2122\", \"description\": \"<p data-block-key=\\\"i2ukt\\\"><b>Texarine is not just energy. It is clarity.</b></p><p data-block-key=\\\"dlr5\\\">At the core of our formula lies <b>Gabadine-100\\u2122</b> \\u2014 a proprietary molecular complex engineered in the USA. Unlike caffeine, which borrows energy from tomorrow, Gabadine-100\\u2122 activates your brain's cholinergic receptors for instant focus, while simultaneously engaging GABA pathways to maintain total calm.</p><p data-block-key=\\\"b3rfg\\\">The result? A flow state that lasts. No jitters. No crash. Just pure cognitive dominance.</p>\", \"image\": 4, \"reverse_layout\": true, \"button_text\": \"OUR TECHNOLOGY\", \"button_url\": \"#\"}, \"id\": \"5fd57104-49eb-4ebb-ad9e-4308b291e390\"}, {\"type\": \"product\", \"value\": {\"heading\": \"TEXARINE\\u2122 STARTER PACK\", \"price\": \"$7.99\", \"description\": \"The ultimate cognitive toolkit. 20 sublingual tablets designed for instant clarity and sustained flow.\", \"image\": 7, \"features\": [{\"type\": \"item\", \"value\": \"20 Tablets per pack\", \"id\": \"8b7840c4-9e09-4613-8efd-548ce1cf60aa\"}, {\"type\": \"item\", \"value\": \"Peppermint Blend Flavor\", \"id\": \"794361f3-68ce-4c5e-81e6-0c2ff628b1d1\"}, {\"type\": \"item\", \"value\": \"5mg Gabadine-100\\u2122 per serving\", \"id\": \"b6f1dfd8-560c-4fb6-9cec-9cf819fd3763\"}, {\"type\": \"item\", \"value\": \"Zero Sugar\", \"id\": \"7cf138b0-0a1e-4686-b65d-25dc5fa330a6\"}], \"button_text\": \"COMING SOON\", \"button_url\": \"#\"}, \"id\": \"2074a37b-628b-4801-bf80-e048c6ebb115\"}, {\"type\": \"accordion\", \"value\": {\"heading\": \"PRODUCT INTELLIGENCE\", \"items\": [{\"type\": \"item\", \"value\": {\"title\": \"WHAT IS TEXARINE\\u2122?\", \"content\": \"<p data-block-key=\\\"hey3s\\\">Texarine\\u2122 is a next-generation cognitive support supplement designed to help you enter a flow state. Unlike energy drinks that give you jitters, Texarine\\u2122 provides calm, laser-focused clarity. It is 100% nicotine-free and sugar-free.</p>\"}, \"id\": \"3bd5a322-a852-4432-b21b-a6319ce26b21\"}, {\"type\": \"item\", \"value\": {\"title\": \"WHAT IS GABADINE-100\\u2122?\", \"content\": \"<p data-block-key=\\\"r00nd\\\">Gabadine-100\\u2122 is a proprietary bio-active molecular complex, engineered in the USA to optimize cognitive throughput. It is distinct from traditional stimulants. Instead of borrowing energy from tomorrow like caffeine, it modulates cholinergic pathways to align focus while simultaneously engaging GABA receptors to maintain total calm. The result is \\\"Clean Clarity\\\" without the biological tax of adrenaline.</p>\"}, \"id\": \"d8186050-b736-437b-aeee-de7b63ed40a0\"}, {\"type\": \"item\", \"value\": {\"title\": \"HOW DOES IT FEEL?\", \"content\": \"<p data-block-key=\\\"hey3s\\\">The \\\"Gabadine State\\\" is characterized by silence. You will not feel a heart-racing \\\"buzz\\\" or the jitters associated with energy drinks. Instead, users report a subtle onset of \\\"background processing power.\\\" It is a sensation of heightened alertness and the removal of mental fog, allowing for deep work and sustained flow states. The effect typically lasts 45\\u201360 minutes, fading gently with no crash.</p>\"}, \"id\": \"b7344f95-03a0-4738-8f20-95b66dd80d57\"}, {\"type\": \"item\", \"value\": {\"title\": \"HOW TO USE\", \"content\": \"<p data-block-key=\\\"hey3s\\\"><b>Step 1:</b> Place one tablet under your upper tongue.</p><p data-block-key=\\\"fvdoq\\\"><b>Step 2:</b> Allow the tablet to dissolve slowly. Do not chew or swallow it whole. The active complex relies on sublingual absorption for immediate effect.</p><p data-block-key=\\\"3gnoj\\\"><b>Step 3:</b> You may feel a slight tingling sensation\\u2014this indicates the activation of the release mechanism.</p><p data-block-key=\\\"7s74f\\\"><b>Step 4:</b> Discard after 30\\u201340 minutes or when the flavor dissipates.</p>\"}, \"id\": \"2d95cb49-d5e8-449c-a564-830f7b403695\"}, {\"type\": \"item\", \"value\": {\"title\": \"THE INGREDIENTS\", \"content\": \"<p data-block-key=\\\"hey3s\\\">We believe in radical molecular purity. Our matrix contains zero sugar, zero tobacco, and zero unnecessary fillers.</p><ul><li data-block-key=\\\"38gj0\\\"><b>Active Complex:</b> Gabadine-100\\u2122 (Synthetic Cholinergic Agonist).</li><li data-block-key=\\\"bdi03\\\"><b>Base Matrix:</b> Pharmaceutical-grade Microcrystalline Cellulose (for controlled release).</li><li data-block-key=\\\"9km5a\\\"><b>Flavoring:</b> Natural &amp; Artificial food-grade extracts.</li><li data-block-key=\\\"7hgti\\\"><b>Absorption Matrix:</b> Mannitol &amp; Isomalt.</li></ul>\"}, \"id\": \"b36e3720-b2e0-4cf6-9598-a0657ff17ffe\"}, {\"type\": \"item\", \"value\": {\"title\": \"SHIPPING & RETURNS\", \"content\": \"<p data-block-key=\\\"hey3s\\\">Due to strict safety standards and the consumable nature of our products, <b>all sales are final</b>. We cannot accept returns or exchanges once the package has left our fulfillment center. This ensures that every product you receive is fresh and has never been handled by a third party. If your order arrives damaged, please contact support immediately for a resolution.</p>\"}, \"id\": \"317a4164-58f1-43df-b243-01275056e135\"}]}, \"id\": \"0c9bb78e-5b88-4716-a497-a8bf0521b9c0\"}]",
+      "live": true,
+      "path": "000100010001",
+      "slug": "texarine",
+      "depth": 3,
+      "owner": 2,
+      "title": "TEXARINE™",
+      "locale": 1,
+      "locked": false,
+      "expired": false,
+      "alias_of": null,
+      "numchild": 2,
+      "url_path": "/home/texarine/",
+      "expire_at": null,
+      "locked_at": null,
+      "locked_by": null,
+      "seo_title": "",
+      "go_live_at": null,
+      "draft_title": "TEXARINE™",
+      "content_type": 29,
+      "live_revision": 16,
+      "show_in_menus": false,
+      "latest_revision": 16,
+      "translation_key": "423360ad-0ed8-4965-b17e-84510f2d73e0",
+      "last_published_at": "2026-01-16T21:53:46.808Z",
+      "first_published_at": "2026-01-15T17:26:09.152Z",
+      "search_description": "",
+      "wagtail_admin_comments": [],
+      "has_unpublished_changes": false,
+      "latest_revision_created_at": "2026-01-16T21:53:46.744Z"
+    },
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 1,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-15T17:23:26.982Z",
+    "uuid": "dbcb0a49-a30d-4133-8859-20106a6755f0",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "2"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 2,
+  "fields": {
+    "content_type": [
+      "wagtailimages",
+      "image"
+    ],
+    "label": "TEXARINE™",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-15T17:24:17.393Z",
+    "uuid": "5f11deb2-b253-4121-be8a-421529987c6f",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "object_id": "1"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 3,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "site"
+    ],
+    "label": "localhost [default]",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-15T17:26:30.949Z",
+    "uuid": "ee28e6a7-78cf-4675-ba64-ff4791dcfa2e",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "object_id": "1"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 4,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "site"
+    ],
+    "label": "NovaTex Factory [default]",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-16T21:16:35.372Z",
+    "uuid": "f3839b30-4e06-4aea-90b7-ae745a5538d7",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "object_id": "1"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 5,
+  "fields": {
+    "content_type": [
+      "wagtailcore",
+      "site"
+    ],
+    "label": "NovaTex Factory [default]",
+    "action": "wagtail.edit",
+    "data": {},
+    "timestamp": "2026-01-16T21:41:31.012Z",
+    "uuid": "eca7f55e-7f2d-4bb0-85d3-53b490f9124d",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": true,
+    "deleted": false,
+    "object_id": "1"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 6,
+  "fields": {
+    "content_type": [
+      "home",
+      "newslettersubscriber"
+    ],
+    "label": "eugene@chauskey.com",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-17T02:44:09.051Z",
+    "uuid": "61bf713f-dee3-4d88-8d6b-fde61e9d7aa8",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "1"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 7,
+  "fields": {
+    "content_type": [
+      "home",
+      "contactmessage"
+    ],
+    "label": "Test subject - Evgeny Chauskey",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-18T01:11:28.184Z",
+    "uuid": "ec0e67da-17ab-4721-8a1a-763617285567",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "1"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 8,
+  "fields": {
+    "content_type": [
+      "home",
+      "contactmessage"
+    ],
+    "label": "Test subject у - Evgeny Chauskey",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-18T01:11:30.408Z",
+    "uuid": "57f703e4-5ad6-4b43-b1f3-255b5b19724c",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "10"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 9,
+  "fields": {
+    "content_type": [
+      "home",
+      "contactmessage"
+    ],
+    "label": "Test subjectвапв - Evgeny Chauskey",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-18T01:11:34.100Z",
+    "uuid": "eaffe5dc-0aa4-4941-9205-62fd88b02614",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "9"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 10,
+  "fields": {
+    "content_type": [
+      "home",
+      "contactmessage"
+    ],
+    "label": "Test subject уу - Evgeny Chauskey",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-18T01:11:36.791Z",
+    "uuid": "dd265d12-5158-4986-83aa-c4cacfc24083",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "8"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 11,
+  "fields": {
+    "content_type": [
+      "home",
+      "contactmessage"
+    ],
+    "label": "Test subject у - Evgeny Chauskey",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-18T01:11:44.659Z",
+    "uuid": "d7c5381b-3e5b-415c-a97f-2d6e22011d8f",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "7"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 12,
+  "fields": {
+    "content_type": [
+      "home",
+      "contactmessage"
+    ],
+    "label": "Test subject у - Evgeny Chauskey",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-18T01:11:47.831Z",
+    "uuid": "353fcbe1-5d0c-4e52-ace0-586cb5a22973",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "6"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 13,
+  "fields": {
+    "content_type": [
+      "home",
+      "contactmessage"
+    ],
+    "label": "Test subject - Evgeny Chauskey",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-18T01:11:51.442Z",
+    "uuid": "4ba0d73f-08b8-4353-99ff-c3aafa7533cb",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "5"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 14,
+  "fields": {
+    "content_type": [
+      "home",
+      "contactmessage"
+    ],
+    "label": "Test subject - Evgeny Chauskey",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-18T01:11:55.864Z",
+    "uuid": "8d68c30b-8e63-4679-bf89-b134519e3709",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "4"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 15,
+  "fields": {
+    "content_type": [
+      "home",
+      "contactmessage"
+    ],
+    "label": "Test subject - Evgeny Chauskey",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-18T01:12:00.438Z",
+    "uuid": "a81c3419-97c2-4989-85e4-e8b4ee715000",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "3"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 16,
+  "fields": {
+    "content_type": [
+      "home",
+      "contactmessage"
+    ],
+    "label": "Test subject - Evgeny Chauskey",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-18T01:12:05.029Z",
+    "uuid": "4c4a75f1-e4eb-42d8-b8c4-93f8153cdbe1",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "2"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 17,
+  "fields": {
+    "content_type": [
+      "home",
+      "contactmessage"
+    ],
+    "label": "Test subject - Evgeny Chauskey",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-18T01:12:16.986Z",
+    "uuid": "bdc8f79c-d089-42de-b849-234c138258dd",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "11"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 18,
+  "fields": {
+    "content_type": [
+      "home",
+      "contactmessage"
+    ],
+    "label": "вапвапв - Evgeny Chauskey",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-18T01:12:23.909Z",
+    "uuid": "bc0e1a05-def4-4480-bc3e-cde667193723",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "12"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 19,
+  "fields": {
+    "content_type": [
+      "home",
+      "contactmessage"
+    ],
+    "label": "ываываы - Ekaterina Chauskaia",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-18T01:12:29.437Z",
+    "uuid": "f42a0a02-8505-4f3c-8843-e71d83c39850",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "13"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 20,
+  "fields": {
+    "content_type": [
+      "home",
+      "contactmessage"
+    ],
+    "label": "ываыва - Evgeny Chauskey",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-18T01:12:38.047Z",
+    "uuid": "4c5cdd2d-caf9-48ef-ba64-87607a3b1ebf",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "14"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 21,
+  "fields": {
+    "content_type": [
+      "home",
+      "contactmessage"
+    ],
+    "label": "ываыв - Evgeny Chauskey",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-18T01:12:43.505Z",
+    "uuid": "97224fd1-e245-4092-949d-7b7e21784bed",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "15"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 22,
+  "fields": {
+    "content_type": [
+      "home",
+      "contactmessage"
+    ],
+    "label": "Test subject у - Evgeny Chauskey",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-18T01:12:52.711Z",
+    "uuid": "ac303326-b5a9-4fd7-988e-19750f5495dc",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "16"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 23,
+  "fields": {
+    "content_type": [
+      "home",
+      "contactmessage"
+    ],
+    "label": "ываыва - Ekaterina Chauskaia",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-18T01:12:59.168Z",
+    "uuid": "4cee2a5d-bb90-4754-a535-afb954e241e5",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "17"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 24,
+  "fields": {
+    "content_type": [
+      "home",
+      "contactmessage"
+    ],
+    "label": "Test subject - Evgeny Chauskey",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-18T01:13:04.537Z",
+    "uuid": "93f23662-2847-4bff-9151-5c7c918f2e7d",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "18"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 25,
+  "fields": {
+    "content_type": [
+      "home",
+      "contactmessage"
+    ],
+    "label": "sdfsfds - Evgeny Chauskey",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-18T01:13:08.847Z",
+    "uuid": "5999f4c1-e462-4bac-98d5-024f4d144ada",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "19"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 26,
+  "fields": {
+    "content_type": [
+      "home",
+      "contactmessage"
+    ],
+    "label": "sdfsd - Ekaterina Chauskaia",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-18T01:13:11.434Z",
+    "uuid": "45d9916b-cc00-4f3b-ba55-2b03f82406a3",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "20"
+  }
+},
+{
+  "model": "wagtailcore.modellogentry",
+  "pk": 27,
+  "fields": {
+    "content_type": [
+      "home",
+      "contactmessage"
+    ],
+    "label": "Test subject - Ekaterina Chauskaia",
+    "action": "wagtail.delete",
+    "data": {},
+    "timestamp": "2026-01-18T01:13:13.408Z",
+    "uuid": "fbe88d3a-b292-4cf5-aae1-57608720cf79",
+    "user": [
+      "su"
+    ],
+    "revision": null,
+    "content_changed": false,
+    "deleted": false,
+    "object_id": "21"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 1,
+  "fields": {
+    "collection": 1,
+    "title": "TEXARINE™",
+    "file": "original_images/Texarine_package_square_2_QpJUSsi.png",
+    "description": "",
+    "width": 1536,
+    "height": 1024,
+    "created_at": "2026-01-13T01:51:47.999Z",
+    "uploaded_by_user": [
+      "su"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 2200245,
+    "file_hash": "deb1c1e73dc8dddfec6b8efd793850586f6df689"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 3,
+  "fields": {
+    "collection": 1,
+    "title": "Texarine package square",
+    "file": "original_images/Texarine_package_square_2.png",
+    "description": "",
+    "width": 1536,
+    "height": 1024,
+    "created_at": "2026-01-15T17:25:55.585Z",
+    "uploaded_by_user": [
+      "su"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 2200245,
+    "file_hash": "deb1c1e73dc8dddfec6b8efd793850586f6df689"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 4,
+  "fields": {
+    "collection": 1,
+    "title": "3d molecula",
+    "file": "original_images/3d-molecula.jpg",
+    "description": "",
+    "width": 1024,
+    "height": 559,
+    "created_at": "2026-01-15T22:38:42.179Z",
+    "uploaded_by_user": [
+      "su"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 176408,
+    "file_hash": "06458013a5c7ced521e52251880c614e48bee174"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 5,
+  "fields": {
+    "collection": 1,
+    "title": "Texarine single pack",
+    "file": "original_images/Texarine_package_square.png",
+    "description": "",
+    "width": 1024,
+    "height": 1536,
+    "created_at": "2026-01-15T23:00:26.278Z",
+    "uploaded_by_user": [
+      "su"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 2444912,
+    "file_hash": "4aab266a47cf173de3cf1bff65160ae6fe64c2ff"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 6,
+  "fields": {
+    "collection": 1,
+    "title": "3 squared packs",
+    "file": "original_images/3_squared_packs.jpg",
+    "description": "",
+    "width": 1024,
+    "height": 687,
+    "created_at": "2026-01-16T20:59:06.360Z",
+    "uploaded_by_user": [
+      "su"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 122572,
+    "file_hash": "a8b536aed43d6e7f7df6507f8837ca33358cc267"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 7,
+  "fields": {
+    "collection": 1,
+    "title": "Texarine black",
+    "file": "original_images/Texarine_black.png",
+    "description": "",
+    "width": 2528,
+    "height": 1696,
+    "created_at": "2026-01-16T21:13:04.746Z",
+    "uploaded_by_user": [
+      "su"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 9326604,
+    "file_hash": "10587975c2e48d3458ef6e73666a940dfbc9fc63"
+  }
+},
+{
+  "model": "wagtailusers.userprofile",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "su"
+    ],
+    "submitted_notifications": true,
+    "approved_notifications": true,
+    "rejected_notifications": true,
+    "updated_comments_notifications": true,
+    "preferred_language": "",
+    "current_time_zone": "",
+    "avatar": "",
+    "dismissibles": {
+      "help": true,
+      "editor-guide": true,
+      "whats-new-in-wagtail-7.2": true
+    },
+    "theme": "system",
+    "contrast": "system",
+    "density": "default",
+    "keyboard_shortcuts": true
+  }
+},
+{
+  "model": "home.textpage",
+  "pk": 4,
+  "fields": {
+    "page_ptr": 4,
+    "body": "<p data-block-key=\"tft5g\"><b>Effective Date:</b> September 12, 2025</p><p data-block-key=\"ehviq\"><b>1. WHO WE ARE</b> Welcome to <b>NovaTex Factory LLC</b> (\"Company\", \"we\", \"us\", \"our\"). We operate the website novatexfactory.com (and associated domains like texarine.com). We are committed to protecting your personal data and respecting your privacy. This policy outlines the types of information we collect from you when you visit our site and how we use, maintain, and disclose that information.</p><p data-block-key=\"1k3qt\"><b>2. DATA WE COLLECT</b> To provide you with our products and services, we may collect the following categories of information:</p><ul><li data-block-key=\"atre8\"><b>Identity &amp; Contact Data:</b> Your full name, email address, phone number, shipping address, and billing address.</li><li data-block-key=\"2kceh\"><b>Financial Data:</b> Payment details (such as credit card numbers) required to process your purchase. Note that we do not store full credit card numbers on our servers; they are securely processed by our payment gateway providers.</li><li data-block-key=\"4hjdh\"><b>Technical &amp; Usage Data:</b> Information about how you access our website, including your IP address, browser type, device information, and browsing history (pages viewed, time spent on site).</li></ul><p data-block-key=\"9c031\"><b>3. HOW WE USE YOUR DATA</b> We use your personal information strictly for legitimate business purposes, including:</p><ul><li data-block-key=\"2aap5\"><b>Order Fulfillment:</b> To process transactions, ship your items, and send order updates.</li><li data-block-key=\"34rj\"><b>Customer Support:</b> To respond to your inquiries, troubleshoot issues, and provide assistance.</li><li data-block-key=\"bn77d\"><b>Service Improvement:</b> To analyze site usage and improve our product offerings and user experience.</li><li data-block-key=\"1p345\"><b>Marketing (Optional):</b> To send you newsletters or promotional offers, but only if you have explicitly opted in. You may unsubscribe at any time.</li><li data-block-key=\"6879r\"><b>Legal Compliance:</b> To comply with applicable laws, regulations, and legal processes (e.g., fraud prevention).</li></ul><p data-block-key=\"f8pe5\"><b>4. DISCLOSURE OF INFORMATION</b> <b>We do not sell, rent, or trade your personal information to third parties.</b> We may share your data with trusted third-party service providers solely for the purpose of operating our business, such as:</p><ul><li data-block-key=\"a817e\"><b>Payment Processors:</b> To securely handle financial transactions.</li><li data-block-key=\"ak3er\"><b>Logistics Partners:</b> To deliver your packages (e.g., USPS, FedEx).</li><li data-block-key=\"9kf35\"><b>IT &amp; Infrastructure:</b> Hosting services and data analytics providers.</li></ul><p data-block-key=\"cq8gt\">All third-party providers are contractually obligated to keep your information confidential and use it only for the services they provide to us.</p><p data-block-key=\"bmut7\"><b>5. DATA SECURITY</b> We implement industry-standard security measures (including SSL encryption) to protect your personal information from unauthorized access, alteration, or disclosure. While we strive to use commercially acceptable means to protect your data, please remember that no method of transmission over the Internet is 100% secure.</p><p data-block-key=\"55ppi\"><b>6. COOKIES</b> Our website uses \"cookies\" and similar tracking technologies to enhance your browsing experience. Cookies are small data files stored on your device that help us remember your preferences (like items in your cart) and understand how visitors interact with our site. You can choose to disable cookies through your browser settings, though this may affect the functionality of the website.</p><p data-block-key=\"ehv2i\"><b>7. YOUR RIGHTS</b> Depending on your jurisdiction, you may have specific rights regarding your personal data, including the right to:</p><ul><li data-block-key=\"bf518\">Access the personal information we hold about you.</li><li data-block-key=\"n7sm\">Request correction of inaccurate data.</li><li data-block-key=\"1fmh9\">Request deletion of your data (subject to certain legal exceptions).</li><li data-block-key=\"2o7c8\">Opt-out of marketing communications.</li></ul><p data-block-key=\"dfsa\">To exercise these rights, please contact us using the details below.</p><p data-block-key=\"fl03r\"><b>8. CHANGES TO THIS POLICY</b> We reserve the right to update this Privacy Policy at any time. Any changes will be posted on this page with a revised \"Effective Date.\" Your continued use of the website constitutes acceptance of such changes.</p><p data-block-key=\"ectd4\"><b>9. CONTACT INFORMATION</b> If you have questions about this Privacy Policy or our data practices, please contact us:</p><p data-block-key=\"d4f2n\"><b>NovaTex Factory LLC</b> <b>Address:</b> 5900 Balcones Drive #8868, Austin, TX 78731</p><p data-block-key=\"7o130\"><b>Email:</b> <a href=\"mailto:support@novatexfactory.com\">support@novatexfactory.com</a></p>"
+  }
+},
+{
+  "model": "home.textpage",
+  "pk": 5,
+  "fields": {
+    "page_ptr": 5,
+    "body": "<p data-block-key=\"sycuh\"> <b>Effective Date:</b> September 12, 2025</p><p data-block-key=\"a3qio\"><b>1. AGREEMENT TO TERMS</b> This website (novatexfactory.com and related domains) is operated by <b>NovaTex Factory LLC</b>. Throughout the site, the terms \"we\", \"us\", and \"our\" refer to NovaTex Factory LLC. By accessing our website or purchasing our products (\"Services\"), you agree to be bound by the following Terms of Service (\"Terms\").</p><p data-block-key=\"6jq9h\">These Terms apply to all users of the site, including browsers, vendors, customers, and content contributors. Please read them carefully before using our website. If you do not agree to all the terms and conditions, you may not access the website or use any Services.</p><p data-block-key=\"4ugs5\"><b>2. ONLINE STORE TERMS &amp; AGE RESTRICTION</b> By agreeing to these Terms, you represent that you are at least <b>18 years of age</b> or the age of majority in your jurisdiction. Our products are intended for adults only. You may not use our products for any illegal or unauthorized purpose, nor may you violate any laws in your jurisdiction (including copyright laws). You must not transmit any worms, viruses, or code of a destructive nature. A breach of any of these Terms will result in immediate termination of your Services.</p><p data-block-key=\"febop\"><b>3. GENERAL CONDITIONS</b> We reserve the right to refuse service to anyone for any reason at any time. You understand that your content (excluding credit card information) may be transferred unencrypted across various networks. Credit card information is always encrypted during transfer over networks. You agree not to reproduce, duplicate, copy, sell, resell, or exploit any portion of the Service without express written permission from us.</p><p data-block-key=\"aja0l\"><b>4. HEALTH DISCLAIMER (CRITICAL NOTICE)</b> <b>The products and claims made about specific products on this site have not been evaluated by the United States Food and Drug Administration (FDA) and are not approved to diagnose, treat, cure, or prevent disease.</b> The information provided on this site is for informational purposes only and is not intended as a substitute for advice from your physician or other healthcare professional. Consult with a healthcare professional before starting any supplementation program, especially if you have pre-existing medical conditions or are taking medication.</p><p data-block-key=\"aem9k\"><b>5. ACCURACY AND MODIFICATIONS</b> We are not responsible if information made available on this site is not accurate, complete, or current. The material on this site is provided for general information only. We reserve the right to modify the contents of this site at any time, but we have no obligation to update any information. <b>Prices for our products are subject to change without notice.</b> We reserve the right to modify or discontinue the Service (or any part thereof) without notice at any time. We shall not be liable to you or to any third party for any modification, price change, suspension, or discontinuance of the Service.</p><p data-block-key=\"3mspa\"><b>6. PRODUCTS AND AVAILABILITY</b> Certain products may be available exclusively online through the website. These products may have limited quantities and are subject to return or exchange only according to our <b>Return Policy</b>. We have made every effort to display the colors and images of our products accurately. We cannot guarantee that your computer monitor's display of any color will be accurate. We reserve the right to limit the sales of our products to any person, geographic region, or jurisdiction.</p><p data-block-key=\"fir2e\"><b>7. BILLING AND ACCOUNT ACCURACY</b> We reserve the right to refuse any order you place with us. We may, in our sole discretion, limit or cancel quantities purchased per person, per household, or per order. You agree to provide current, complete, and accurate purchase and account information for all purchases made at our store. You agree to promptly update your account and other information, including your email address and credit card numbers/expiration dates, so that we can complete your transactions and contact you as needed.</p><p data-block-key=\"dltnq\"><b>8. THIRD-PARTY TOOLS AND LINKS</b> We may provide you with access to third-party tools (e.g., tracking services) over which we neither monitor nor have any control. You acknowledge that we provide access to such tools \"as is\" without any warranties. Third-party links on this site may direct you to websites that are not affiliated with us. We are not responsible for examining or evaluating the content or accuracy of third-party materials or websites.</p><p data-block-key=\"an60r\"><b>9. USER COMMENTS AND FEEDBACK</b> If you send us creative ideas, suggestions, proposals, or other materials (collectively, \"comments\"), you agree that we may, at any time, without restriction, edit, copy, publish, distribute, and use in any medium any comments that you forward to us. We are under no obligation to maintain any comments in confidence or to pay compensation for them.</p><p data-block-key=\"4qk1k\"><b>10. PROHIBITED USES</b> In addition to other prohibitions, you are prohibited from using the site or its content: (a) for any unlawful purpose; (b) to solicit others to perform unlawful acts; (c) to violate any regulations, rules, or laws; (d) to infringe upon our intellectual property rights; (e) to harass, abuse, insult, harm, or discriminate; (f) to submit false or misleading information; (g) to upload viruses or malicious code; (h) to collect or track the personal information of others; (i) to spam, phish, or scrape; (j) for any obscene purpose; or (k) to interfere with security features.</p><p data-block-key=\"a9k2e\"><b>11. DISCLAIMER OF WARRANTIES; LIMITATION OF LIABILITY</b> We do not guarantee that your use of our service will be uninterrupted, timely, secure, or error-free. The service and all products delivered to you are provided 'as is' and 'as available' for your use, without any representation, warranties, or conditions of any kind. In no case shall <b>NovaTex Factory LLC</b>, our directors, officers, employees, affiliates, agents, contractors, or licensors be liable for any injury, loss, claim, or any direct, indirect, incidental, punitive, special, or consequential damages of any kind, arising from your use of any of the service or any products procured using the service.</p><p data-block-key=\"ma9t\"><b>12. INDEMNIFICATION</b> You agree to indemnify, defend, and hold harmless NovaTex Factory LLC and our affiliates, partners, officers, directors, agents, contractors, licensors, service providers, subcontractors, suppliers, interns, and employees from any claim or demand, including reasonable attorneys’ fees, made by any third party due to or arising out of your breach of these Terms.</p><p data-block-key=\"6tt2d\"><b>13. GOVERNING LAW</b> These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of the <b>State of Texas</b>, United States.</p><p data-block-key=\"dhjrt\"><b>14. CHANGES TO TERMS OF SERVICE</b> You can review the most current version of the Terms of Service at any time at this page. We reserve the right to update, change, or replace any part of these Terms by posting updates and changes to our website. It is your responsibility to check our website periodically for changes.</p><p data-block-key=\"8bvh6\"><b>15. CONTACT INFORMATION</b> Questions about the Terms of Service should be sent to us at:</p><p data-block-key=\"5kala\"><b>NovaTex Factory LLC</b> <b>Email:</b> <a href=\"mailto:support@novatexfactory.com\">support@novatexfactory.com</a> </p><p data-block-key=\"14qo1\"><b>Address:</b> 5900 Balcones Drive #8868, Austin, TX 78731</p>"
+  }
+},
+{
+  "model": "home.homepage",
+  "pk": 3,
+  "fields": {
+    "page_ptr": 3,
+    "body": "[{\"id\": \"06582231-3036-40db-b9b1-1401cf0a2727\", \"type\": \"hero\", \"value\": {\"image\": 6, \"title\": \"TEXARINE\", \"subtitle\": \"Cognitive Clarity Formula. Non-Nicotine sublingual tablets powered by Gabadine-100\\u2122. Instant focus in 5 minutes.\", \"button_url\": \"#\", \"button_text\": \"POWER YOUR FOCUS\"}}, {\"id\": \"c234e834-95d1-4445-b3bf-81fdfdef6be8\", \"type\": \"benefits\", \"value\": {\"items\": [{\"id\": \"8f265835-9356-4fc2-85f8-79ba818ce0d6\", \"type\": \"item\", \"value\": {\"icon\": \"\\u26a1\", \"text\": \"Sublingual absorption delivers focus in 5 minutes. Bypasses digestion for instant clarity.\", \"title\": \"FAST ACTING\"}}, {\"id\": \"9219a553-921d-44e6-ae5e-ea79af0988ed\", \"type\": \"item\", \"value\": {\"icon\": \"\\ud83d\\udee1\\ufe0f\", \"text\": \"Powered by Gabadine-100\\u2122. No tobacco, no nicotine, fully compliant with non-tobacco regulations.\", \"title\": \"NICOTINE FREE\"}}, {\"id\": \"d4c73a7f-bed2-4249-810b-8a4600153c8e\", \"type\": \"item\", \"value\": {\"icon\": \"\\ud83e\\udde0\", \"text\": \"Enriched with GABA to smooth out the stimulation. Pure energy without the jitters or anxiety.\", \"title\": \"NO CRASH\"}}], \"title\": \"WHY TEXARINE?\"}}, {\"id\": \"5fd57104-49eb-4ebb-ad9e-4308b291e390\", \"type\": \"feature\", \"value\": {\"image\": 4, \"heading\": \"THE SCIENCE OF GABADINE-100\\u2122\", \"button_url\": \"#\", \"button_text\": \"OUR TECHNOLOGY\", \"description\": \"<p data-block-key=\\\"i2ukt\\\"><b>Texarine is not just energy. It is clarity.</b></p><p data-block-key=\\\"dlr5\\\">At the core of our formula lies <b>Gabadine-100\\u2122</b> \\u2014 a proprietary molecular complex engineered in the USA. Unlike caffeine, which borrows energy from tomorrow, Gabadine-100\\u2122 activates your brain's cholinergic receptors for instant focus, while simultaneously engaging GABA pathways to maintain total calm.</p><p data-block-key=\\\"b3rfg\\\">The result? A flow state that lasts. No jitters. No crash. Just pure cognitive dominance.</p>\", \"reverse_layout\": true}}, {\"id\": \"2074a37b-628b-4801-bf80-e048c6ebb115\", \"type\": \"product\", \"value\": {\"image\": 7, \"price\": \"$7.99\", \"heading\": \"TEXARINE\\u2122 STARTER PACK\", \"features\": [{\"id\": \"8b7840c4-9e09-4613-8efd-548ce1cf60aa\", \"type\": \"item\", \"value\": \"20 Tablets per pack\"}, {\"id\": \"794361f3-68ce-4c5e-81e6-0c2ff628b1d1\", \"type\": \"item\", \"value\": \"Peppermint Blend Flavor\"}, {\"id\": \"b6f1dfd8-560c-4fb6-9cec-9cf819fd3763\", \"type\": \"item\", \"value\": \"5mg Gabadine-100\\u2122 per serving\"}, {\"id\": \"7cf138b0-0a1e-4686-b65d-25dc5fa330a6\", \"type\": \"item\", \"value\": \"Zero Sugar\"}], \"button_url\": \"#\", \"button_text\": \"COMING SOON\", \"description\": \"The ultimate cognitive toolkit. 20 sublingual tablets designed for instant clarity and sustained flow.\"}}, {\"id\": \"0c9bb78e-5b88-4716-a497-a8bf0521b9c0\", \"type\": \"accordion\", \"value\": {\"items\": [{\"id\": \"3bd5a322-a852-4432-b21b-a6319ce26b21\", \"type\": \"item\", \"value\": {\"title\": \"WHAT IS TEXARINE\\u2122?\", \"content\": \"<p data-block-key=\\\"hey3s\\\">Texarine\\u2122 is a next-generation cognitive support supplement designed to help you enter a flow state. Unlike energy drinks that give you jitters, Texarine\\u2122 provides calm, laser-focused clarity. It is 100% nicotine-free and sugar-free.</p>\"}}, {\"id\": \"d8186050-b736-437b-aeee-de7b63ed40a0\", \"type\": \"item\", \"value\": {\"title\": \"WHAT IS GABADINE-100\\u2122?\", \"content\": \"<p data-block-key=\\\"r00nd\\\">Gabadine-100\\u2122 is a proprietary bio-active molecular complex, engineered in the USA to optimize cognitive throughput. It is distinct from traditional stimulants. Instead of borrowing energy from tomorrow like caffeine, it modulates cholinergic pathways to align focus while simultaneously engaging GABA receptors to maintain total calm. The result is \\\"Clean Clarity\\\" without the biological tax of adrenaline.</p>\"}}, {\"id\": \"b7344f95-03a0-4738-8f20-95b66dd80d57\", \"type\": \"item\", \"value\": {\"title\": \"HOW DOES IT FEEL?\", \"content\": \"<p data-block-key=\\\"hey3s\\\">The \\\"Gabadine State\\\" is characterized by silence. You will not feel a heart-racing \\\"buzz\\\" or the jitters associated with energy drinks. Instead, users report a subtle onset of \\\"background processing power.\\\" It is a sensation of heightened alertness and the removal of mental fog, allowing for deep work and sustained flow states. The effect typically lasts 45\\u201360 minutes, fading gently with no crash.</p>\"}}, {\"id\": \"2d95cb49-d5e8-449c-a564-830f7b403695\", \"type\": \"item\", \"value\": {\"title\": \"HOW TO USE\", \"content\": \"<p data-block-key=\\\"hey3s\\\"><b>Step 1:</b> Place one tablet under your upper tongue.</p><p data-block-key=\\\"fvdoq\\\"><b>Step 2:</b> Allow the tablet to dissolve slowly. Do not chew or swallow it whole. The active complex relies on sublingual absorption for immediate effect.</p><p data-block-key=\\\"3gnoj\\\"><b>Step 3:</b> You may feel a slight tingling sensation\\u2014this indicates the activation of the release mechanism.</p><p data-block-key=\\\"7s74f\\\"><b>Step 4:</b> Discard after 30\\u201340 minutes or when the flavor dissipates.</p>\"}}, {\"id\": \"b36e3720-b2e0-4cf6-9598-a0657ff17ffe\", \"type\": \"item\", \"value\": {\"title\": \"THE INGREDIENTS\", \"content\": \"<p data-block-key=\\\"hey3s\\\">We believe in radical molecular purity. Our matrix contains zero sugar, zero tobacco, and zero unnecessary fillers.</p><ul><li data-block-key=\\\"38gj0\\\"><b>Active Complex:</b> Gabadine-100\\u2122 (Synthetic Cholinergic Agonist).</li><li data-block-key=\\\"bdi03\\\"><b>Base Matrix:</b> Pharmaceutical-grade Microcrystalline Cellulose (for controlled release).</li><li data-block-key=\\\"9km5a\\\"><b>Flavoring:</b> Natural &amp; Artificial food-grade extracts.</li><li data-block-key=\\\"7hgti\\\"><b>Absorption Matrix:</b> Mannitol &amp; Isomalt.</li></ul>\"}}, {\"id\": \"317a4164-58f1-43df-b243-01275056e135\", \"type\": \"item\", \"value\": {\"title\": \"SHIPPING & RETURNS\", \"content\": \"<p data-block-key=\\\"hey3s\\\">Due to strict safety standards and the consumable nature of our products, <b>all sales are final</b>. We cannot accept returns or exchanges once the package has left our fulfillment center. This ensures that every product you receive is fresh and has never been handled by a third party. If your order arrives damaged, please contact support immediately for a resolution.</p>\"}}], \"heading\": \"PRODUCT INTELLIGENCE\"}}]"
+  }
+}
+]
