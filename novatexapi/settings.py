@@ -202,3 +202,7 @@ LOGGING = {
         },
     },
 }
+
+MIGRATION_MODULES = {
+    'modelsearch': 'local_migrations.modelsearch'
+}
