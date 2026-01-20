@@ -30,13 +30,10 @@ urlpatterns = [
     path('documents/', include(wagtaildocs_urls)),
     path('subscribe-newsletter/', subscribe_newsletter, name='subscribe_newsletter'),
     path('contact-submit/', contact_view, name='contact_submit'),
-    path('', include(wagtail_urls)),    
-]
-
-urlpatterns += [
     re_path(r'^media/(?P<path>.*)$', serve, {
         'document_root': settings.MEDIA_ROOT,
     }),
+    path('', include(wagtail_urls)),    
 ]
 
 if settings.DEBUG:
