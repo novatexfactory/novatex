@@ -35,7 +35,7 @@ DEBUG = os.environ.get("APP_ENV") == "dev"
 
 
 # Hosts/origins
-AALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,[::1]").split(",")
+ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,[::1]").split(",")
 
 # For POST/CSRF, must include scheme + host (+ port)
 CSRF_TRUSTED_ORIGINS = env_list(
