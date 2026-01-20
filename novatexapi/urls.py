@@ -16,8 +16,9 @@ Including another URLconf
 """
 from home.views import subscribe_newsletter, contact_view
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path, include, re_path
 from django.conf import settings
+from django.views.static import serve
 from django.conf.urls.static import static
 from wagtail import urls as wagtail_urls
 from wagtail.admin import urls as wagtailadmin_urls
@@ -30,6 +31,12 @@ urlpatterns = [
     path('subscribe-newsletter/', subscribe_newsletter, name='subscribe_newsletter'),
     path('contact-submit/', contact_view, name='contact_submit'),
     path('', include(wagtail_urls)),    
+]
+
+urlpatterns += [
+    re_path(r'^media/(?P<path>.*)$', serve, {
+        'document_root': settings.MEDIA_ROOT,
+    }),
 ]
 
 if settings.DEBUG:
