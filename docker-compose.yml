@@ -1,0 +1,48 @@
+services:
+  # === WEB SERVICE (Основной сайт) ===
+  web:
+    image: novatexfactory/novatex-backend:latest
+    restart: always
+    ports:
+      - "8000:8000"
+    volumes:
+      # Медиа будет создаваться тут же, внутри backend/media
+      - ./media:/app/media
+    depends_on:
+      - db
+    env_file:
+      # Файл .env лежит рядом, путь сократился
+      - .env
+    environment:
+      - APP_ENV=prod
+      - POSTGRES_HOST=db
+
+  # Добавляем помощника для SSL
+  nginx-proxy:
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    ports:
+      - '81:81'
+      - '443:443'
+      - '80:80'
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
+    volumes:
+      # Эти папки создадутся внутри backend/data и backend/letsencrypt
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
+
+  # === DATABASE ===
+  db:
+    image: postgres:16
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+volumes:
+  pgdata:

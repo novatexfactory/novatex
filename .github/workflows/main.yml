@@ -8,7 +8,7 @@ env:
   DOCKER_IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/novatex-backend
 
 jobs:
-  # Первая часть: Сборка и отправка образа на Docker Hub
+  # === ЧАСТЬ 1: Сборка ===
   build:
     runs-on: ubuntu-latest
     steps:
@@ -25,13 +25,14 @@ jobs:
       uses: docker/build-push-action@v4
       with:
         context: .
+        file: ./Dockerfile
         push: true
         tags: ${{ env.DOCKER_IMAGE_NAME }}:latest
 
-  # Вторая часть: Автоматический деплой на ваш AWS
+  # === ЧАСТЬ 2: Деплой ===
   deploy:
     runs-on: ubuntu-latest
-    needs: build  # <--- Это триггер: деплой начнется только после пуша образа
+    needs: build
     steps:
     - name: 🚀 Deploy to Server via SSH
       uses: appleboy/ssh-action@master
@@ -40,7 +41,17 @@ jobs:
         username: ${{ secrets.SERVER_USER }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
+          # 1. Заходим в папку проекта (которая была клонирована через git clone)
           cd ~/novatex-prod
-          docker compose pull  # Скачиваем свежий образ с Docker Hub
-          docker compose up -d  # Перезапускаем контейнеры на 80 порту
-          docker image prune -f  # Удаляем старые ненужные образы, чтобы не забивать AWS
+          
+          # 2. Скачиваем свежий docker-compose.yml и изменения кода
+          git pull origin main
+          
+          # 3. Скачиваем только что собранные Docker-образы
+          docker compose pull
+          
+          # 4. Перезапускаем контейнеры (удаляя старые/лишние, если есть)
+          docker compose up -d --remove-orphans
+          
+          # 5. Чистим место на диске от старых образов
+          docker image prune -f
