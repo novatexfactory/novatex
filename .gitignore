@@ -40,3 +40,6 @@ Pipfile.lock
 
 # pytest
 .pytest_cache/
+
+docker-compose.override.yml
+data/
