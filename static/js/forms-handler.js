@@ -24,26 +24,33 @@ document.addEventListener('DOMContentLoaded', function() {
         };
     }
 
-    // 2. Contact Modal Logic (Обновлено для работы со ссылками)
+    // 2. Contact Modal Logic
     const contactModal = document.getElementById('contactModal');
     const closeBtn = document.getElementById('closeContactModal');
+    
+    // Элементы внутри модального окна (Форма и Блок успеха)
+    const formContainer = document.getElementById('contact-form-container');
+    const successContainer = document.getElementById('form-success-container');
 
-    // А. Логика ОТКРЫТИЯ (Ловим все кнопки контактов)
-    // Мы ищем:
-    // 1. Кнопки с классом .contact-cta-btn (наша ссылка в футере)
-    // 2. Элемент с ID #openContactModal (кнопка в меню, если есть)
-    // 3. Любые ссылки, ведущие на "/contact"
+    // А. Логика ОТКРЫТИЯ (с автоматическим сбросом)
     const openTriggers = document.querySelectorAll('.contact-cta-btn, #openContactModal, a[href="/contact"]');
 
     if (contactModal) {
         openTriggers.forEach(btn => {
             btn.addEventListener('click', function(e) {
-                e.preventDefault(); // ОТМЕНЯЕМ переход на страницу 404
-                contactModal.style.display = 'flex'; // Открываем окно
+                e.preventDefault(); 
+                
+                // === ВАЖНЫЙ FIX: СБРОС СОСТОЯНИЯ ===
+                // При каждом открытии принудительно показываем форму и прячем "Спасибо"
+                if (formContainer) formContainer.style.display = 'block';
+                if (successContainer) successContainer.style.display = 'none';
+                // ===================================
+
+                contactModal.style.display = 'flex'; 
             });
         });
 
-        // Б. Логика ЗАКРЫТИЯ (Крестик)
+        // Б. Логика ЗАКРЫТИЯ
         if (closeBtn) {
             closeBtn.onclick = () => { 
                 contactModal.style.display = 'none'; 
@@ -71,9 +78,10 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             .then(response => {
                 if (response.ok) {
-                    document.getElementById('contact-form-container').style.display = 'none';
-                    document.getElementById('form-success-container').style.display = 'block';
-                    this.reset();
+                    // Прячем форму, показываем успех
+                    if (formContainer) formContainer.style.display = 'none';
+                    if (successContainer) successContainer.style.display = 'block';
+                    this.reset(); // Очищаем поля
                 }
             });
         };
