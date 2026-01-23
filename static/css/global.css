@@ -1385,3 +1385,10 @@ a.feature-btn:hover {
 a.btn, a.button {
     color: #000000 !important;
 }
+
+.scroll-top-btn,
+.scroll-top-btn:visited,
+.scroll-top-btn:hover,
+.scroll-top-btn:active {
+    color: #000000 !important; /* Принудительно черный */
+}
