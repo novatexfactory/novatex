@@ -1,6 +1,7 @@
-// Handles AJAX form submissions for NovaTex Factory
+// Handles AJAX form submissions & Modal Logic for NovaTex Factory
 document.addEventListener('DOMContentLoaded', function() {
-    // Newsletter Form
+
+    // 1. Newsletter Form
     const newsletterForm = document.getElementById('newsletter-form');
     if (newsletterForm) {
         newsletterForm.onsubmit = function(e) {
@@ -23,18 +24,41 @@ document.addEventListener('DOMContentLoaded', function() {
         };
     }
 
-    // Contact Modal Logic
+    // 2. Contact Modal Logic (Обновлено для работы со ссылками)
     const contactModal = document.getElementById('contactModal');
-    const openBtn = document.getElementById('openContactModal');
     const closeBtn = document.getElementById('closeContactModal');
 
-    if (openBtn) {
-        openBtn.onclick = (e) => { e.preventDefault(); contactModal.style.display = 'flex'; };
-        closeBtn.onclick = () => { contactModal.style.display = 'none'; };
-        window.onclick = (e) => { if (e.target == contactModal) contactModal.style.display = 'none'; };
+    // А. Логика ОТКРЫТИЯ (Ловим все кнопки контактов)
+    // Мы ищем:
+    // 1. Кнопки с классом .contact-cta-btn (наша ссылка в футере)
+    // 2. Элемент с ID #openContactModal (кнопка в меню, если есть)
+    // 3. Любые ссылки, ведущие на "/contact"
+    const openTriggers = document.querySelectorAll('.contact-cta-btn, #openContactModal, a[href="/contact"]');
+
+    if (contactModal) {
+        openTriggers.forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault(); // ОТМЕНЯЕМ переход на страницу 404
+                contactModal.style.display = 'flex'; // Открываем окно
+            });
+        });
+
+        // Б. Логика ЗАКРЫТИЯ (Крестик)
+        if (closeBtn) {
+            closeBtn.onclick = () => { 
+                contactModal.style.display = 'none'; 
+            };
+        }
+
+        // В. Закрытие по клику ВНЕ окна
+        window.addEventListener('click', (e) => {
+            if (e.target == contactModal) {
+                contactModal.style.display = 'none';
+            }
+        });
     }
 
-    // Contact Form AJAX
+    // 3. Contact Form AJAX
     const contactForm = document.getElementById('contact-form-modal');
     if (contactForm) {
         contactForm.onsubmit = function(e) {
