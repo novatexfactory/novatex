@@ -57,15 +57,53 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // ==========================================
-    // 4. CONTACT MODAL (NAVIGATION LINK)
+    // 4. CONTACT MODAL (ИСПРАВЛЕННАЯ ВЕРСИЯ)
     // ==========================================
-    const navContactLink = document.querySelector('.nav-links a[href="/#contact"]');
+    
+    // 1. Ищем кнопку более универсально (по части ссылки #contact)
+    // Это сработает и для "/#contact", и для "#contact"
+    const navContactLink = document.querySelector('a[href$="#contact"]'); 
     const contactModal = document.getElementById('contactModal');
+    // Ищем кнопку закрытия внутри модалки (добавьте класс или ID к крестику в HTML, если нет)
+    const closeContactBtn = contactModal ? contactModal.querySelector('.close-btn, .modal-close') : null;
 
     if (navContactLink && contactModal) {
+        // Открытие
         navContactLink.addEventListener('click', function(e) {
             e.preventDefault();
+            
+            // --- ДОБАВЛЕННЫЙ БЛОК: СБРОС СОСТОЯНИЯ ---
+            // Перед тем как показать окно, мы принудительно возвращаем всё "как было"
+            const formContainer = document.getElementById('contact-form-container');
+            const successContainer = document.getElementById('form-success-container');
+            const contactForm = document.getElementById('contact-form-modal');
+
+            if (formContainer && successContainer) {
+                formContainer.style.display = 'block';   // Показываем форму
+                successContainer.style.display = 'none'; // Скрываем "Спасибо"
+            }
+            
+            // Если нужно очистить поля при повторном открытии (опционально)
+            if (contactForm) {
+                // contactForm.reset(); // Раскомментируйте, если хотите стирать старый текст
+            }
+            // ------------------------------------------
+
             contactModal.style.display = 'flex';
+        });
+
+        // Закрытие по крестику (если он есть)
+        if (closeContactBtn) {
+            closeContactBtn.addEventListener('click', function() {
+                contactModal.style.display = 'none';
+            });
+        }
+
+        // Закрытие по клику вне окна (как в Tech Modal)
+        window.addEventListener('click', function(e) {
+            if (e.target === contactModal) {
+                contactModal.style.display = 'none';
+            }
         });
     }
 
