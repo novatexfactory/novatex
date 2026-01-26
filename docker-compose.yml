@@ -1,6 +1,9 @@
 services:
   # === WEB SERVICE (Основной сайт) ===
   web:
+    build:
+      context: .
+      dockerfile: Dockerfile
     image: novatexfactory/novatex-backend:latest
     restart: always
     ports:

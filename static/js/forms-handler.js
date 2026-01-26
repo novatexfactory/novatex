@@ -28,36 +28,37 @@ document.addEventListener('DOMContentLoaded', function() {
     const contactModal = document.getElementById('contactModal');
     const closeBtn = document.getElementById('closeContactModal');
     
-    // Элементы внутри модального окна (Форма и Блок успеха)
+    // Элементы внутри модального окна
     const formContainer = document.getElementById('contact-form-container');
     const successContainer = document.getElementById('form-success-container');
 
-    // А. Логика ОТКРЫТИЯ (с автоматическим сбросом)
-    const openTriggers = document.querySelectorAll('.contact-cta-btn, #openContactModal, a[href="/contact"]');
+    // === FIX 1: Расширенный список триггеров ===
+    // Добавил a[href="#contact"] и a[href="/contact/"], чтобы точно поймать меню
+    const openTriggers = document.querySelectorAll('.contact-cta-btn, #openContactModal, a[href="/contact"], a[href="#contact"]');
 
     if (contactModal) {
         openTriggers.forEach(btn => {
             btn.addEventListener('click', function(e) {
-                e.preventDefault(); 
+                // Если это ссылка, блокируем переход
+                if (this.tagName === 'A') e.preventDefault(); 
                 
-                // === ВАЖНЫЙ FIX: СБРОС СОСТОЯНИЯ ===
-                // При каждом открытии принудительно показываем форму и прячем "Спасибо"
+                // СБРОС СОСТОЯНИЯ: Показываем форму заново
                 if (formContainer) formContainer.style.display = 'block';
                 if (successContainer) successContainer.style.display = 'none';
-                // ===================================
 
+                // Показываем окно (Bootstrap обычно делает это сам, но этот код страхует)
                 contactModal.style.display = 'flex'; 
             });
         });
 
-        // Б. Логика ЗАКРЫТИЯ
+        // Закрытие по крестику
         if (closeBtn) {
             closeBtn.onclick = () => { 
                 contactModal.style.display = 'none'; 
             };
         }
 
-        // В. Закрытие по клику ВНЕ окна
+        // Закрытие по клику ВНЕ окна
         window.addEventListener('click', (e) => {
             if (e.target == contactModal) {
                 contactModal.style.display = 'none';
@@ -65,12 +66,17 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // 3. Contact Form AJAX
-    const contactForm = document.getElementById('contact-form-modal');
-    if (contactForm) {
-        contactForm.onsubmit = function(e) {
-            e.preventDefault();
+    // 3. Contact Form AJAX (FIXED)
+    // === FIX 2: Используем querySelectorAll для захвата ВСЕХ форм ===
+    // Ищем формы и по ID (даже если дублируются), и по классу .contact-form-modal
+    const contactForms = document.querySelectorAll('#contact-form-modal, .contact-form-modal');
+    
+    contactForms.forEach(form => {
+        form.onsubmit = function(e) {
+            e.preventDefault(); // Самое важное: отменяем перезагрузку страницы
+            
             const formData = new FormData(this);
+            
             fetch('/contact-submit/', {
                 method: 'POST',
                 body: formData,
@@ -81,9 +87,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     // Прячем форму, показываем успех
                     if (formContainer) formContainer.style.display = 'none';
                     if (successContainer) successContainer.style.display = 'block';
-                    this.reset(); // Очищаем поля
+                    this.reset(); // Очищаем поля текущей формы
+                } else {
+                    alert('Error sending message. Please try again.');
                 }
-            });
+            })
+            .catch(error => console.error('Error:', error));
         };
-    }
+    });
 });

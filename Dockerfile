@@ -11,7 +11,7 @@ ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 # 2. Установка системных зависимостей
 # ВАЖНО: Добавили 'dos2unix', чтобы чинить скрипты из Windows
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    build-essential libpq-dev curl git dos2unix \
+    build-essential libpq-dev curl git dos2unix postgresql-client \
  && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app

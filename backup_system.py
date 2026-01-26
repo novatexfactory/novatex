@@ -38,9 +38,11 @@ def run_backups():
     ftp = None
     date_str = datetime.datetime.now().strftime("%Y_%m_%d")
     
-    # 1. Prepare Database Dump
+    # 1. Prepare Database Dump Credentials
     db_name = os.getenv('POSTGRES_DB', 'novatex_db')
     db_user = os.getenv('POSTGRES_USER', 'postgres')
+    # Retrieve password to avoid interactive prompt
+    db_password = os.getenv('SQL_PASSWORD') or os.getenv('POSTGRES_PASSWORD')
     db_file = f"db_backup_{date_str}.sql"
     
     # 2. Identify Log Files
@@ -50,7 +52,16 @@ def run_backups():
 
     try:
         # Generate DB Dump
-        subprocess.run(['pg_dump', '-h', 'db', '-U', db_user, '-f', db_file, db_name], check=True)
+        # Prepare environment with PGPASSWORD to authenticate automatically
+        env = os.environ.copy()
+        if db_password:
+            env['PGPASSWORD'] = db_password
+
+        subprocess.run(
+            ['pg_dump', '-h', 'db', '-U', db_user, '-f', db_file, db_name], 
+            check=True, 
+            env=env
+        )
         
         # Create Log Archive
         if rotated_logs:
